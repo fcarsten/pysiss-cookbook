@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/jess/developer/pysiss-cookbook",
+            "ignore_folders": [".ipynb_checkpointss"]
+		}
+	]
+}
