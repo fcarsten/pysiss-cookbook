@@ -1,0 +1,4 @@
+graphics
+.ipynb_checkpoints
+*.pyc
+*.sublime-workspace
