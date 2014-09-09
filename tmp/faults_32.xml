@@ -1,0 +1,2529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd urn:cgi:xmlns:CGI:GeoSciML:2.0 http://www.geosciml.org/geosciml/2.0/xsd/geosciml.xsd"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:wfs="http://www.opengis.net/wfs"
+    xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0"
+    xmlns:sa="http://www.opengis.net/sampling/1.0"
+    xmlns:om="http://www.opengis.net/om/1.0"
+    xmlns:cgu="urn:cgi:xmlns:CGI:DbUtils:1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"    
+    gml:id="GA_1M_Faults_Collection_00001">
+<gml:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG:4326">
+<gml:lowerCorner>120.28488945846 -21.3061925385859</gml:lowerCorner>
+<gml:upperCorner>120.514727890377 -21.0924171009574</gml:upperCorner>
+</gml:Envelope>
+</gml:boundedBy>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52224">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52224">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.448375513231 -21.1927999971429
+120.446894341578 -21.1893334049382
+120.446142391096 -21.1867055886056
+120.445465936695 -21.1853097145746
+120.444484580949 -21.1826898915098
+120.443620759774 -21.1809116090268
+120.441278266352 -21.1747085160566
+120.440306403465 -21.1729033063124
+120.439185084868 -21.1702533554791
+120.438383204976 -21.1687978690495
+120.437188617152 -21.165482012704
+120.436729464727 -21.164717810865
+120.435960286679 -21.163020842288
+120.434545098909 -21.1605246886615
+120.433599093213 -21.1584014017354
+120.432321409151 -21.1561627448946
+120.431204351183 -21.15343039243
+120.430301904523 -21.151687774058
+120.429278066604 -21.1488387341873
+120.428096134369 -21.1463130435587
+120.426273833343 -21.1405198690711
+120.425318131369 -21.1385414065519
+120.424182364161 -21.1357021121068
+120.420827872601 -21.1297451814371
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52223">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52223">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.448375513231 -21.1927999971429
+120.450288622067 -21.1899635131438
+120.450914868941 -21.1886897025584
+120.451616390118 -21.1863997488638
+120.452565508385 -21.1816317739124
+120.453298519928 -21.179398801798
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52183">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52183">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.362181767964 -21.1902390266202
+120.361891994142 -21.1878598702631
+120.361853070442 -21.1859858843286
+120.360818466465 -21.1805527279071
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52148">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52148">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.372154354677 -21.188419528667
+120.372456745311 -21.1864806024289
+120.373256822376 -21.1834243861064
+120.37443885696 -21.1761099835303
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52147">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52147">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.372154354677 -21.188419528667
+120.372435443379 -21.1879627317988
+120.373573039964 -21.1866324858859
+120.377434706555 -21.1826397207871
+120.37859941448 -21.1812682325146
+120.379160221427 -21.1803191071478
+120.381419499253 -21.1736505197388
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51997">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51997">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.360818466465 -21.1805527279071
+120.35926598913 -21.1683972915023
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51974">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51974">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.453298519928 -21.179398801798
+120.454178228412 -21.1761192457948
+120.454955754077 -21.1744370581741
+120.456066470072 -21.1712438480578
+120.457643460411 -21.1659466930771
+120.457993056049 -21.1642966899173
+120.45825972513 -21.1621533656671
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51910">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51910">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.37443885696 -21.1761099835303
+120.374693248808 -21.1745356801259
+120.374933105345 -21.1730972982815
+120.375027207117 -21.1717908140168
+120.374724352527 -21.1671364780272
+120.373530489923 -21.1611591824247
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51866">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51866">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.377781157479 -21.150707025722
+120.379484033755 -21.1564370491533
+120.38067211951 -21.1592401913415
+120.381742276915 -21.1621836101187
+120.382088484329 -21.1635182307241
+120.382192964206 -21.1658016101478
+120.382152494321 -21.1673572180756
+120.381860715365 -21.1707764681744
+120.381419499253 -21.1736505197388
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51658">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51658">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.438099672494 -21.1475682265813
+120.439437530224 -21.1512343896111
+120.440239517303 -21.1529653356578
+120.441229124038 -21.1558317778685
+120.443549593249 -21.1603915559961
+120.444390013721 -21.162831920366
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51644">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51644">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.45825972513 -21.1621533656671
+120.458084504915 -21.1566903472031
+120.457056484831 -21.1482155713282
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51433">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51433">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.364101651121 -21.1106566497443
+120.365335010628 -21.1137364098242
+120.366762496458 -21.1172805055359
+120.368023732206 -21.1203351551566
+120.368928330713 -21.1228427690604
+120.369666684861 -21.1249593818036
+120.370749601988 -21.1279374072422
+120.371586401066 -21.1302509146155
+120.372669318193 -21.1333520005095
+120.37375223532 -21.1364530844957
+120.374884376821 -21.1401448504646
+120.376311860743 -21.1451164300987
+120.377781157479 -21.150707025722
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51381">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51381">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.457056484831 -21.1482155713282
+120.456856310077 -21.1427035992258
+120.457125043983 -21.1395227034407
+120.45709895813 -21.1377754049614
+120.457359339846 -21.1350598193129
+120.457234688609 -21.1292245678779
+120.457722464639 -21.1229746935733
+120.457762534908 -21.1168941549522
+120.458568886028 -21.1117390151149
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51370">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51370">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.438099672494 -21.1475682265813
+120.437168972727 -21.1441982289488
+120.436435877499 -21.1422152415818
+120.434730985457 -21.1356834621926
+120.433184465433 -21.1316795993345
+120.432202329485 -21.1276801356241
+120.431579751407 -21.1261316512129
+120.430287550853 -21.1210151363437
+120.429398563037 -21.1141137940732
+120.428255425182 -21.1084623245195
+120.427519914038 -21.1018785015125
+120.427053108231 -21.0996785125774
+120.426430472524 -21.0934255891601
+120.426228605285 -21.0924171009574
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_50968">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_50968">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.420827872601 -21.1297451814371
+120.420006811171 -21.1274674629026
+120.419309386587 -21.1261200463757
+120.416945599338 -21.1211761451369
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51226">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51226">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.493508776697 -21.110342784652
+120.493290331834 -21.1126917195382
+120.492801781463 -21.1162421276098
+120.492734361228 -21.1173790642232
+120.491640937419 -21.1272853675838
+120.49097988281 -21.1318715433405
+120.490296534455 -21.1404052404872
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51987">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_51987">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.488012547292 -21.1802118825195
+120.488379594945 -21.1728738699943
+120.489015400783 -21.1685300694249
+120.489345982309 -21.1644908829376
+120.489612516623 -21.1555909592285
+120.489902195959 -21.1522600251505
+120.489909457404 -21.150077003041
+120.490197617224 -21.1468800336134
+120.490296534455 -21.1404052404872
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52043">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52043">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.488012547292 -21.1802118825195
+120.48784380234 -21.1830760800173
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53752">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53752">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.372680876452 -21.2472540752744
+120.369691956546 -21.2514363157466
+120.369098193348 -21.2523975895273
+120.36868836849 -21.2533372664334
+120.367877708905 -21.2557283899748
+120.367462027158 -21.257521686528
+120.36722950506 -21.2604473736565
+120.367668438024 -21.2687403112121
+120.367850005036 -21.2703260795973
+120.368699054454 -21.2748636981748
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53630">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53630">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.454783243988 -21.2681967388548
+120.453215284506 -21.2654223362514
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53628">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53628">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.482783628154 -21.2651387767515
+120.485541074497 -21.2660777111895
+120.487640737075 -21.2665872176946
+120.490353997178 -21.2675283982034
+120.49241286938 -21.2679976031487
+120.493350934106 -21.268090842681
+120.494748053202 -21.2680436444987
+120.496253052712 -21.2678144797003
+120.498099450852 -21.2673842417513
+120.499224545178 -21.2669039070641
+120.502600870746 -21.2650962017846
+120.505199356611 -21.2634118860081
+120.506503619514 -21.2623505156155
+120.511169941444 -21.2579780490173
+120.514727890377 -21.2557331267892
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53578">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53578">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.453215284506 -21.2654223362514
+120.447814919405 -21.2575502455231
+120.442908270013 -21.2518217983503
+120.441506888692 -21.250269710795
+120.440585776382 -21.2484698478902
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53571">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53571">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.478527607511 -21.2629871854146
+120.478932286351 -21.2632394604889
+120.480583601868 -21.2641053901879
+120.482783628154 -21.2651387767515
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53549">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53549">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.465482411638 -21.2640392668254
+120.465415445107 -21.2607109617208
+120.465162354698 -21.2558659038294
+120.464749345661 -21.2539934336676
+120.464320941118 -21.2513218618762
+120.463966561751 -21.2500535784928
+120.46341803661 -21.2460008660867
+120.462501611134 -21.2421748363027
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53530">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53530">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.325493408656 -21.2631610353121
+120.325846319329 -21.2615286765586
+120.32684440427 -21.2556027809859
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53526">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53526">
+<gml:description>Fault, concealed</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.476924445707 -21.2619875188945
+120.478527607511 -21.2629871854146
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53463">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53463">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.38122896382 -21.2583729404586
+120.38126417876 -21.2584838145953
+120.381735210581 -21.259808646914
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53462">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53462">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.381735210581 -21.259808646914
+120.382422140863 -21.2565935736174
+120.382560668195 -21.2558508845423
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53452">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53452">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.374554687326 -21.2449981126377
+120.377473681425 -21.2498792379391
+120.380266261839 -21.255339698299
+120.38122896382 -21.2583729404586
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53399">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53399">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.382560668195 -21.2558508845423
+120.382619079445 -21.2555376946412
+120.383032337397 -21.2532169579937
+120.383283414804 -21.2499250443838
+120.383288455093 -21.2473340647882
+120.383145863408 -21.2447209299836
+120.382687526618 -21.2426241015842
+120.382178708854 -21.2379070811264
+120.38195651638 -21.2307237087931
+120.382177918715 -21.2261851374955
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53392">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53392">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.32684440427 -21.2556027809859
+120.327240905498 -21.2494028955446
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53276">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53276">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.327240905498 -21.2494028955446
+120.326925497194 -21.2447988943653
+120.326504039634 -21.2429180685987
+120.326347799104 -21.2421147988573
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53246">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53246">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.439190299389 -21.2452757874289
+120.440585776382 -21.2484698478902
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53224">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53224">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.372680876452 -21.2472540752744
+120.374554687326 -21.2449981126377
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53185">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53185">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.439190299389 -21.2452757874289
+120.436408715457 -21.2404483037663
+120.429165612075 -21.2305193489354
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53181">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53181">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.374554687326 -21.2449981126377
+120.372629551328 -21.2412539449211
+120.372112724267 -21.2399173686492
+120.371476830967 -21.2386052977592
+120.370683814672 -21.2360869369396
+120.370290897469 -21.2351821287168
+120.367588659128 -21.2306535175025
+120.365674264559 -21.2268598089836
+120.365050419236 -21.2251518382582
+120.363766281091 -21.2205490937273
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53122">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53122">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.462501611134 -21.2421748363027
+120.461768055135 -21.2377949311199
+120.460668426732 -21.2342900921814
+120.459947242272 -21.2327440617526
+120.459143729016 -21.2293386606
+120.458382411597 -21.2266810271286
+120.458005495037 -21.2251877613023
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53121">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53121">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.325927882336 -21.2400478377824
+120.326113392407 -21.2409098934172
+120.326347799104 -21.2421147988573
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53084">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53084">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.323072726998 -21.2294792142439
+120.323787619479 -21.2317972364089
+120.324736409045 -21.2344149090879
+120.325202988826 -21.2361573296511
+120.325522571287 -21.2381644684839
+120.325927882336 -21.2400478377824
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52979">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52979">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.484155243307 -21.2332747278248
+120.482950235987 -21.2328431301821
+120.481630802447 -21.232305531637
+120.479770882511 -21.2313240213893
+120.476509800372 -21.2296488796111
+120.474657305668 -21.2286370019991
+120.473171175768 -21.2278327517943
+120.471433085495 -21.2264958916028
+120.468876369468 -21.2240337461708
+120.464605795191 -21.2193876554421
+120.462517626302 -21.2167475611016
+120.461550906167 -21.2153223557063
+120.45767696908 -21.2090263872132
+120.450642063928 -21.199709921736
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52929">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52929">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.312883765824 -21.2305047141131
+120.296085180549 -21.23074022057
+120.292572905131 -21.23061615543
+120.28488945846 -21.2295446904826
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52922">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52922">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.312883765824 -21.2305047141131
+120.315016498958 -21.230339346805
+120.319781140593 -21.229869306828
+120.321264285695 -21.2296884774499
+120.32254828379 -21.2295086258249
+120.323072726998 -21.2294792142439
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52906">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52906">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.322316749421 -21.2265687476423
+120.32298103733 -21.2291818182503
+120.323072726998 -21.2294792142439
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52889">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52889">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.487074679205 -21.2284989671988
+120.486840416833 -21.2238721112313
+120.48638143232 -21.2097575253268
+120.487154541984 -21.2001716010094
+120.487175574851 -21.1993156058615
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52850">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52850">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.380900220535 -21.2118606094759
+120.381911005666 -21.2181231423665
+120.382177918715 -21.2261851374955
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52832">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52832">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.458005495037 -21.2251877613023
+120.457797923548 -21.2243653593797
+120.456441433451 -21.2201990664606
+120.455659219047 -21.2165186902465
+120.454647152921 -21.2128241014453
+120.453997170394 -21.2114577200587
+120.452117750581 -21.2058506489219
+120.450642063928 -21.199709921736
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52746">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52746">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.363766281091 -21.2205490937273
+120.363211591284 -21.2178996446587
+120.363130348839 -21.2173784346274
+120.362719249773 -21.2152046735878
+120.362663208277 -21.2130275237202
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52606">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52606">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.372154354677 -21.188419528667
+120.37145321102 -21.1895589243611
+120.370138211238 -21.1914621286637
+120.369561153812 -21.1925455739897
+120.367870278599 -21.1971801160792
+120.366222536976 -21.2024914350452
+120.365886313363 -21.2037954783322
+120.36518084572 -21.2065811743306
+120.364212532112 -21.209110508166
+120.363300010234 -21.2117489541242
+120.362663208277 -21.2130275237202
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52607">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52607">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.361976319165 -21.1993722987628
+120.362243535101 -21.2055676419836
+120.362422150116 -21.209190786855
+120.362650979445 -21.2125509086636
+120.362663208277 -21.2130275237202
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52582">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52582">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.380900220535 -21.2118606094759
+120.380801557984 -21.2053016527729
+120.380537724514 -21.2042178507877
+120.380189676296 -21.2013050296874
+120.379843049853 -21.2000578824543
+120.379433777392 -21.1967309704337
+120.378483350137 -21.1927678224781
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52339">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52339">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.450642063928 -21.199709921736
+120.448375513231 -21.1927999971429
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52331">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52331">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.361976319165 -21.1993722987628
+120.362181767964 -21.1902390266202
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52330">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52330">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.487175574851 -21.1993156058615
+120.487202711086 -21.1982126686016
+120.487664425133 -21.1908383445863
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52191">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_52191">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.487664425133 -21.1908383445863
+120.48784380234 -21.1830760800173
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_54222">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_54222">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.368699054454 -21.2748636981748
+120.369474868894 -21.2786901858032
+120.371797387258 -21.2856511718634
+120.372746088695 -21.287550553693
+120.373637652783 -21.2897662947205
+120.374659217277 -21.2916987670121
+120.375690232064 -21.2941419335267
+120.379561336486 -21.301377361243
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53698">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53698">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.317034882026 -21.2721458825994
+120.317568084715 -21.2713709274434
+120.325493408656 -21.2631610353121
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_54048">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_54048">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.319393477921 -21.2921114454975
+120.319449288005 -21.2911271080602
+120.320114809587 -21.2868783829195
+120.320772253677 -21.2840716579618
+120.320986027436 -21.2823000612256
+120.321834645589 -21.2788220665469
+120.322881617569 -21.275552424765
+120.323042656853 -21.2743235605887
+120.323888159316 -21.2713042102674
+120.324111278318 -21.2697041034437
+120.325493408656 -21.2631610353121
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_54300">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_54300">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.317034882026 -21.2721458825994
+120.31509492507 -21.2749652774704
+120.312440125073 -21.2779472901371
+120.306626697445 -21.2837902459851
+120.302572597215 -21.2882090303048
+120.29912920427 -21.2913874057628
+120.294302918445 -21.2963760257912
+120.293577244352 -21.2975385151924
+120.290895858901 -21.3010458200472
+120.28831266401 -21.3055308318135
+120.287874024997 -21.3061925385859
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_54285">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_54285">
+<gml:description>Fault, concealed</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.474643069125 -21.3047343243825
+120.473881210572 -21.3018074762627
+120.473724747886 -21.2985286572658
+120.473562025544 -21.29747507783
+120.47150488252 -21.2905241238787
+120.470866562422 -21.2885697235292
+120.470504091762 -21.2871823247427
+120.470267610603 -21.286117071577
+120.470077275146 -21.2852151209237
+120.469680114943 -21.2842455047393
+120.469303920003 -21.2833907788427
+120.469009739059 -21.2824273147864
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53778">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53778">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.465314451329 -21.2761653118226
+120.465419701908 -21.2746721786598
+120.465606864134 -21.2672333652697
+120.465482411638 -21.2640392668254
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53997">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53997">
+<gml:description>Fault, concealed</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.465620315534 -21.2891458291483
+120.465582280221 -21.2860995745498
+120.465183002522 -21.2780289529991
+120.465314451329 -21.2761653118226
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53999">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53999">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.459672527281 -21.2891721604958
+120.457522121057 -21.2868863774805
+120.455156689359 -21.2844930388119
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53918">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53918">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.455156689359 -21.2844930388119
+120.455500490269 -21.2810961168966
+120.455874669977 -21.276486187121
+120.455793645052 -21.2738549780431
+120.455474784134 -21.2711626614314
+120.45516199127 -21.2695627346284
+120.454783243988 -21.2681967388548
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53919">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53919">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.455156689359 -21.2844930388119
+120.45207036188 -21.2816988106466
+120.443396112413 -21.2735994637929
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53730">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53730">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.443396112413 -21.2735994637929
+120.440559042529 -21.2705543254495
+120.434799351379 -21.2660186267065
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_53994">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Fault gml:id="GA_Fault_53994">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+</gsml:Fault>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.381735210581 -21.259808646914
+120.382291487706 -21.2613730621106
+120.384357238868 -21.2665003217083
+120.388378839417 -21.279055781501
+120.390001010533 -21.2830095597645
+120.391879895989 -21.2890153104674
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+</wfs:FeatureCollection>

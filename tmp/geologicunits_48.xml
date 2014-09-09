@@ -1,0 +1,4266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd urn:cgi:xmlns:CGI:GeoSciML:2.0 http://www.geosciml.org/geosciml/2.0/xsd/geosciml.xsd"
+ xmlns:gml="http://www.opengis.net/gml"
+ xmlns:wfs="http://www.opengis.net/wfs"
+ xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0"
+ xmlns:sa="http://www.opengis.net/sampling/1.0"
+ xmlns:om="http://www.opengis.net/om/1.0"
+ xmlns:cgu="urn:cgi:xmlns:CGI:DbUtils:1.0"
+ xmlns:xlink="http://www.w3.org/1999/xlink"    
+ gml:id="GA_1M_GeologicUnits_Collection_000001">
+<gml:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG:4326">
+<gml:lowerCorner>120.552862263957 -21.8069527837189</gml:lowerCorner>
+<gml:upperCorner>121.066070489736 -21.3470250694003</gml:upperCorner>
+</gml:Envelope>
+</gml:boundedBy>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22424">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:GeologicUnit gml:id="GA_GeologicUnit_Stratno_73382">
+<gml:description>Metamorphosed, foliated to gneissic, biotite tonalite and granodiorite; minor monzogranite.</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratname">Elsie Creek Tonalite</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Map_symbol">Ague</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratno">73382</gml:name>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:ObservationMethods">published description</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>typicalNorm</gsml:purpose>
+<gsml:preferredAge>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">intrusion</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:preferredAge>
+<gsml:geologicHistory>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermRange>
+<gsml:lower>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:lower>
+<gsml:upper>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:upper>
+</gsml:CGI_TermRange>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">intrusion</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:geologicHistory>
+<gsml:geologicUnitType xlink:href="urn:cgi:classifier:CGI:GeologicUnitType:200811:lithostratigraphic_unit"/>
+<gsml:compositionCategory>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:CompositionCategory">acid</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:compositionCategory>
+<gsml:rank codeSpace="urn:cgi:classifierScheme:CGI:StratigraphicRank:200811">Formation</gsml:rank>
+<gsml:classifier xlink:href="urn:cgi:classifier:GA:StratigraphicLexicon:Stratno:73382"/>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:granitic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:granitic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:granodiorite"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:granodiorite"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:tonalite"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:tonalite"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+</gsml:GeologicUnit>
+</gsml:specification>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.572684518279 -21.3972133356637
+120.571400607118 -21.3979529195412
+120.57009115616 -21.3984112230692
+120.570078885441 -21.3991534277063
+120.569538012877 -21.4003653411108
+120.568873149167 -21.4012094990086
+120.568146899679 -21.4017017070424
+120.568075504527 -21.4017919561634
+120.566648667458 -21.4037584783963
+120.565806403567 -21.4045768396311
+120.553392298297 -21.4122054047871
+120.552862263957 -21.4179547658832
+120.552911037532 -21.4222218710989
+120.553442881696 -21.4276922583129
+120.553897329865 -21.4319626423167
+120.554989331709 -21.4390941572845
+120.555795688168 -21.4433806812245
+120.556528428379 -21.4495399391475
+120.556959291133 -21.4517195398286
+120.557100222508 -21.4702057955289
+120.556482968249 -21.4798345998428
+120.561714028471 -21.4851823074202
+120.562857852568 -21.4864525111987
+120.565544180917 -21.4900831986574
+120.567811731639 -21.4935922705737
+120.571949085392 -21.4991156544377
+120.574068254438 -21.5023793481808
+120.576921450736 -21.5059820695339
+120.580270406313 -21.5096626391252
+120.588969404917 -21.5183685490647
+120.590595202218 -21.5196809571045
+120.596058773476 -21.5236316944063
+120.599062119439 -21.5261238649757
+120.604704772697 -21.5304053257329
+120.608036005175 -21.533270730731
+120.611092821521 -21.5368544906557
+120.618200886808 -21.5458952248296
+120.624668836544 -21.5559712863104
+120.631303091914 -21.5651974190749
+120.633617801571 -21.5679387767287
+120.636468803412 -21.570806548014
+120.64206303434 -21.5774177384665
+120.646695000003 -21.5822823341924
+120.651702253858 -21.5799995286508
+120.655291276076 -21.5788232878635
+120.656503003565 -21.5782901849127
+120.65996324391 -21.5774099069233
+120.661746051218 -21.577123620099
+120.662935455471 -21.5771613605478
+120.664251619398 -21.5774636300171
+120.667181438391 -21.5787708324093
+120.668670798265 -21.5791406889059
+120.670638660791 -21.5792842669226
+120.677033477935 -21.5789825576884
+120.677892940711 -21.5791111208517
+120.680815553516 -21.5796209517009
+120.682562340141 -21.5785834884387
+120.684721037715 -21.5773695164785
+120.685666634281 -21.5769864451714
+120.688618112225 -21.5761456158076
+120.690647058723 -21.5757792673551
+120.700614227616 -21.5747979951797
+120.703426993554 -21.5746108042668
+120.705698043428 -21.5747266330693
+120.709228583291 -21.5756984462916
+120.707447331719 -21.5710135077287
+120.706913320765 -21.5695646499044
+120.705872091482 -21.5675850807036
+120.704571921709 -21.5642309562978
+120.701484526177 -21.558309498787
+120.700563304766 -21.5561229750162
+120.699820491185 -21.5546702264287
+120.698554111185 -21.5510671357459
+120.696923678849 -21.5479554611424
+120.693926158962 -21.5431943757288
+120.693310128507 -21.5419287393846
+120.692278452161 -21.5388913228406
+120.691596563903 -21.5374467954478
+120.690965655201 -21.5356356447204
+120.690063963389 -21.5334823995102
+120.688155489602 -21.525346131438
+120.687062885898 -21.5218172679205
+120.686472295726 -21.5205684015675
+120.686085318939 -21.519478571162
+120.683723308386 -21.5119057544884
+120.683210419738 -21.5091618334844
+120.682811004909 -21.5079404440641
+120.682267801028 -21.5050104506528
+120.681778690711 -21.5032338443464
+120.681395635283 -21.5000026764509
+120.681127273082 -21.495623714168
+120.681171216146 -21.4936248843935
+120.681609166264 -21.4874871731067
+120.682185193166 -21.482678191913
+120.682699709494 -21.4701405555882
+120.682918512209 -21.465481011436
+120.682843179147 -21.4607176094556
+120.682207807438 -21.4561551210798
+120.681539137124 -21.4490341424104
+120.680660830107 -21.4453944607396
+120.679668754362 -21.4395902214972
+120.678817469707 -21.4323395653139
+120.678340172629 -21.4301333973938
+120.67771092114 -21.4244637597629
+120.677343625216 -21.4228649198491
+120.67644465074 -21.4207142108365
+120.675775996584 -21.4188914940807
+120.675017167236 -21.4173932254482
+120.673613193831 -21.4137848717744
+120.672179132781 -21.4108863687452
+120.671442960997 -21.4096360882382
+120.667594864731 -21.4046436785416
+120.66080379057 -21.3976352674952
+120.659522320499 -21.3961986370958
+120.657490640566 -21.3936317488699
+120.655557613276 -21.3906142868867
+120.653124702161 -21.3876735159428
+120.65122565888 -21.3913817553128
+120.649994491905 -21.3943474337746
+120.645888206476 -21.4025379819218
+120.643115909679 -21.4075641486623
+120.64176987231 -21.4096100869213
+120.640995750836 -21.4110944819905
+120.63895743217 -21.4141759005525
+120.637971555119 -21.4163101269916
+120.636732964165 -21.418512382939
+120.636256205567 -21.4195909128041
+120.634388883927 -21.4226865889493
+120.633730592394 -21.4241247173827
+120.631806094867 -21.4273558015277
+120.63030082092 -21.4305749129568
+120.627769973757 -21.4354314130584
+120.62704947404 -21.436646858289
+120.625988876577 -21.4381500292766
+120.625281369192 -21.4394665979777
+120.623853506342 -21.4396042529635
+120.620605545482 -21.4395580990168
+120.619573123632 -21.4389693239979
+120.618606596701 -21.4380944356207
+120.617884247902 -21.4372804456139
+120.616887028178 -21.4353694377748
+120.616665120903 -21.4349062289278
+120.615974263433 -21.4329926273422
+120.615393742218 -21.4318744619451
+120.614940682673 -21.4306992395878
+120.614704921013 -21.4297542027343
+120.614621809343 -21.4288395127803
+120.61481726529 -21.4276421985102
+120.615351073007 -21.4267259134242
+120.617413195462 -21.4243998576734
+120.61800648399 -21.4235839123826
+120.618665669546 -21.4221828911361
+120.619209433234 -21.4202157043493
+120.619322104098 -21.4185183261662
+120.619768652227 -21.4155212086292
+120.620062876992 -21.4099915090724
+120.620512754513 -21.4072554727875
+120.62053305115 -21.4061630157405
+120.620185116039 -21.4039572331748
+120.619639087386 -21.4018144611087
+120.619193460675 -21.4003490598804
+120.618630323659 -21.3992993297383
+120.617743530779 -21.3981778186645
+120.616752463141 -21.3971969446138
+120.611202108698 -21.3926345444898
+120.609865858586 -21.3943588065786
+120.60517597499 -21.3985756798915
+120.602645620849 -21.4014966235484
+120.598756449131 -21.3993825134211
+120.596475817685 -21.3983629108819
+120.594470744488 -21.3971388378546
+120.593608378671 -21.3967169773315
+120.591679711119 -21.3961874238372
+120.586617603594 -21.3951135284909
+120.582567680512 -21.3945869054057
+120.580641922695 -21.3946117597458
+120.57529812282 -21.3956918181672
+120.575128854755 -21.395765847006
+120.572846490236 -21.3971200618964
+120.572684518279 -21.3972133356637
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23654">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:GeologicUnit gml:id="GA_GeologicUnit_Stratno_27847">
+<gml:description>Massive, porphyritic, vesicular, amygdaloidal and doleritic basalt; some high-Mg basalt, agglomerate, volcanic breccia, tuff, mafic wacke, shale, polymictic conglomerate and sandstone, siliceous limestone and dolomite</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratname">Mount Roe Basalt</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Map_symbol">Abfr</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratno">27847</gml:name>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:ObservationMethods">published description</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>typicalNorm</gsml:purpose>
+<gsml:preferredAge>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">eruption</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:preferredAge>
+<gsml:geologicHistory>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermRange>
+<gsml:lower>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:lower>
+<gsml:upper>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:upper>
+</gsml:CGI_TermRange>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">eruption</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:geologicHistory>
+<gsml:geologicUnitType xlink:href="urn:cgi:classifier:CGI:GeologicUnitType:200811:lithostratigraphic_unit"/>
+<gsml:compositionCategory>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:CompositionCategory">basic</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:compositionCategory>
+<gsml:rank codeSpace="urn:cgi:classifierScheme:CGI:StratigraphicRank:200811">Formation</gsml:rank>
+<gsml:classifier xlink:href="urn:cgi:classifier:GA:StratigraphicLexicon:Stratno:27847"/>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:doleritic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:doleritic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:sandstone"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:sandstone"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:calcareous_carbonate_sedimentary_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:calcareous_carbonate_sedimentary_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+</gsml:GeologicUnit>
+</gsml:specification>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.709228583291 -21.5756984462916
+120.705698043428 -21.5747266330693
+120.703426993554 -21.5746108042668
+120.700614227616 -21.5747979951797
+120.690647058723 -21.5757792673551
+120.688618112225 -21.5761456158076
+120.685666634281 -21.5769864451714
+120.684721037715 -21.5773695164785
+120.682562340141 -21.5785834884387
+120.680815553516 -21.5796209517009
+120.678330259176 -21.5809460718581
+120.676764748114 -21.5815279460996
+120.674654934752 -21.582230330739
+120.673237208971 -21.5829265617761
+120.672241708507 -21.5831902104894
+120.670705019256 -21.5832711970648
+120.666248391596 -21.5828251027679
+120.66444795233 -21.5827439554381
+120.66368807655 -21.5824975304068
+120.661600479317 -21.5813137023754
+120.661125197124 -21.5811525298882
+120.660672419229 -21.581110952042
+120.659970162651 -21.5812569299698
+120.65897215227 -21.5817544169558
+120.656667668345 -21.5842487974658
+120.658429829142 -21.584687510663
+120.659449206746 -21.5852403683005
+120.660502528306 -21.58556786984
+120.663467896048 -21.5867667504699
+120.664444071665 -21.5870238889676
+120.666803964854 -21.5874225975663
+120.668823540056 -21.5875811067336
+120.672806058268 -21.5872869532736
+120.677317879315 -21.5861966403387
+120.678466403375 -21.5860185301052
+120.680166647383 -21.5860479279405
+120.682894068393 -21.5864444896812
+120.683940665787 -21.586398289245
+120.686372999277 -21.5861006450922
+120.688458244535 -21.5856087928551
+120.691331335057 -21.5847355966649
+120.692943189769 -21.5841284914138
+120.70071137772 -21.5831179347886
+120.706419811944 -21.5818770035015
+120.70787359004 -21.5819293557612
+120.711380111965 -21.5835321647168
+120.709816558281 -21.5771806388712
+120.709228583291 -21.5756984462916
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23703">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:GeologicUnit gml:id="GA_GeologicUnit_Stratno_8075">
+<gml:description>Sandstone, siltstone, shale, lithic wacke, mudstone, arkose, calcareous beds, conglomerate; porphyry, porphyry breccia; quartzite; dacitic to rhyolitic lavas; quartz-feldspar-mica schist; boulder breccia; basalt; felsic pyroclastics, ultramafic lava</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratname">Hardey Formation</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Map_symbol">Awfh</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratno">8075</gml:name>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:ObservationMethods">published description</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>typicalNorm</gsml:purpose>
+<gsml:preferredAge>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">deposition</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:preferredAge>
+<gsml:geologicHistory>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermRange>
+<gsml:lower>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:lower>
+<gsml:upper>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:upper>
+</gsml:CGI_TermRange>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">deposition</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:geologicHistory>
+<gsml:geologicUnitType xlink:href="urn:cgi:classifier:CGI:GeologicUnitType:200811:lithostratigraphic_unit"/>
+<gsml:compositionCategory>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:CompositionCategory">silicate</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:compositionCategory>
+<gsml:rank codeSpace="urn:cgi:classifierScheme:CGI:StratigraphicRank:200811">Formation</gsml:rank>
+<gsml:classifier xlink:href="urn:cgi:classifier:GA:StratigraphicLexicon:Stratno:8075"/>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:mudstone"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:mudstone"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:sandstone"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:sandstone"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+</gsml:GeologicUnit>
+</gsml:specification>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.711380111965 -21.5835321647168
+120.70787359004 -21.5819293557612
+120.706419811944 -21.5818770035015
+120.70071137772 -21.5831179347886
+120.692943189769 -21.5841284914138
+120.691331335057 -21.5847355966649
+120.688458244535 -21.5856087928551
+120.686372999277 -21.5861006450922
+120.683940665787 -21.586398289245
+120.682894068393 -21.5864444896812
+120.680166647383 -21.5860479279405
+120.678466403375 -21.5860185301052
+120.677317879315 -21.5861966403387
+120.672806058268 -21.5872869532736
+120.668823540056 -21.5875811067336
+120.666803964854 -21.5874225975663
+120.664444071665 -21.5870238889676
+120.663467896048 -21.5867667504699
+120.660502528306 -21.58556786984
+120.659449206746 -21.5852403683005
+120.658429829142 -21.584687510663
+120.656667668345 -21.5842487974658
+120.655721088079 -21.5841764142851
+120.649160154522 -21.585808854434
+120.646963674561 -21.5868455424085
+120.645569642548 -21.5877621762084
+120.642802000454 -21.5904832840457
+120.641742165417 -21.5913511609112
+120.639029927018 -21.5930885059455
+120.637087352507 -21.5940497348298
+120.636011456402 -21.5943633904071
+120.633585603695 -21.5946730113254
+120.630850875682 -21.5957839760475
+120.630330186745 -21.5958911422541
+120.629748835339 -21.5958341920669
+120.627335135416 -21.5951717044573
+120.626440701602 -21.5950310000491
+120.625177554245 -21.5952040336734
+120.624156757131 -21.5956360481706
+120.623267717354 -21.596240953408
+120.622722873823 -21.596768425235
+120.622477112112 -21.5972203508249
+120.62234814051 -21.59797552386
+120.622448184277 -21.5994335602062
+120.622973484321 -21.6008887354871
+120.62420113203 -21.6028095627193
+120.625370052585 -21.603911669805
+120.628573831992 -21.60777462019
+120.628975867561 -21.6084450918858
+120.629232017484 -21.6091269365512
+120.629391300653 -21.6102187757911
+120.629588785134 -21.613308625806
+120.629550911349 -21.6164601303145
+120.629617646302 -21.617460085486
+120.629964494859 -21.619722179749
+120.63015337385 -21.6202965189152
+120.630453473175 -21.6208308184974
+120.631302869581 -21.6217480251723
+120.632124086365 -21.6222144440982
+120.632452058861 -21.6222833150911
+120.63318879625 -21.6222571496845
+120.634267612415 -21.6219079956088
+120.635004617536 -21.6213906298012
+120.636269128169 -21.6199959777642
+120.638223118696 -21.6168991462404
+120.639354305799 -21.6155815773938
+120.639969097684 -21.6150352714413
+120.640493459968 -21.614717747726
+120.640928102935 -21.6146032837311
+120.641456050928 -21.614701339393
+120.641841935973 -21.6151638806877
+120.642072197006 -21.6160590686995
+120.64217983042 -21.6174480493424
+120.642166906497 -21.6205897270629
+120.642462263654 -21.6222881884319
+120.642447270525 -21.6245215713922
+120.642309117846 -21.6250609221275
+120.64203205436 -21.6256208750177
+120.641563713935 -21.6262445687291
+120.640916254025 -21.6268908195201
+120.639776571278 -21.6276323789497
+120.637615022508 -21.6283829706999
+120.634916336374 -21.6296432681574
+120.634313744484 -21.6297495424039
+120.633500415655 -21.629714754579
+120.63216426345 -21.6295195560846
+120.631380184062 -21.6293138887543
+120.630738743323 -21.6289541351268
+120.630259236319 -21.6285243640932
+120.629914562913 -21.6280400820211
+120.629769962162 -21.6276221294908
+120.629518062351 -21.6256366031566
+120.629291890907 -21.6248738313281
+120.628887453598 -21.6242179510906
+120.628197486492 -21.6236914483872
+120.627827609427 -21.6235985848574
+120.627455113584 -21.6236188202789
+120.626869592161 -21.623869691193
+120.623766643154 -21.626508312255
+120.62297444284 -21.6270841555282
+120.622466051409 -21.6273059547169
+120.62218267617 -21.6272260539324
+120.621859757643 -21.6269838725222
+120.620847648814 -21.6259566617624
+120.620427216359 -21.6254306463588
+120.620014312522 -21.6245513325605
+120.619552420554 -21.6238509083575
+120.618899964089 -21.6231768271279
+120.61839638923 -21.6228402239724
+120.617840105792 -21.6226206054324
+120.617246849461 -21.6225240655222
+120.614200732627 -21.6225642459161
+120.620245335525 -21.6323122209046
+120.623110057377 -21.6360868348467
+120.625305707957 -21.6394148273819
+120.627088367454 -21.6425844825846
+120.629159173834 -21.6453064123826
+120.632175175349 -21.6440702649639
+120.633885823982 -21.6431918972897
+120.63609452578 -21.6423896747799
+120.639244350725 -21.6405667614542
+120.641414269917 -21.6397698706039
+120.643187233961 -21.6389611772708
+120.644071369047 -21.638837918905
+120.645982264731 -21.6389973833355
+120.648869884006 -21.6395784221641
+120.65055441172 -21.6401740910633
+120.651747605065 -21.6403491607417
+120.652467342352 -21.6403290869451
+120.653005974926 -21.6401907841723
+120.653461745317 -21.6399148745136
+120.654270868949 -21.6392100910419
+120.655651247652 -21.6376794095455
+120.657748271782 -21.6345390306704
+120.658584123305 -21.6325865496592
+120.659247723711 -21.6313614856433
+120.659474879722 -21.630713211399
+120.65966607973 -21.6295692552899
+120.659662302421 -21.6287188086763
+120.658801402121 -21.6201590437947
+120.658892829186 -21.6192671381188
+120.659254408491 -21.6177476972062
+120.659558007739 -21.6171418516813
+120.659893600708 -21.6168937515044
+120.660419805492 -21.6167957845064
+120.662838321698 -21.616934276876
+120.665878650594 -21.6163371659829
+120.666311791875 -21.6164299303522
+120.666674170624 -21.6168644599146
+120.666702731847 -21.6174853675049
+120.666528272494 -21.6180126787723
+120.665329242826 -21.6202542967563
+120.664763940108 -21.6216308453278
+120.664150107221 -21.622769685169
+120.663726868528 -21.6238317420266
+120.663427805452 -21.6249181169021
+120.663251974287 -21.6265679468909
+120.663331329106 -21.6274941316981
+120.66353983735 -21.6279196427632
+120.66382959969 -21.6282467913343
+120.664135667492 -21.6284488396727
+120.664465240486 -21.6284923895028
+120.665174053985 -21.6281751229355
+120.666138685028 -21.6274548489297
+120.667031326332 -21.6266285449291
+120.670196255915 -21.6232477884004
+120.674808509581 -21.6195923983811
+120.676028973414 -21.618966293398
+120.681413512948 -21.6170384624015
+120.685048089795 -21.6153294334245
+120.686331003156 -21.614560726103
+120.690055290187 -21.6119022797827
+120.691135474164 -21.6112668806948
+120.69235741041 -21.6108072613816
+120.693554461371 -21.610582870158
+120.694624727862 -21.610608006763
+120.696362405752 -21.6109268181595
+120.696975994639 -21.6109486820673
+120.699528926405 -21.6105306447297
+120.700221506906 -21.610295792777
+120.70140283303 -21.6094955756097
+120.703627947247 -21.6069778756695
+120.704897703039 -21.6058760858236
+120.706376953782 -21.604995692521
+120.708748248226 -21.6041233325496
+120.709703483003 -21.6040500756018
+120.710683331335 -21.6042656510941
+120.711688201009 -21.6047506507419
+120.71402031817 -21.6059635398619
+120.713989984683 -21.5988190747103
+120.713502116782 -21.5932572799453
+120.711852991461 -21.5856079197735
+120.711380111965 -21.5835321647168
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23317">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:GeologicUnit gml:id="GA_GeologicUnit_Stratno_35002">
+<gml:description>Massive, vesicular and amygdaloidal basalt, basaltic andesite, and andesite, minor dacite, dolerite sills; bedded lapilli, vitric, crystal and lithic tuff, volcaniclastic siltstone, shale, chert, sandstone, dolomite</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratname">Maddina Formation</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Map_symbol">Abfm</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratno">35002</gml:name>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:ObservationMethods">published description</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>typicalNorm</gsml:purpose>
+<gsml:preferredAge>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">eruption</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:preferredAge>
+<gsml:geologicHistory>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermRange>
+<gsml:lower>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:lower>
+<gsml:upper>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:upper>
+</gsml:CGI_TermRange>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">eruption</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:geologicHistory>
+<gsml:geologicUnitType xlink:href="urn:cgi:classifier:CGI:GeologicUnitType:200811:lithostratigraphic_unit"/>
+<gsml:compositionCategory>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:CompositionCategory">basic</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:compositionCategory>
+<gsml:rank codeSpace="urn:cgi:classifierScheme:CGI:StratigraphicRank:200811">Formation</gsml:rank>
+<gsml:classifier xlink:href="urn:cgi:classifier:GA:StratigraphicLexicon:Stratno:35002"/>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:basaltic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:basaltic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:andesitic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:andesitic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:dacitic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:dacitic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+</gsml:GeologicUnit>
+</gsml:specification>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.923558964651 -21.5443302935657
+120.917043870771 -21.539087889494
+120.912304809846 -21.5361416049081
+120.910806984986 -21.5355146305982
+120.904416966244 -21.5321621997809
+120.902474534435 -21.5313288173523
+120.899565684518 -21.5297583581143
+120.897242679697 -21.5288495964683
+120.893205406583 -21.5276058893741
+120.88717084783 -21.5252749887754
+120.885815782622 -21.5283096077166
+120.884299890819 -21.530822462524
+120.883530467702 -21.5323664958103
+120.883030505367 -21.5338174989234
+120.881766139065 -21.5382517808148
+120.88137572252 -21.5392482158034
+120.879754606959 -21.5419604244127
+120.878549222754 -21.5435201016879
+120.877740118668 -21.5441460926375
+120.875046570783 -21.5452469119949
+120.873678637764 -21.5461321557774
+120.872944851786 -21.5468664540668
+120.872154562678 -21.5481320128773
+120.871152508538 -21.5493423949378
+120.868453223606 -21.551935758978
+120.867535946291 -21.5526982951967
+120.865709337866 -21.5533552647643
+120.863686142153 -21.5538432618738
+120.862030529255 -21.5546800095164
+120.859533711402 -21.5552409827241
+120.857494133465 -21.5561644080025
+120.855378743279 -21.5567275109122
+120.854228815036 -21.5573199996382
+120.853439610255 -21.5580838286233
+120.852712968627 -21.5592200600131
+120.851954101952 -21.5611011492356
+120.850898996049 -21.5631554069478
+120.850736648043 -21.5637690032431
+120.850873723517 -21.564345645483
+120.85165666981 -21.5655292429387
+120.852367643042 -21.5672477720532
+120.853499891278 -21.5692576310986
+120.854125892283 -21.5711238802341
+120.855161410149 -21.5734974022041
+120.856295110197 -21.5781102744737
+120.857149509228 -21.5809150046736
+120.857673746258 -21.5821241482053
+120.857815334065 -21.5828167046976
+120.857782230742 -21.5833736341337
+120.857583107814 -21.5838944724522
+120.857257452476 -21.584320217067
+120.855909137234 -21.585617044801
+120.85542843422 -21.5863426730676
+120.854832355481 -21.5883781124257
+120.854546114662 -21.5898493523653
+120.854290763254 -21.5934164851894
+120.8543137998 -21.5950499230803
+120.854587677652 -21.5980074663142
+120.855373184911 -21.6013881765638
+120.855826076255 -21.6043221092032
+120.856126504714 -21.6090703511352
+120.856092218881 -21.612450241332
+120.855547057615 -21.6158629136222
+120.855501743501 -21.6168528677356
+120.854811460121 -21.6194821760477
+120.854387237441 -21.6221426369107
+120.852852192294 -21.6281270779473
+120.851832073005 -21.631310535939
+120.851387871635 -21.6330029428205
+120.851244202937 -21.6345142940387
+120.850631960408 -21.6375745112011
+120.85060802259 -21.6388784482937
+120.850237139843 -21.6418391994856
+120.850212287285 -21.643484830273
+120.850410025616 -21.6477882489574
+120.851099995879 -21.6543627449778
+120.851492531133 -21.6560480919652
+120.851743350904 -21.6586212685817
+120.85311669577 -21.6643851029234
+120.853697360011 -21.6662794030301
+120.854901789059 -21.6696323029565
+120.855695711911 -21.6731720560888
+120.856515245239 -21.6758054059132
+120.857031242887 -21.677550314319
+120.858042657434 -21.6808659386364
+120.859022801044 -21.6843911998369
+120.86047410518 -21.6885901476201
+120.862195834503 -21.6926844814038
+120.863166947929 -21.6944294657671
+120.864280918857 -21.6973191622649
+120.865218568043 -21.699102536738
+120.866224398483 -21.7015323620487
+120.867142027652 -21.7033135742191
+120.868253931842 -21.7062148739724
+120.869027779673 -21.7077626009438
+120.869911680414 -21.7101130907683
+120.870830142807 -21.7117126083719
+120.871833480119 -21.7145529856857
+120.872575227562 -21.7161069704067
+120.873334762938 -21.7183581416989
+120.874108230291 -21.7198800194976
+120.874977606284 -21.7222945995053
+120.87589127188 -21.7240711193693
+120.877009844549 -21.7270916629105
+120.877590559938 -21.7282856038233
+120.881657374964 -21.7380859485397
+120.883209357222 -21.7409621952217
+120.884565328955 -21.7440724297992
+120.887426060932 -21.7490073164646
+120.894026905911 -21.7542124241247
+120.900860862442 -21.7582381761769
+120.90170683264 -21.758835346288
+120.90337948953 -21.7602272867252
+120.904596363573 -21.7608941644854
+120.912010477928 -21.7672333107591
+120.915035035544 -21.7695103115163
+120.91991608713 -21.7728019091947
+120.922570631961 -21.7742646372229
+120.927131446675 -21.7774133078343
+120.931513699468 -21.7800628609841
+120.934156986272 -21.781978428889
+120.942383285385 -21.7873498549536
+120.946176081573 -21.790205464563
+120.95090243072 -21.7932782061095
+120.953275690145 -21.7953556782516
+120.960185046725 -21.8021291380316
+120.962045167717 -21.8035385770146
+120.963132193276 -21.8041337428874
+120.965018829026 -21.8049095286111
+120.96617238451 -21.8052737697966
+120.967418191948 -21.8055154192872
+120.969583394949 -21.8057347749034
+120.975123860018 -21.8069527837189
+120.969703969766 -21.8004067298425
+120.962865248635 -21.7933689243199
+120.964589015984 -21.7911325151354
+120.962347531258 -21.7842407867004
+120.961837562518 -21.7809263038389
+120.960727676338 -21.7774207353557
+120.960599552104 -21.7759112186197
+120.960497397306 -21.7718749781604
+120.960633308272 -21.7707757293387
+120.961113628307 -21.7694685079302
+120.962808262453 -21.7668850487023
+120.963405122789 -21.7662159152422
+120.964807066568 -21.7649119916092
+120.965468448701 -21.764478802159
+120.965953978491 -21.7643606941472
+120.966486958163 -21.7644358827613
+120.967095028187 -21.7647257489848
+120.967735297487 -21.7651938229133
+120.968294826788 -21.7657456102815
+120.968821398342 -21.7665785677377
+120.971123092682 -21.7752601211387
+120.971812549656 -21.7779336275822
+120.973416611054 -21.7743530396671
+120.973891634966 -21.7735190085528
+120.974850184049 -21.7712786793072
+120.976400164897 -21.7684955218445
+120.978074349967 -21.7643438135676
+120.980622954863 -21.7598043238002
+120.979900865521 -21.7570370677094
+120.979227311326 -21.754809627516
+120.978330314088 -21.7507017847662
+120.977492936518 -21.7438719908645
+120.977143791804 -21.7422775007383
+120.976536317971 -21.7319699734553
+120.975551913932 -21.7244666651009
+120.975244357834 -21.7228529032009
+120.973746941634 -21.7167444345539
+120.973105224462 -21.7123785252932
+120.972122122479 -21.700163330628
+120.97194819026 -21.6940716712038
+120.972046067353 -21.6875375743782
+120.972227941592 -21.6853476693383
+120.972784480689 -21.6815921622093
+120.974557961482 -21.6738496092409
+120.975404774124 -21.6712090453551
+120.978872266492 -21.6613109196315
+120.979563461325 -21.6599817792981
+120.981497816953 -21.6570524108311
+120.983644102049 -21.6581290520562
+120.986374119376 -21.6597971360933
+120.987841761776 -21.6604318315057
+120.990919966102 -21.6621479569982
+120.992411717653 -21.6627541882711
+120.99501596622 -21.6642253721933
+121.001410847716 -21.667272138144
+121.004201165741 -21.6690517578127
+121.00536800204 -21.6696115264934
+121.010083824778 -21.6730205219523
+121.014347389113 -21.6765011077418
+121.016982080221 -21.6789956368254
+121.019965111988 -21.6814815543305
+121.026583466293 -21.6862800284447
+121.031480220172 -21.6864786604498
+121.032441535716 -21.6863026756228
+121.034482534821 -21.6855799233536
+121.035711989137 -21.6852892418019
+121.036866051791 -21.6852352648033
+121.039379988018 -21.6853630819271
+121.040994253036 -21.6851255866926
+121.042436470246 -21.6845484638431
+121.045711298728 -21.6828883428443
+121.04763610494 -21.6821687479571
+121.048844316725 -21.6814858565866
+121.051564246186 -21.6794987491462
+121.052372581678 -21.6786010684187
+121.053137204364 -21.6774250732906
+121.053788463081 -21.6761134512422
+121.054533940997 -21.674087124715
+121.055172621229 -21.670419580777
+121.055709984213 -21.6692756747221
+121.056747779248 -21.6678166609755
+121.057264531136 -21.6672863526741
+121.058054674844 -21.6667362125053
+121.060359947521 -21.665873514504
+121.061498344236 -21.6653249879628
+121.062548719164 -21.6650511465647
+121.063476112571 -21.6645449366676
+121.064070567887 -21.6640823418719
+121.064524212801 -21.6635938991818
+121.066070489736 -21.6611749533868
+121.06348560025 -21.6604335224635
+121.061326483668 -21.6602716781637
+121.059848321035 -21.6600204107415
+121.057686955991 -21.6592554842962
+121.056106520514 -21.6590821908597
+121.051189134883 -21.6578352270118
+121.050493899981 -21.6575865654665
+121.049176772616 -21.6568945724637
+121.047803136844 -21.6563681678561
+121.045527006745 -21.6549383162472
+121.044441285319 -21.6545914713272
+121.042644215788 -21.6544699593091
+121.041153230547 -21.6546680369693
+121.040305797504 -21.6550331872324
+121.038664553798 -21.6561194798768
+121.037538096456 -21.6564067217336
+121.036553620889 -21.6564461068067
+121.035172252286 -21.6563308736578
+121.034163911991 -21.6560140484582
+121.033617774576 -21.6556377592905
+121.033147595202 -21.6551386430551
+121.032656971399 -21.6543022448365
+121.032089079005 -21.6520404631268
+121.031520739905 -21.650574761277
+121.0300537897 -21.6431393575749
+121.029899218233 -21.6416669088948
+121.029737661799 -21.638082466773
+121.029932908294 -21.6352250098301
+121.029926725165 -21.6341142073824
+121.029777279284 -21.6319436278586
+121.029554506535 -21.6306359989597
+121.029068642304 -21.6289785475626
+121.028594309404 -21.6279098760355
+121.028119553685 -21.6273211988985
+121.027392469933 -21.6268782672814
+121.026751429859 -21.6267141493683
+121.02563725295 -21.6267177147737
+121.023743006201 -21.6271713170872
+121.021402976008 -21.6274563996522
+121.020842305318 -21.6277316721702
+121.020271224275 -21.6283880179933
+121.019684911809 -21.6297362267711
+121.018740339629 -21.6333999569554
+121.018691200605 -21.6340141117557
+121.018891761871 -21.6349744223536
+121.018918479394 -21.6355862304762
+121.018827665602 -21.6367133009422
+121.018668429957 -21.6374391203631
+121.017264716865 -21.6415502614484
+121.016898744442 -21.6422976324562
+121.016575471018 -21.6426414656974
+121.015832063451 -21.6429593279464
+121.013849650298 -21.6433652381062
+121.012943080509 -21.6434502134947
+121.012169337616 -21.643386588532
+121.010940460579 -21.6430739449274
+121.009964901966 -21.6426318435366
+121.007736660157 -21.640995092763
+121.007147212221 -21.6401310745973
+121.006541391427 -21.638694115081
+121.006156499236 -21.6373197711106
+121.005433287093 -21.6339382995414
+121.005125118129 -21.6294753846653
+121.005171247698 -21.6265096293786
+121.004965779955 -21.6250063979463
+121.005023949141 -21.6217470989389
+121.005596469833 -21.6182644929833
+121.005915487058 -21.6171371001822
+121.006378001826 -21.6165458801881
+121.008537736477 -21.6153239526957
+121.009154894707 -21.6147722351547
+121.009474919945 -21.6141610562999
+121.009553984023 -21.6132322622683
+121.008960515411 -21.6110883344906
+121.008327317708 -21.6096886249026
+121.006294115218 -21.6064774087108
+121.004232753141 -21.6037060044247
+121.003500947496 -21.6021786635865
+121.002704556321 -21.6005173379666
+120.997255999976 -21.5964188786755
+120.99440672547 -21.5945984165995
+120.989454887498 -21.5911130441779
+120.984482561094 -21.5880857897973
+120.98288627346 -21.5873379274973
+120.979970327521 -21.5855194117057
+120.978773209685 -21.5849768426684
+120.97585632857 -21.5830453633219
+120.974573535595 -21.5825007310509
+120.971603057058 -21.5804876148134
+120.962968513554 -21.5758797728056
+120.960964788095 -21.5746740146419
+120.959454820712 -21.5733666381919
+120.955276685669 -21.5688056712836
+120.950532299243 -21.5646635411518
+120.944567091137 -21.5603136079511
+120.940384819799 -21.5577242229852
+120.937691713114 -21.555786505918
+120.929735022124 -21.5489950803255
+120.929063086325 -21.553712237397
+120.929039334477 -21.5599589390245
+120.928781663281 -21.5624737685157
+120.928805705842 -21.5637304194972
+120.928629168129 -21.5646042931656
+120.927215354327 -21.5676906473804
+120.926031290291 -21.5697026652896
+120.923715766422 -21.5725077309108
+120.923263153406 -21.5732937159342
+120.922631231889 -21.5747307411927
+120.92228454325 -21.5752306881341
+120.921613032475 -21.575841088724
+120.921368054995 -21.5758840869842
+120.921120299 -21.5757429149536
+120.920665047037 -21.57519015279
+120.920242899688 -21.5742596892896
+120.920038461519 -21.5731201755022
+120.920106738004 -21.5724223259871
+120.920536106334 -21.5715409672981
+120.922376183297 -21.5694679148819
+120.922890972084 -21.5687556747957
+120.923481294126 -21.5674781507683
+120.923783134334 -21.5660314053403
+120.923763305704 -21.5644075313973
+120.923635231965 -21.5638425105518
+120.923163980325 -21.5626797148887
+120.922551638399 -21.5598067341274
+120.922139586398 -21.5585217670806
+120.921654612755 -21.5552960084898
+120.921584787815 -21.5542550735446
+120.921759295881 -21.5527123703877
+120.922819539937 -21.5492471465669
+120.923558964651 -21.5443302935657
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23671">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_8075"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.791400145958 -21.5767704209759
+120.786609662533 -21.5781317487084
+120.784848440885 -21.5788094180253
+120.782729255296 -21.5794402199144
+120.779760849408 -21.5806787690419
+120.776499925334 -21.581717221884
+120.775187321688 -21.5823282630262
+120.771584049989 -21.5832549419097
+120.770346534247 -21.5838151152979
+120.768656326609 -21.5843673141048
+120.765728893042 -21.5856594220527
+120.760755995544 -21.5872679158993
+120.758303546215 -21.5923724836246
+120.757888313678 -21.593617263944
+120.756386338554 -21.5969427851747
+120.755515986676 -21.5999037846946
+120.754390882383 -21.6032206369672
+120.752725715736 -21.6047900275595
+120.751526819538 -21.6066769638362
+120.750704615024 -21.608555349422
+120.750225418335 -21.6090083074852
+120.749674867211 -21.6093546486635
+120.749063389592 -21.6095445782354
+120.748609927023 -21.6095510809927
+120.746265093782 -21.6091649844085
+120.744313616801 -21.609137078833
+120.743766272761 -21.6092385531459
+120.742954606023 -21.6095722074579
+120.742074272851 -21.61010529742
+120.741607815506 -21.6105007907608
+120.741330331191 -21.6109210631356
+120.741284266424 -21.6114123832282
+120.742052029859 -21.6133407503913
+120.742664673418 -21.6154093192993
+120.742729269764 -21.6166658866604
+120.742571441696 -21.6173895623282
+120.742042240185 -21.6183413440375
+120.741347509155 -21.6190634127239
+120.74061477022 -21.61951533052
+120.739804089569 -21.6196757856239
+120.737302422722 -21.6196044567568
+120.736444862884 -21.6198047105335
+120.735114856673 -21.6205768818757
+120.732660686341 -21.6225485783629
+120.732038562758 -21.6228651625333
+120.731492802843 -21.622978984204
+120.731160116939 -21.622929474568
+120.730806728486 -21.6227524519566
+120.728255877135 -21.6204691907932
+120.727642690611 -21.6200907687776
+120.727117801452 -21.6199203338683
+120.726565685859 -21.6199533268576
+120.725680807602 -21.6201768080543
+120.723439168645 -21.6209715302812
+120.720395271329 -21.6214605784358
+120.719054158688 -21.6219563319219
+120.71841699871 -21.6220666885482
+120.717052612416 -21.6219655116806
+120.714919758165 -21.6214020035704
+120.71489036129 -21.623271381828
+120.71477805757 -21.6258742766977
+120.71691517389 -21.6301094224627
+120.717669979582 -21.6319485809368
+120.718247382406 -21.6329522188603
+120.719220477449 -21.6352344787553
+120.721041927942 -21.6384293621101
+120.721671491285 -21.6403032694579
+120.723497362121 -21.6442640050582
+120.725061776841 -21.647034817667
+120.725704210723 -21.6484931618746
+120.72665375481 -21.6502014991695
+120.727545683629 -21.6526357574381
+120.728494874924 -21.6545545655794
+120.729823303723 -21.6581897844121
+120.730812584607 -21.6616989091492
+120.731294068503 -21.6628135325148
+120.73156977238 -21.6639734706564
+120.732092957354 -21.6667705438818
+120.732311336262 -21.6686069290181
+120.732619452871 -21.6729511984095
+120.732581710834 -21.6747770389479
+120.73267328119 -21.6769944607696
+120.732368093087 -21.6789024266801
+120.732319102351 -21.6805079668788
+120.731836145634 -21.684605647688
+120.731469189637 -21.6869697581055
+120.730128429814 -21.6928597349297
+120.728608668029 -21.6966083698023
+120.729739598364 -21.6998121647165
+120.73066435316 -21.7016679750662
+120.73176786706 -21.7046530467166
+120.732460343192 -21.7058886697651
+120.733671053324 -21.7089864457813
+120.734395879373 -21.7102255755396
+120.735605919015 -21.7133027447561
+120.736302196532 -21.7145282947171
+120.73755379651 -21.7177452603665
+120.738946138986 -21.7203140005746
+120.740145617391 -21.7223152900175
+120.742665166954 -21.7259906297435
+120.752395373273 -21.7389663337026
+120.756275667404 -21.7349330060064
+120.756109024702 -21.7347727254726
+120.75729411465 -21.7331408484283
+120.758891808213 -21.7317297276429
+120.760954674814 -21.7303398707714
+120.761726652361 -21.7299352091891
+120.763036359982 -21.7295049420006
+120.763685675589 -21.7291759987002
+120.764371845087 -21.7285511006752
+120.76475222513 -21.7279141248102
+120.764991053868 -21.7271125191935
+120.765042728635 -21.7262580905092
+120.764695821103 -21.7242246722809
+120.764643514013 -21.7219262315655
+120.764261563057 -21.7202473932396
+120.764215303912 -21.7191517191652
+120.764317731121 -21.718152143215
+120.76450676024 -21.717488923973
+120.764830505035 -21.7169064433364
+120.765262031771 -21.7164091228726
+120.766491262505 -21.7154932802526
+120.768141980258 -21.7145031926594
+120.769101820134 -21.7140410612049
+120.77237056659 -21.7132051803182
+120.775821078728 -21.7126499743088
+120.77869417388 -21.7115357664052
+120.77949470904 -21.7110425387364
+120.779889302456 -21.7105925384765
+120.780206355354 -21.7098554300185
+120.780224342304 -21.7094011044437
+120.780059326548 -21.7089394506591
+120.779424999797 -21.7081238551321
+120.778842727479 -21.7076127221003
+120.778269328051 -21.7073043377052
+120.777488168131 -21.7072860049783
+120.775882999249 -21.7079687983716
+120.774931436592 -21.7081479975574
+120.774564663932 -21.7080892531854
+120.774130871284 -21.7078394378947
+120.773715446822 -21.7074258853807
+120.773362799529 -21.7069077967103
+120.77323260623 -21.7065332927649
+120.773193715414 -21.7058895703287
+120.773557707899 -21.7036604638044
+120.773920497182 -21.7022247969395
+120.774779015452 -21.6995978773755
+120.7750076097 -21.6984990260003
+120.774974201446 -21.6979946179376
+120.774783948786 -21.6974918967724
+120.774226113715 -21.696790186885
+120.773743240641 -21.6964417391429
+120.772838166083 -21.6961665391121
+120.771073574869 -21.6962161422852
+120.762622743059 -21.6977062598081
+120.761527926142 -21.6976619494968
+120.760684523913 -21.6977860946715
+120.758133386497 -21.6978999672222
+120.756278443447 -21.697756123979
+120.755251110406 -21.6975848234252
+120.754530872278 -21.6972808755905
+120.753351369836 -21.6963809627541
+120.752082822654 -21.6952056897388
+120.750188361787 -21.6932492337397
+120.748304976807 -21.6921557072921
+120.747769590444 -21.6915611362799
+120.747002570466 -21.6904107022438
+120.746695893151 -21.6901447605155
+120.745966839192 -21.6899639159924
+120.743848428308 -21.6897657924578
+120.742862143655 -21.6894205232856
+120.741680528397 -21.6885410955529
+120.740302225973 -21.6872526402521
+120.739882479297 -21.6867484759835
+120.739765347085 -21.6862183670535
+120.740013533219 -21.6856433933112
+120.740479963732 -21.685130447779
+120.741215192192 -21.6846840096431
+120.742171090034 -21.6844723670962
+120.745575768673 -21.6841707722493
+120.74615807999 -21.6840323148941
+120.746656173194 -21.6837864302636
+120.747124322961 -21.6833536717695
+120.748632424413 -21.6811784644069
+120.749634860686 -21.6800771582689
+120.750089674684 -21.6797365838158
+120.750586751312 -21.6795050293142
+120.752387394852 -21.6790729832039
+120.753560233265 -21.6785618916643
+120.754492427987 -21.6778066172503
+120.754893983467 -21.6772546408782
+120.755119219454 -21.6767530113704
+120.755188601711 -21.6763839072817
+120.755121188834 -21.6761519211831
+120.754802865329 -21.675902633101
+120.754227240256 -21.6756869737735
+120.752997710441 -21.6756005221751
+120.74904255141 -21.6757048291391
+120.747627619308 -21.6756072435136
+120.746685248955 -21.6754439178366
+120.745928901124 -21.6751778273265
+120.745422241586 -21.6748336785763
+120.745132975036 -21.6744815575689
+120.745024504336 -21.6741637691114
+120.745122605876 -21.6735770818679
+120.747012175366 -21.6681032373951
+120.747376962533 -21.6667217518567
+120.747392590742 -21.6658402020737
+120.746947907893 -21.6636290828868
+120.746814507556 -21.6624477062303
+120.746845015081 -21.6614229647639
+120.747023787551 -21.6606040389886
+120.747450732401 -21.6596221517223
+120.748105962295 -21.6587436816063
+120.749114679139 -21.6577745568068
+120.749858627002 -21.6572843002029
+120.752382316531 -21.6562082718652
+120.754485821837 -21.6556231613644
+120.756470711614 -21.6547996565985
+120.758269685592 -21.6542232018142
+120.759904735893 -21.653496153515
+120.761606535589 -21.6525612166028
+120.763217726352 -21.6513684099041
+120.763932354099 -21.6507323976747
+120.764301654379 -21.6501722790983
+120.764499016573 -21.6496563486479
+120.764604910837 -21.6490460880137
+120.764552170996 -21.6483878196346
+120.764182883545 -21.6473989481973
+120.763022577224 -21.645486769162
+120.762407843889 -21.644061604265
+120.762333220826 -21.6435766860021
+120.762673924234 -21.6421888640067
+120.763336942881 -21.6405864962508
+120.764033571194 -21.6395475924897
+120.764879136328 -21.638783663762
+120.765758013667 -21.6383900439819
+120.767898268295 -21.6378824397603
+120.769916648631 -21.6375681272476
+120.771822510244 -21.6374296286326
+120.772996177077 -21.6374927749794
+120.77420641995 -21.6378288373107
+120.77662596283 -21.6378888721163
+120.77926214789 -21.6385360988361
+120.780145052331 -21.6385654185744
+120.781053302514 -21.6381813177315
+120.783223418771 -21.6368538050746
+120.789376070135 -21.6321430132325
+120.793059114242 -21.6286167956231
+120.793888278788 -21.6276725154926
+120.794656608247 -21.6265170224211
+120.795396646971 -21.6247110744628
+120.795754982494 -21.6231612998564
+120.796122704704 -21.6202914503141
+120.796093639064 -21.6181196010176
+120.796195797031 -21.6175345417262
+120.796451528712 -21.6170813706378
+120.796833787546 -21.6166840564293
+120.798071151368 -21.6157522904659
+120.798758268996 -21.6154124668577
+120.7993713508 -21.6152297772519
+120.80010415219 -21.6151507999501
+120.800593370548 -21.6152337577294
+120.801116504041 -21.6155772297973
+120.802708142559 -21.6173159822481
+120.803381941632 -21.6178509815404
+120.804167975217 -21.6181293802096
+120.805412063808 -21.618323702578
+120.806790360338 -21.6184112444367
+120.808617540987 -21.6182158189395
+120.809152059106 -21.6182353259983
+120.809739649041 -21.6183986583969
+120.810943564332 -21.6190234196349
+120.811216369808 -21.619081824983
+120.811720093077 -21.6188699272425
+120.812128830205 -21.6185076898738
+120.812345578978 -21.6181905137859
+120.812458368932 -21.6177866343711
+120.812415082659 -21.6172619544805
+120.812221147744 -21.6166152813061
+120.810859396099 -21.6131467533201
+120.809792090837 -21.6109310562957
+120.809241096937 -21.6093341302733
+120.808690807765 -21.6086011266142
+120.808243520311 -21.6082486548974
+120.807624344215 -21.6080503182037
+120.806644397424 -21.6082174570863
+120.805626888384 -21.6082499968586
+120.804322028447 -21.6081593582421
+120.803283147246 -21.6079511292279
+120.802723331925 -21.6077168063363
+120.801992382698 -21.6072029951843
+120.801495654779 -21.606615611979
+120.80133570116 -21.6062161721805
+120.801349658052 -21.6052418263391
+120.801518963187 -21.6046711936701
+120.801816562008 -21.6041028884656
+120.802700775789 -21.6030674389901
+120.804978978992 -21.6011387027705
+120.805661806692 -21.6004374010867
+120.806245305607 -21.599535129655
+120.806584235185 -21.5986187045682
+120.806662466142 -21.5974580976901
+120.806452238159 -21.5929885618941
+120.806237012303 -21.5920729565993
+120.805357608239 -21.5899208534395
+120.804744323394 -21.5889274846026
+120.803722313814 -21.5876674783663
+120.802824616821 -21.5868849063523
+120.80206196397 -21.5863734826619
+120.800486269642 -21.585581131354
+120.798230354859 -21.5850029938719
+120.797261606381 -21.5846569642544
+120.794219984493 -21.583143962108
+120.793440800024 -21.5825354804156
+120.792583323615 -21.5814938669147
+120.791711083444 -21.5797585423039
+120.79145048187 -21.5786716538693
+120.791400145958 -21.5767704209759
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23004">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:GeologicUnit gml:id="GA_GeologicUnit_Stratno_34040">
+<gml:description>Basalt, andesite, dacite, high-Mg basalt, rhyolite; basaltic agglomerate; dolerite; grey carbonate rock with microbial laminations and stromatolites; sandstone; pillow breccia; tuff, limestone, conglomerate</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratname">Kylena Formation</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Map_symbol">Abfk</gml:name>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:StratigraphicLexicon:Stratno">34040</gml:name>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:ObservationMethods">published description</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>typicalNorm</gsml:purpose>
+<gsml:preferredAge>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">eruption</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:preferredAge>
+<gsml:geologicHistory>
+<gsml:GeologicEvent>
+<gsml:eventAge>
+<gsml:CGI_TermRange>
+<gsml:lower>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:lower>
+<gsml:upper>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://www.cgi-iugs.org/uri">urn:cgi:classifier:ICS:StratChart:2008:Archean</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:upper>
+</gsml:CGI_TermRange>
+</gsml:eventAge>
+<gsml:eventProcess>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:Process">eruption</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:eventProcess>
+</gsml:GeologicEvent>
+</gsml:geologicHistory>
+<gsml:geologicUnitType xlink:href="urn:cgi:classifier:CGI:GeologicUnitType:200811:lithostratigraphic_unit"/>
+<gsml:compositionCategory>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:CompositionCategory">acid</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:compositionCategory>
+<gsml:rank codeSpace="urn:cgi:classifierScheme:CGI:StratigraphicRank:200811">Formation</gsml:rank>
+<gsml:classifier xlink:href="urn:cgi:classifier:GA:StratigraphicLexicon:Stratno:34040"/>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:rhyolitic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:rhyolitic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:dacitic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:dacitic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:basaltic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:basaltic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+<gsml:composition>
+<gsml:CompositionPart>
+<gsml:role codeSpace="urn:cgi:classifierScheme:GA:Role">part of</gsml:role>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:andesitic_rock"/>
+<gsml:material>
+<gsml:RockMaterial>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:consolidationDegree>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:consolidationDegree>
+<gsml:lithology xlink:href="urn:cgi:classifier:CGI:SimpleLithology:200811:andesitic_rock"/>
+</gsml:RockMaterial>
+</gsml:material>
+<gsml:proportion>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:proportion>
+</gsml:CompositionPart>
+</gsml:composition>
+</gsml:GeologicUnit>
+</gsml:specification>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.794585204988 -21.4825829414866
+120.792950881229 -21.488809891286
+120.795924813999 -21.4912833406806
+120.796496675301 -21.4922131407882
+120.79675409327 -21.4928480188865
+120.79682626477 -21.4934567035704
+120.796733524016 -21.4939958473173
+120.796003609383 -21.4960244216085
+120.795792683506 -21.4969463294833
+120.795844784666 -21.4978941039226
+120.796120609646 -21.4984987943793
+120.798583693913 -21.5016877035273
+120.799816952803 -21.5038503501336
+120.800297614783 -21.50445827668
+120.80085735485 -21.5048836597142
+120.801432894584 -21.5049516528003
+120.80257132349 -21.5042923559977
+120.802861171745 -21.5042618562135
+120.803192745962 -21.5044855638863
+120.803894124692 -21.5052403273562
+120.804490946058 -21.5059797163399
+120.80476900824 -21.506470824855
+120.805524234324 -21.5102731793927
+120.806236204487 -21.5122920355254
+120.80712639345 -21.5141526741651
+120.807242353967 -21.5146951989181
+120.807049126123 -21.5153208926709
+120.805942942392 -21.5165399704943
+120.805455009721 -21.517658538608
+120.805287799432 -21.5189668946258
+120.805184272199 -21.522761292789
+120.805630967409 -21.5235797077378
+120.806264101163 -21.5256266962377
+120.806659053437 -21.5263890735125
+120.80865218006 -21.5287110236029
+120.809742951597 -21.5297215657839
+120.811092375641 -21.5307333295367
+120.81236646165 -21.5313121791622
+120.813173462955 -21.5315021939613
+120.814043927463 -21.5315856672731
+120.815808786873 -21.5314371260005
+120.816625543707 -21.5312398542761
+120.817756637309 -21.5308041390183
+120.819368322064 -21.5297830368819
+120.820031916855 -21.5291450541948
+120.820598124594 -21.5283971616919
+120.821111120549 -21.5268943628437
+120.82155271791 -21.5261270484722
+120.822732468603 -21.5250717306206
+120.824224750957 -21.5242138182878
+120.824743776856 -21.5240909120398
+120.82517179782 -21.5242204787903
+120.826570627189 -21.5253866421447
+120.827512641896 -21.525913821562
+120.828102964825 -21.526039444758
+120.828915475857 -21.5260145329942
+120.829429975149 -21.5258652751962
+120.830218715607 -21.5254070438349
+120.833519976557 -21.5228298006124
+120.834826520493 -21.5221851097023
+120.835652941214 -21.5219951789216
+120.836411153127 -21.522174964898
+120.837262568547 -21.5227476022822
+120.837872195784 -21.5234466878026
+120.837996013187 -21.5238838265709
+120.83790222761 -21.5243256402807
+120.83762558837 -21.5247911814027
+120.835418733664 -21.5273530037309
+120.835070002946 -21.5278759399008
+120.834993622896 -21.5282821264598
+120.835180532329 -21.5303220676942
+120.835073598235 -21.5308490446273
+120.83484359127 -21.5313575369108
+120.833313545914 -21.5333731918419
+120.83222069833 -21.5343153000572
+120.831482980518 -21.534740337361
+120.830489273307 -21.5351668267416
+120.828693801403 -21.5357418047375
+120.827871230005 -21.5358683519741
+120.827079783813 -21.5358360965268
+120.82654793895 -21.5356827838952
+120.826084108049 -21.5353371984143
+120.824683376221 -21.533988679329
+120.824168568905 -21.5337031076827
+120.823506962695 -21.5335340959775
+120.822777032934 -21.5335198717487
+120.822072474545 -21.5336811630561
+120.821175175951 -21.534178477955
+120.820526099945 -21.5347670771871
+120.820128343163 -21.5354852925787
+120.820020023692 -21.5367149725394
+120.819753264208 -21.5379221719919
+120.818865458003 -21.5399261137504
+120.818751695749 -21.5404339318174
+120.81881517027 -21.5409658316214
+120.819715495019 -21.5428468721621
+120.819821291098 -21.5435891884932
+120.819736692667 -21.5442574949572
+120.819310449804 -21.5449419210353
+120.818081852331 -21.5458682400303
+120.817018500589 -21.5462325938496
+120.814965316014 -21.5466274026977
+120.814527420696 -21.5468248417572
+120.81419576728 -21.5471402531543
+120.814113572673 -21.5474980364988
+120.814522111278 -21.5487963422808
+120.814651326874 -21.5497326653938
+120.814787786509 -21.5524855137464
+120.814727923565 -21.5534785954311
+120.8144741557 -21.5543992398151
+120.813743239327 -21.5561953341155
+120.81331967716 -21.557050536075
+120.812895460239 -21.5576658854549
+120.811737617132 -21.5588845697516
+120.810104680037 -21.5602213457519
+120.808835384591 -21.5609717705706
+120.807723533361 -21.5613620559843
+120.806582618081 -21.5614958548633
+120.80595258238 -21.5613714298354
+120.803852394675 -21.5603018543365
+120.803193850433 -21.5601224110296
+120.802554678823 -21.560246092522
+120.801833464404 -21.560676346562
+120.801278652549 -21.5611908776849
+120.801144173025 -21.5615434460742
+120.801169301467 -21.5617590567323
+120.801432075676 -21.5623344050401
+120.802301252645 -21.5637118671397
+120.802507345837 -21.5643975373249
+120.802361072755 -21.5648151487485
+120.801786582848 -21.5656540548693
+120.800526022155 -21.5670032236367
+120.799034314536 -21.5682828645029
+120.793291891491 -21.5726034573722
+120.791690043696 -21.5735685797349
+120.791448224848 -21.5741342689592
+120.791355701306 -21.5750217843669
+120.791400145958 -21.5767704209759
+120.79145048187 -21.5786716538693
+120.791711083444 -21.5797585423039
+120.792583323615 -21.5814938669147
+120.793440800024 -21.5825354804156
+120.794219984493 -21.583143962108
+120.797261606381 -21.5846569642544
+120.798230354859 -21.5850029938719
+120.800486269642 -21.585581131354
+120.80206196397 -21.5863734826619
+120.802824616821 -21.5868849063523
+120.803722313814 -21.5876674783663
+120.804744323394 -21.5889274846026
+120.805357608239 -21.5899208534395
+120.806237012303 -21.5920729565993
+120.806452238159 -21.5929885618941
+120.806662466142 -21.5974580976901
+120.806584235185 -21.5986187045682
+120.806245305607 -21.599535129655
+120.805661806692 -21.6004374010867
+120.804978978992 -21.6011387027705
+120.802700775789 -21.6030674389901
+120.801816562008 -21.6041028884656
+120.801518963187 -21.6046711936701
+120.801349658052 -21.6052418263391
+120.80133570116 -21.6062161721805
+120.801495654779 -21.606615611979
+120.801992382698 -21.6072029951843
+120.802723331925 -21.6077168063363
+120.803283147246 -21.6079511292279
+120.804322028447 -21.6081593582421
+120.805626888384 -21.6082499968586
+120.806644397424 -21.6082174570863
+120.807624344215 -21.6080503182037
+120.808243520311 -21.6082486548974
+120.808690807765 -21.6086011266142
+120.809241096937 -21.6093341302733
+120.809792090837 -21.6109310562957
+120.810859396099 -21.6131467533201
+120.812221147744 -21.6166152813061
+120.812415082659 -21.6172619544805
+120.812458368932 -21.6177866343711
+120.812345578978 -21.6181905137859
+120.812128830205 -21.6185076898738
+120.811720093077 -21.6188699272425
+120.811216369808 -21.619081824983
+120.810943564332 -21.6190234196349
+120.809739649041 -21.6183986583969
+120.809152059106 -21.6182353259983
+120.808617540987 -21.6182158189395
+120.806790360338 -21.6184112444367
+120.805412063808 -21.618323702578
+120.804167975217 -21.6181293802096
+120.803381941632 -21.6178509815404
+120.802708142559 -21.6173159822481
+120.801116504041 -21.6155772297973
+120.800593370548 -21.6152337577294
+120.80010415219 -21.6151507999501
+120.7993713508 -21.6152297772519
+120.798758268996 -21.6154124668577
+120.798071151368 -21.6157522904659
+120.796833787546 -21.6166840564293
+120.796451528712 -21.6170813706378
+120.796195797031 -21.6175345417262
+120.796093639064 -21.6181196010176
+120.796122704704 -21.6202914503141
+120.795754982494 -21.6231612998564
+120.795396646971 -21.6247110744628
+120.794656608247 -21.6265170224211
+120.793888278788 -21.6276725154926
+120.793059114242 -21.6286167956231
+120.789376070135 -21.6321430132325
+120.791528143956 -21.6358212176467
+120.795194533607 -21.6426186242445
+120.795925869542 -21.6440958063419
+120.797304770515 -21.6474492645285
+120.80096497019 -21.65399491573
+120.802193915059 -21.6560565022898
+120.8055430123 -21.6608257130297
+120.806882256623 -21.6631964759995
+120.807964833409 -21.6646173963911
+120.812515923314 -21.6697679942882
+120.814487613509 -21.6727243405455
+120.816122465233 -21.6747662687625
+120.817047970524 -21.6757420547802
+120.819226903187 -21.677636791354
+120.820162602089 -21.6787210580655
+120.82530489259 -21.6853955622056
+120.828862528599 -21.6896750701715
+120.832082440559 -21.692350222513
+120.8343986337 -21.694167478079
+120.843406800723 -21.7010062868937
+120.85202002833 -21.7090551914507
+120.857220683666 -21.7142743903937
+120.861133433917 -21.7174254136666
+120.866848829589 -21.7230527540642
+120.881657374964 -21.7380859485397
+120.877590559938 -21.7282856038233
+120.877009844549 -21.7270916629105
+120.87589127188 -21.7240711193693
+120.874977606284 -21.7222945995053
+120.874108230291 -21.7198800194976
+120.873334762938 -21.7183581416989
+120.872575227562 -21.7161069704067
+120.871833480119 -21.7145529856857
+120.870830142807 -21.7117126083719
+120.869911680414 -21.7101130907683
+120.869027779673 -21.7077626009438
+120.868253931842 -21.7062148739724
+120.867142027652 -21.7033135742191
+120.866224398483 -21.7015323620487
+120.865218568043 -21.699102536738
+120.864280918857 -21.6973191622649
+120.863166947929 -21.6944294657671
+120.862195834503 -21.6926844814038
+120.86047410518 -21.6885901476201
+120.859022801044 -21.6843911998369
+120.858042657434 -21.6808659386364
+120.857031242887 -21.677550314319
+120.856515245239 -21.6758054059132
+120.855695711911 -21.6731720560888
+120.854901789059 -21.6696323029565
+120.853697360011 -21.6662794030301
+120.85311669577 -21.6643851029234
+120.851743350904 -21.6586212685817
+120.851492531133 -21.6560480919652
+120.851099995879 -21.6543627449778
+120.850410025616 -21.6477882489574
+120.850212287285 -21.643484830273
+120.850237139843 -21.6418391994856
+120.85060802259 -21.6388784482937
+120.850631960408 -21.6375745112011
+120.851244202937 -21.6345142940387
+120.851387871635 -21.6330029428205
+120.851832073005 -21.631310535939
+120.852852192294 -21.6281270779473
+120.854387237441 -21.6221426369107
+120.854811460121 -21.6194821760477
+120.855501743501 -21.6168528677356
+120.855547057615 -21.6158629136222
+120.856092218881 -21.612450241332
+120.856126504714 -21.6090703511352
+120.855826076255 -21.6043221092032
+120.855373184911 -21.6013881765638
+120.854587677652 -21.5980074663142
+120.8543137998 -21.5950499230803
+120.854290763254 -21.5934164851894
+120.854546114662 -21.5898493523653
+120.854832355481 -21.5883781124257
+120.85542843422 -21.5863426730676
+120.855909137234 -21.585617044801
+120.857257452476 -21.584320217067
+120.857583107814 -21.5838944724522
+120.857782230742 -21.5833736341337
+120.857815334065 -21.5828167046976
+120.857673746258 -21.5821241482053
+120.857149509228 -21.5809150046736
+120.856295110197 -21.5781102744737
+120.855161410149 -21.5734974022041
+120.854125892283 -21.5711238802341
+120.853499891278 -21.5692576310986
+120.852367643042 -21.5672477720532
+120.85165666981 -21.5655292429387
+120.850873723517 -21.564345645483
+120.850736648043 -21.5637690032431
+120.850898996049 -21.5631554069478
+120.851954101952 -21.5611011492356
+120.852712968627 -21.5592200600131
+120.853439610255 -21.5580838286233
+120.854228815036 -21.5573199996382
+120.855378743279 -21.5567275109122
+120.857494133465 -21.5561644080025
+120.859533711402 -21.5552409827241
+120.862030529255 -21.5546800095164
+120.863686142153 -21.5538432618738
+120.865709337866 -21.5533552647643
+120.867535946291 -21.5526982951967
+120.868453223606 -21.551935758978
+120.871152508538 -21.5493423949378
+120.872154562678 -21.5481320128773
+120.872944851786 -21.5468664540668
+120.873678637764 -21.5461321557774
+120.875046570783 -21.5452469119949
+120.877740118668 -21.5441460926375
+120.878549222754 -21.5435201016879
+120.879754606959 -21.5419604244127
+120.88137572252 -21.5392482158034
+120.881766139065 -21.5382517808148
+120.883030505367 -21.5338174989234
+120.883530467702 -21.5323664958103
+120.884299890819 -21.530822462524
+120.885815782622 -21.5283096077166
+120.88717084783 -21.5252749887754
+120.880517918754 -21.5217625987119
+120.873523578203 -21.5171170695437
+120.872078403233 -21.5160090249426
+120.86526978778 -21.5100963172402
+120.861808746677 -21.5072656623694
+120.860403996116 -21.5062303802183
+120.857523672374 -21.5044071226636
+120.854757079225 -21.5029993274739
+120.852659403053 -21.5017394341759
+120.851218971352 -21.5011508105001
+120.84870871479 -21.499577984862
+120.844653304287 -21.4976230683041
+120.842775341334 -21.496930748776
+120.840997139221 -21.4960509638704
+120.838464375673 -21.4952641622715
+120.83708379579 -21.4944996553359
+120.835700279458 -21.4938889774357
+120.832919012032 -21.4929340714187
+120.830731916202 -21.4919171254671
+120.829244198311 -21.4914072675749
+120.826289023989 -21.4898833432458
+120.823454390249 -21.4886990367261
+120.820140987279 -21.4872919815537
+120.82013353986 -21.4877918926666
+120.819850789834 -21.4888506184249
+120.819002999075 -21.4902853928861
+120.815533653054 -21.4935334004813
+120.814900946176 -21.4939616472291
+120.814165423591 -21.4942447835707
+120.813279472647 -21.4943535588683
+120.812324141499 -21.4942496606826
+120.811855817087 -21.4941054523246
+120.811002891336 -21.4936451093988
+120.810081471029 -21.4928556143547
+120.809729146098 -21.4923367208398
+120.809745774174 -21.4918447897126
+120.810007721798 -21.4911110843824
+120.811262771447 -21.4891347361773
+120.811462293679 -21.4886452007397
+120.811475491839 -21.488272423453
+120.811361286284 -21.4879541451945
+120.810885935306 -21.4874554956922
+120.810359026195 -21.4873269520225
+120.809893052855 -21.4874462737434
+120.808384256412 -21.4883332134352
+120.807515509442 -21.4886869963268
+120.80657975668 -21.4887603179801
+120.805570748432 -21.4885842498942
+120.805006207968 -21.4883466514658
+120.804574578864 -21.4880157097364
+120.80339542563 -21.4861719461284
+120.802842528638 -21.4856224094008
+120.801961512568 -21.4850205134372
+120.800818796827 -21.4845501704471
+120.799468161137 -21.4837275216919
+120.798731430411 -21.4833808986876
+120.797731792792 -21.4831175877019
+120.794585204988 -21.4825829414866
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23708">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_27847"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.762950142546 -21.5825687927299
+120.757862204532 -21.5841988665951
+120.756034805478 -21.5848798383792
+120.753013677152 -21.5854611496947
+120.751846361288 -21.5858654572922
+120.749472616615 -21.5862364701798
+120.74788455053 -21.5866583555649
+120.746608544188 -21.5871721309821
+120.74367944876 -21.5875791520847
+120.74200618435 -21.5879709281363
+120.739831121711 -21.5883086459549
+120.734452229773 -21.5899965022394
+120.732694560641 -21.5907151750365
+120.730028433164 -21.5912856286022
+120.723958030997 -21.5915540530506
+120.719989013327 -21.5925133952799
+120.718217759362 -21.5931074715214
+120.717342997414 -21.5930839144964
+120.713502116782 -21.5932572799453
+120.713989984683 -21.5988190747103
+120.71402031817 -21.6059635398619
+120.714919758165 -21.6214020035704
+120.717052612416 -21.6219655116806
+120.71841699871 -21.6220666885482
+120.719054158688 -21.6219563319219
+120.720395271329 -21.6214605784358
+120.723439168645 -21.6209715302812
+120.725680807602 -21.6201768080543
+120.726565685859 -21.6199533268576
+120.727117801452 -21.6199203338683
+120.727642690611 -21.6200907687776
+120.728255877135 -21.6204691907932
+120.730806728486 -21.6227524519566
+120.731160116939 -21.622929474568
+120.731492802843 -21.622978984204
+120.732038562758 -21.6228651625333
+120.732660686341 -21.6225485783629
+120.735114856673 -21.6205768818757
+120.736444862884 -21.6198047105335
+120.737302422722 -21.6196044567568
+120.739804089569 -21.6196757856239
+120.74061477022 -21.61951533052
+120.741347509155 -21.6190634127239
+120.742042240185 -21.6183413440375
+120.742571441696 -21.6173895623282
+120.742729269764 -21.6166658866604
+120.742664673418 -21.6154093192993
+120.742052029859 -21.6133407503913
+120.741284266424 -21.6114123832282
+120.741330331191 -21.6109210631356
+120.741607815506 -21.6105007907608
+120.742074272851 -21.61010529742
+120.742954606023 -21.6095722074579
+120.743766272761 -21.6092385531459
+120.744313616801 -21.609137078833
+120.746265093782 -21.6091649844085
+120.748609927023 -21.6095510809927
+120.749063389592 -21.6095445782354
+120.749674867211 -21.6093546486635
+120.750225418335 -21.6090083074852
+120.750704615024 -21.608555349422
+120.751526819538 -21.6066769638362
+120.752725715736 -21.6047900275595
+120.754390882383 -21.6032206369672
+120.755515986676 -21.5999037846946
+120.753044314683 -21.599904909869
+120.750936733177 -21.6001700794525
+120.747559983846 -21.6006923681399
+120.746613706007 -21.6009680560346
+120.745119945336 -21.6017234787142
+120.742205796379 -21.6028465409526
+120.741382199247 -21.6030304035622
+120.740403297387 -21.6031110177841
+120.739423611272 -21.6030059619425
+120.738964272419 -21.6028701399617
+120.738118159948 -21.6024401929019
+120.737381108522 -21.6018150557346
+120.736789764366 -21.6010783933693
+120.736402455236 -21.600378548465
+120.736252904763 -21.5996081649911
+120.736410364326 -21.5990510903058
+120.737168619394 -21.5978896952053
+120.738317390025 -21.5965066852124
+120.739203467303 -21.5957046883089
+120.740264718663 -21.5950246205319
+120.74171303408 -21.594525249623
+120.745277638865 -21.5937348104725
+120.74588316861 -21.5935382176432
+120.747357814912 -21.5928328187063
+120.750455004787 -21.5920764785456
+120.751402840236 -21.591758253925
+120.754346971173 -21.5903127730308
+120.756459684913 -21.589441980679
+120.760755995544 -21.5872679158993
+120.762950142546 -21.5825687927299
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23738">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_8075"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.760755995544 -21.5872679158993
+120.756459684913 -21.589441980679
+120.754346971173 -21.5903127730308
+120.751402840236 -21.591758253925
+120.750455004787 -21.5920764785456
+120.747357814912 -21.5928328187063
+120.74588316861 -21.5935382176432
+120.745277638865 -21.5937348104725
+120.74171303408 -21.594525249623
+120.740264718663 -21.5950246205319
+120.739203467303 -21.5957046883089
+120.738317390025 -21.5965066852124
+120.737168619394 -21.5978896952053
+120.736410364326 -21.5990510903058
+120.736252904763 -21.5996081649911
+120.736402455236 -21.600378548465
+120.736789764366 -21.6010783933693
+120.737381108522 -21.6018150557346
+120.738118159948 -21.6024401929019
+120.738964272419 -21.6028701399617
+120.739423611272 -21.6030059619425
+120.740403297387 -21.6031110177841
+120.741382199247 -21.6030304035622
+120.742205796379 -21.6028465409526
+120.745119945336 -21.6017234787142
+120.746613706007 -21.6009680560346
+120.747559983846 -21.6006923681399
+120.750936733177 -21.6001700794525
+120.753044314683 -21.599904909869
+120.755515986676 -21.5999037846946
+120.756386338554 -21.5969427851747
+120.757888313678 -21.593617263944
+120.758303546215 -21.5923724836246
+120.760755995544 -21.5872679158993
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22885">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.732584059794 -21.4819056125497
+120.730130394143 -21.4830787810372
+120.729557372803 -21.4833238319545
+120.728857105178 -21.4834811862687
+120.727486330365 -21.4834634485848
+120.72628957005 -21.4830814544901
+120.725356901622 -21.4830019373679
+120.724366305266 -21.4831051132765
+120.720585548517 -21.4840028814939
+120.719735245581 -21.484024146174
+120.718710846944 -21.483732943967
+120.717739316222 -21.4831575661908
+120.715881081526 -21.4818027969441
+120.713525940295 -21.479539942197
+120.711527518934 -21.4779259521923
+120.710573076636 -21.4770395133327
+120.709596159669 -21.4758945991951
+120.708026709908 -21.47364786373
+120.70681830145 -21.471191161117
+120.70598925994 -21.4700387777686
+120.705262427524 -21.4693272750327
+120.704450243157 -21.4687379445922
+120.703614671512 -21.4683240092645
+120.702803652071 -21.4680855855475
+120.701708820543 -21.4679400555004
+120.699119567761 -21.4678907099785
+120.696808776534 -21.4674820744223
+120.695952871962 -21.467547122592
+120.695173567871 -21.467967279425
+120.690524128669 -21.4712072680336
+120.68956769746 -21.4716137513351
+120.689033125333 -21.4716102434275
+120.688507979566 -21.4714557065625
+120.686399990061 -21.4703668120097
+120.685721211244 -21.4701431397491
+120.684757541075 -21.4700126785514
+120.682699709494 -21.4701405555882
+120.682185193166 -21.482678191913
+120.681609166264 -21.4874871731067
+120.681171216146 -21.4936248843935
+120.681127273082 -21.495623714168
+120.681395635283 -21.5000026764509
+120.681778690711 -21.5032338443464
+120.682267801028 -21.5050104506528
+120.682811004909 -21.5079404440641
+120.683210419738 -21.5091618334844
+120.683723308386 -21.5119057544884
+120.686085318939 -21.519478571162
+120.686472295726 -21.5205684015675
+120.687062885898 -21.5218172679205
+120.688155489602 -21.525346131438
+120.690063963389 -21.5334823995102
+120.690965655201 -21.5356356447204
+120.691596563903 -21.5374467954478
+120.692278452161 -21.5388913228406
+120.693310128507 -21.5419287393846
+120.693926158962 -21.5431943757288
+120.696923678849 -21.5479554611424
+120.698554111185 -21.5510671357459
+120.699820491185 -21.5546702264287
+120.700563304766 -21.5561229750162
+120.701484526177 -21.558309498787
+120.704571921709 -21.5642309562978
+120.705872091482 -21.5675850807036
+120.706913320765 -21.5695646499044
+120.707447331719 -21.5710135077287
+120.709228583291 -21.5756984462916
+120.709816558281 -21.5771806388712
+120.711380111965 -21.5835321647168
+120.711852991461 -21.5856079197735
+120.713502116782 -21.5932572799453
+120.717342997414 -21.5930839144964
+120.718217759362 -21.5931074715214
+120.719989013327 -21.5925133952799
+120.723958030997 -21.5915540530506
+120.730028433164 -21.5912856286022
+120.732694560641 -21.5907151750365
+120.734452229773 -21.5899965022394
+120.739831121711 -21.5883086459549
+120.74200618435 -21.5879709281363
+120.74367944876 -21.5875791520847
+120.746608544188 -21.5871721309821
+120.74788455053 -21.5866583555649
+120.749472616615 -21.5862364701798
+120.751846361288 -21.5858654572922
+120.753013677152 -21.5854611496947
+120.756034805478 -21.5848798383792
+120.757862204532 -21.5841988665951
+120.762950142546 -21.5825687927299
+120.767023725252 -21.5810931791476
+120.769907639975 -21.5803853304497
+120.771013360167 -21.5800322575078
+120.772253730866 -21.5794535127957
+120.779849645607 -21.5771275328562
+120.781734598877 -21.5763442881623
+120.783245237631 -21.5758467150502
+120.78431106178 -21.5755927996827
+120.786038494243 -21.5753635691055
+120.787756159578 -21.5748999499639
+120.791690043696 -21.5735685797349
+120.793291891491 -21.5726034573722
+120.799034314536 -21.5682828645029
+120.800526022155 -21.5670032236367
+120.801786582848 -21.5656540548693
+120.802361072755 -21.5648151487485
+120.802507345837 -21.5643975373249
+120.802301252645 -21.5637118671397
+120.801432075676 -21.5623344050401
+120.801169301467 -21.5617590567323
+120.801144173025 -21.5615434460742
+120.801278652549 -21.5611908776849
+120.801833464404 -21.560676346562
+120.802554678823 -21.560246092522
+120.803193850433 -21.5601224110296
+120.803852394675 -21.5603018543365
+120.80595258238 -21.5613714298354
+120.806582618081 -21.5614958548633
+120.807723533361 -21.5613620559843
+120.808835384591 -21.5609717705706
+120.810104680037 -21.5602213457519
+120.811737617132 -21.5588845697516
+120.812895460239 -21.5576658854549
+120.81331967716 -21.557050536075
+120.813743239327 -21.5561953341155
+120.8144741557 -21.5543992398151
+120.814727923565 -21.5534785954311
+120.814787786509 -21.5524855137464
+120.814651326874 -21.5497326653938
+120.814522111278 -21.5487963422808
+120.814113572673 -21.5474980364988
+120.81419576728 -21.5471402531543
+120.814527420696 -21.5468248417572
+120.814965316014 -21.5466274026977
+120.817018500589 -21.5462325938496
+120.818081852331 -21.5458682400303
+120.819310449804 -21.5449419210353
+120.819736692667 -21.5442574949572
+120.819821291098 -21.5435891884932
+120.819715495019 -21.5428468721621
+120.81881517027 -21.5409658316214
+120.818751695749 -21.5404339318174
+120.818865458003 -21.5399261137504
+120.819753264208 -21.5379221719919
+120.820020023692 -21.5367149725394
+120.820128343163 -21.5354852925787
+120.820526099945 -21.5347670771871
+120.821175175951 -21.534178477955
+120.822072474545 -21.5336811630561
+120.822777032934 -21.5335198717487
+120.823506962695 -21.5335340959775
+120.824168568905 -21.5337031076827
+120.824683376221 -21.533988679329
+120.826084108049 -21.5353371984143
+120.82654793895 -21.5356827838952
+120.827079783813 -21.5358360965268
+120.827871230005 -21.5358683519741
+120.828693801403 -21.5357418047375
+120.830489273307 -21.5351668267416
+120.831482980518 -21.534740337361
+120.83222069833 -21.5343153000572
+120.833313545914 -21.5333731918419
+120.83484359127 -21.5313575369108
+120.835073598235 -21.5308490446273
+120.835180532329 -21.5303220676942
+120.834993622896 -21.5282821264598
+120.835070002946 -21.5278759399008
+120.835418733664 -21.5273530037309
+120.83762558837 -21.5247911814027
+120.83790222761 -21.5243256402807
+120.837996013187 -21.5238838265709
+120.837872195784 -21.5234466878026
+120.837262568547 -21.5227476022822
+120.836411153127 -21.522174964898
+120.835652941214 -21.5219951789216
+120.834826520493 -21.5221851097023
+120.833519976557 -21.5228298006124
+120.830218715607 -21.5254070438349
+120.829429975149 -21.5258652751962
+120.828915475857 -21.5260145329942
+120.828102964825 -21.526039444758
+120.827512641896 -21.525913821562
+120.826570627189 -21.5253866421447
+120.82517179782 -21.5242204787903
+120.824743776856 -21.5240909120398
+120.824224750957 -21.5242138182878
+120.822732468603 -21.5250717306206
+120.82155271791 -21.5261270484722
+120.821111120549 -21.5268943628437
+120.820598124594 -21.5283971616919
+120.820031916855 -21.5291450541948
+120.819368322064 -21.5297830368819
+120.817756637309 -21.5308041390183
+120.816625543707 -21.5312398542761
+120.815808786873 -21.5314371260005
+120.814043927463 -21.5315856672731
+120.813173462955 -21.5315021939613
+120.81236646165 -21.5313121791622
+120.811092375641 -21.5307333295367
+120.809742951597 -21.5297215657839
+120.80865218006 -21.5287110236029
+120.806659053437 -21.5263890735125
+120.806264101163 -21.5256266962377
+120.805630967409 -21.5235797077378
+120.805184272199 -21.522761292789
+120.805287799432 -21.5189668946258
+120.805455009721 -21.517658538608
+120.805942942392 -21.5165399704943
+120.807049126123 -21.5153208926709
+120.807242353967 -21.5146951989181
+120.80712639345 -21.5141526741651
+120.806236204487 -21.5122920355254
+120.805524234324 -21.5102731793927
+120.80476900824 -21.506470824855
+120.804490946058 -21.5059797163399
+120.803894124692 -21.5052403273562
+120.803192745962 -21.5044855638863
+120.802861171745 -21.5042618562135
+120.80257132349 -21.5042923559977
+120.801432894584 -21.5049516528003
+120.80085735485 -21.5048836597142
+120.800297614783 -21.50445827668
+120.799816952803 -21.5038503501336
+120.798583693913 -21.5016877035273
+120.796120609646 -21.4984987943793
+120.795844784666 -21.4978941039226
+120.795792683506 -21.4969463294833
+120.796003609383 -21.4960244216085
+120.796733524016 -21.4939958473173
+120.79682626477 -21.4934567035704
+120.79675409327 -21.4928480188865
+120.796496675301 -21.4922131407882
+120.795924813999 -21.4912833406806
+120.792950881229 -21.488809891286
+120.792175964656 -21.4920929583863
+120.791808598486 -21.4937319555405
+120.79103584215 -21.4975514327451
+120.78915637154 -21.507336201221
+120.787924290776 -21.5109583950216
+120.785323108009 -21.5160299861297
+120.777382907486 -21.5107830367223
+120.77605690522 -21.5101562928514
+120.77301233057 -21.5082098073874
+120.771507299462 -21.5075561700054
+120.768184965934 -21.5057343033345
+120.765199871846 -21.5037037819036
+120.763131219022 -21.5025958124381
+120.760874277414 -21.5011015179024
+120.758573210212 -21.5000339946076
+120.753939168327 -21.4973699043761
+120.751066802785 -21.4953745337345
+120.748036791134 -21.492913574577
+120.743422960963 -21.4898802580867
+120.742213038797 -21.4892253987046
+120.741859460553 -21.4897172664949
+120.740682741097 -21.4905616367823
+120.740052715925 -21.490848211764
+120.739676021628 -21.4908246931321
+120.739273296555 -21.4904565095487
+120.739035081626 -21.4899506783428
+120.738693527749 -21.4886338231918
+120.738680366624 -21.4873566303838
+120.737490117058 -21.4864181949864
+120.73532195077 -21.4845205220007
+120.732584059794 -21.4819056125497
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23647">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_27847"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.791690043696 -21.5735685797349
+120.787756159578 -21.5748999499639
+120.786038494243 -21.5753635691055
+120.78431106178 -21.5755927996827
+120.783245237631 -21.5758467150502
+120.781734598877 -21.5763442881623
+120.779849645607 -21.5771275328562
+120.772253730866 -21.5794535127957
+120.771013360167 -21.5800322575078
+120.769907639975 -21.5803853304497
+120.767023725252 -21.5810931791476
+120.762950142546 -21.5825687927299
+120.760755995544 -21.5872679158993
+120.765728893042 -21.5856594220527
+120.768656326609 -21.5843673141048
+120.770346534247 -21.5838151152979
+120.771584049989 -21.5832549419097
+120.775187321688 -21.5823282630262
+120.776499925334 -21.581717221884
+120.779760849408 -21.5806787690419
+120.782729255296 -21.5794402199144
+120.784848440885 -21.5788094180253
+120.786609662533 -21.5781317487084
+120.791400145958 -21.5767704209759
+120.791355701306 -21.5750217843669
+120.791448224848 -21.5741342689592
+120.791690043696 -21.5735685797349
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22178">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_35002"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.89431841627 -21.3498670270845
+120.894098964884 -21.3519211206935
+120.893878428983 -21.3547248425146
+120.893459306804 -21.3580868803137
+120.892811743905 -21.3613229577133
+120.892750101426 -21.3626395886012
+120.892262202023 -21.3654474403556
+120.892181504339 -21.3674344531112
+120.890641568727 -21.3790994139721
+120.889177232068 -21.3872409594331
+120.889166984397 -21.3953308027603
+120.889624007243 -21.4025812517453
+120.889612597269 -21.4038727678204
+120.889466296973 -21.4061900061987
+120.888934469946 -21.4085720129626
+120.887282310615 -21.4138837101649
+120.885934577036 -21.4179497405485
+120.884162159101 -21.4229427121466
+120.883199508291 -21.4252188209216
+120.881484703332 -21.4236132499453
+120.880531459825 -21.4228297000998
+120.878833620894 -21.4210283556133
+120.876336491932 -21.4178541425717
+120.873648300825 -21.413362526005
+120.872349180609 -21.4103458815746
+120.871252270788 -21.4081854624462
+120.869561276671 -21.4039287972643
+120.867800660114 -21.4006553890928
+120.866873547709 -21.3979531959763
+120.86648229017 -21.3951525236806
+120.864360534219 -21.3937576416441
+120.86013382647 -21.3913191280318
+120.858804879392 -21.3906329048861
+120.858034318315 -21.3900930580329
+120.857436397221 -21.3897425275634
+120.847898180908 -21.3827391052586
+120.848077695368 -21.3833201754798
+120.849304888368 -21.388161473716
+120.849840766016 -21.3893111603854
+120.851113648094 -21.3927940311084
+120.852824680861 -21.3963275707778
+120.853835194863 -21.3981068862561
+120.854689308365 -21.4008386331984
+120.855315420409 -21.4021474967396
+120.856097663257 -21.4045207095034
+120.857226028864 -21.406834410335
+120.858228538257 -21.4094948952759
+120.858782467881 -21.41058636438
+120.859712715752 -21.4136360393879
+120.860306573481 -21.4148812635415
+120.861033238653 -21.4179937142314
+120.861449846722 -21.4192531978264
+120.861921477413 -21.4223110957593
+120.862304945603 -21.4235691615545
+120.862775236023 -21.4264888733745
+120.86320634165 -21.4279936285628
+120.863630372365 -21.4307998665114
+120.864027346806 -21.4320465431173
+120.864732755925 -21.4355548829429
+120.865816404144 -21.4391618723691
+120.866800301974 -21.4410286614825
+120.867523111819 -21.4426433271081
+120.868682580303 -21.4446911503468
+120.872043650038 -21.4496002365395
+120.875277381772 -21.455196503543
+120.877419451784 -21.4584381403816
+120.880259879134 -21.4635061075537
+120.88083094281 -21.464930247108
+120.88135274463 -21.4658922974809
+120.882334936323 -21.468969185306
+120.883107187274 -21.4706138665321
+120.884211833809 -21.4737400694001
+120.884618084107 -21.4753711718112
+120.885079796564 -21.4784330616915
+120.885776132988 -21.4806225833512
+120.886598699082 -21.4819695188837
+120.890522994076 -21.4873467238934
+120.892485318046 -21.4904791103009
+120.894180952731 -21.4924897631464
+120.89513690264 -21.493381396747
+120.897594134181 -21.4952982156461
+120.89845865064 -21.4958671906389
+120.900021470351 -21.496680644207
+120.900660257379 -21.497158630951
+120.906245635697 -21.5023192543142
+120.906020466294 -21.5031641392487
+120.906215650288 -21.5044131806255
+120.907273673289 -21.506928213454
+120.907473244868 -21.5074739100929
+120.908204718023 -21.5087697681756
+120.908720123298 -21.5103359139514
+120.908755521962 -21.5107756093895
+120.908639248994 -21.5113747824806
+120.908094758642 -21.5123125668233
+120.907256928133 -21.5130853830477
+120.906210959111 -21.5136738863228
+120.905135243981 -21.5139806138453
+120.90203393597 -21.514630783501
+120.900970868909 -21.5150302060338
+120.89568210599 -21.5183260572466
+120.892233633083 -21.5199524689948
+120.891439312446 -21.5205171392985
+120.890669537142 -21.5212529743622
+120.88717084783 -21.5252749887754
+120.893205406583 -21.5276058893741
+120.897242679697 -21.5288495964683
+120.899565684518 -21.5297583581143
+120.902474534435 -21.5313288173523
+120.904416966244 -21.5321621997809
+120.910806984986 -21.5355146305982
+120.912304809846 -21.5361416049081
+120.917043870771 -21.539087889494
+120.923558964651 -21.5443302935657
+120.923813813746 -21.5406182353232
+120.924935406243 -21.5369339406183
+120.925602307232 -21.5358115022049
+120.927614369484 -21.5336928056814
+120.92857302464 -21.5325015513076
+120.92919791922 -21.5314586756251
+120.92968661184 -21.5300825877051
+120.930357984917 -21.5274887104315
+120.930507719661 -21.5263895393222
+120.930312750529 -21.5258111392135
+120.929226396254 -21.5242437367768
+120.929152112051 -21.5239487735904
+120.929242424449 -21.5236101579526
+120.929829157173 -21.523070537589
+120.930842115907 -21.5224472486975
+120.933086714463 -21.5214387918401
+120.935895106285 -21.5191394651419
+120.93846579838 -21.5179006141279
+120.939316835515 -21.5174007056693
+120.940221944695 -21.5166315293127
+120.943849633828 -21.5133000976576
+120.944541909827 -21.5123034045283
+120.945187946955 -21.5105655205575
+120.945540313355 -21.5081333406965
+120.945325442172 -21.5043949124818
+120.945171043837 -21.5033645810723
+120.944857400523 -21.5024043555089
+120.943822852312 -21.5000203932363
+120.942492167124 -21.4975964738293
+120.941615283672 -21.4943470331205
+120.941089617352 -21.4929592889449
+120.940657276953 -21.4922427814128
+120.939865367475 -21.4912823410583
+120.93799798351 -21.4897179190363
+120.936681776884 -21.488209595587
+120.935235082632 -21.4857754378551
+120.93431922591 -21.4834770648978
+120.933423021569 -21.4820438114376
+120.932651367187 -21.4813231804171
+120.931047232694 -21.4803164402744
+120.930376362428 -21.4795866624139
+120.930264649651 -21.4792237761499
+120.930322076879 -21.4788470905841
+120.930557340502 -21.4784351295453
+120.931714764963 -21.4770146452691
+120.932030465035 -21.4763037641114
+120.932191111505 -21.4756819039406
+120.932246180152 -21.4750003079914
+120.932144140019 -21.474314420202
+120.931698759546 -21.4733459546092
+120.931233968958 -21.4727752353807
+120.930425244142 -21.4720533258338
+120.928227541782 -21.4705313237318
+120.927244098575 -21.4697224358445
+120.924687415912 -21.4671966842509
+120.924069793343 -21.4664531883265
+120.923756377752 -21.4659129584625
+120.923495360594 -21.4649500160895
+120.923502866982 -21.4635151186485
+120.923810949384 -21.4619531876542
+120.923858314013 -21.4603806134129
+120.923752274194 -21.4588906624692
+120.923254638615 -21.4581104549959
+120.922568853337 -21.4571491901364
+120.922134791548 -21.4563697696777
+120.922076293534 -21.4560117852434
+120.922086667153 -21.4552800596861
+120.921154009629 -21.4537971757546
+120.918882818129 -21.4510354991779
+120.915544116345 -21.4464641005793
+120.914908096307 -21.4453545130501
+120.91378590879 -21.4430049001209
+120.910975611129 -21.4380898033824
+120.912015324963 -21.4352225088495
+120.91254465398 -21.4340303681369
+120.914914850312 -21.4300369717072
+120.91665988889 -21.4275000051474
+120.918314170146 -21.4255434703295
+120.921487696827 -21.4226843669274
+120.92365790518 -21.4204778779159
+120.924468495332 -21.4195661495609
+120.92557167854 -21.4180816028863
+120.926257375067 -21.4167649999861
+120.927322317927 -21.4141328678313
+120.927559905279 -21.4129193528619
+120.927654671439 -21.4105701575173
+120.926873142689 -21.3964247709396
+120.926943731378 -21.3924373460779
+120.926663378519 -21.386126815627
+120.926836701314 -21.3784389929462
+120.926433057189 -21.3751091072859
+120.926217524233 -21.3733671870634
+120.926093328083 -21.3710072387553
+120.926012336324 -21.3692213751231
+120.925802054478 -21.3666144512522
+120.925228459901 -21.3628681252272
+120.924016314975 -21.3623557158267
+120.922710141842 -21.3619008351619
+120.920845797054 -21.3611307178305
+120.918895311694 -21.359928921826
+120.918110920106 -21.3591742397909
+120.91739802201 -21.3580478286442
+120.916979534493 -21.3571612252311
+120.916221372821 -21.3572391442337
+120.915044450645 -21.3572340133965
+120.914290403577 -21.3573821442885
+120.912602944067 -21.3582942354078
+120.909927454411 -21.3592304027357
+120.908685494927 -21.3598058200901
+120.907964885375 -21.3599198400252
+120.907463263621 -21.3598808958111
+120.907004822998 -21.3597408016755
+120.906429407229 -21.3594201665782
+120.905994694458 -21.3590420429083
+120.905756960004 -21.3586894947263
+120.905281887631 -21.357319464649
+120.90470652271 -21.3538781417866
+120.904424215967 -21.353332228459
+120.903748364692 -21.3526807083309
+120.902881997899 -21.3523296992901
+120.901927062263 -21.3522414590636
+120.897974518313 -21.3525695085607
+120.897391544551 -21.3525455020489
+120.896673243762 -21.3525742538304
+120.896211415588 -21.3524442946871
+120.896013560414 -21.3523797740823
+120.895564145053 -21.351380757698
+120.895175532939 -21.3507550216389
+120.894719032979 -21.3502526067011
+120.89431841627 -21.3498670270845
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22357">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_34040"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.83758795667 -21.3741996378661
+120.836318962734 -21.3745407962365
+120.834262211781 -21.3746826406559
+120.832116898195 -21.3748220244439
+120.830148715374 -21.3748244850752
+120.827879193669 -21.3748954086593
+120.825307424687 -21.3749939639183
+120.8249764154 -21.3758831437484
+120.823799668003 -21.3786892585045
+120.823606534751 -21.3795768816575
+120.823315995967 -21.3802054216204
+120.823042417873 -21.3815902078967
+120.821960928243 -21.3837195352485
+120.821080199243 -21.3861317656242
+120.819556404445 -21.3888957593733
+120.818996157369 -21.3903486875066
+120.816784926821 -21.3948689627894
+120.816044321684 -21.3967624672237
+120.814714438936 -21.4013861110865
+120.814364179473 -21.4034112981785
+120.812204880809 -21.410564506181
+120.811462854396 -21.4142127345274
+120.811264421138 -21.4160224402961
+120.810331280639 -21.4199165844061
+120.809763993005 -21.4214118123494
+120.809639126972 -21.4219466707367
+120.810671589432 -21.4212896705232
+120.812639083729 -21.420422281109
+120.81515878558 -21.4196577032851
+120.817442990809 -21.4188844178301
+120.818169105533 -21.4189285557021
+120.819135734866 -21.4193043474591
+120.820246373764 -21.4200491834148
+120.820972530386 -21.4207018671763
+120.8219267037 -21.4217691187659
+120.822805933382 -21.4229548633402
+120.824175639729 -21.4251980250566
+120.824446158616 -21.4259924215068
+120.824832042431 -21.4277230518642
+120.824862448889 -21.4285803402654
+120.824706537201 -21.4293778647759
+120.823655428566 -21.4314739709234
+120.82274610525 -21.4342500931132
+120.821993218219 -21.4354584041526
+120.821525210336 -21.4359669537605
+120.821068824047 -21.4362837579095
+120.820600381102 -21.4363731998074
+120.820078793122 -21.4362159612033
+120.81575591755 -21.4329978074857
+120.813125945178 -21.4319301272013
+120.812596765384 -21.431895670467
+120.811950579877 -21.4320497710453
+120.810842637954 -21.4326731867987
+120.809882938661 -21.4335350381705
+120.809604989954 -21.4342768534765
+120.809190766841 -21.4365227788282
+120.809436432662 -21.4377820202161
+120.80941258112 -21.439024007537
+120.809164424052 -21.4400626756961
+120.808074361926 -21.4426923824496
+120.80791671063 -21.443656829889
+120.808000635127 -21.4449340006082
+120.808374040616 -21.4458360523656
+120.810042390939 -21.4478880012868
+120.81094138237 -21.4492255064362
+120.812220079937 -21.450354678405
+120.81434933978 -21.4516749322545
+120.81648540962 -21.4535249693564
+120.817845429669 -21.4550156559889
+120.818668703201 -21.4562695112827
+120.818808605697 -21.4567083138214
+120.818814963988 -21.4571496188203
+120.818658296453 -21.4579797204532
+120.818429088803 -21.4585438352373
+120.817924556995 -21.4592120888828
+120.816705021771 -21.4603779688255
+120.81636432016 -21.4609721398065
+120.816351286835 -21.4613870933281
+120.816609430271 -21.4620671061399
+120.816964425722 -21.4625661514038
+120.817516695212 -21.4630851094786
+120.818710552859 -21.4638395503657
+120.820306193373 -21.4645180395243
+120.822075369673 -21.4649649796907
+120.823667374121 -21.4652214031569
+120.826230793332 -21.4651174012254
+120.829839168782 -21.4651185852807
+120.831195979487 -21.4651938057618
+120.833102787885 -21.4656528925786
+120.834822690436 -21.4663701550815
+120.835310620972 -21.4667439205651
+120.835576727948 -21.4671919325374
+120.836054758061 -21.4704496964171
+120.836750522433 -21.4733567376736
+120.83702857704 -21.4742705101295
+120.837589936394 -21.4751748541335
+120.838454995765 -21.4759172365923
+120.839612062156 -21.4764860331636
+120.840205037718 -21.4765830085764
+120.842165126499 -21.4765553208005
+120.842719201954 -21.47665377181
+120.843463551154 -21.4769869390264
+120.845028073509 -21.4782379689167
+120.84583745618 -21.4790699933939
+120.846317924831 -21.479929472284
+120.846489243953 -21.4807054981408
+120.846496526902 -21.4820073287919
+120.846260785141 -21.482953839873
+120.84574227976 -21.4835702545631
+120.844650272019 -21.4843305290338
+120.843541790186 -21.484760972661
+120.842553311876 -21.4853169457689
+120.841460166535 -21.4857795402447
+120.839381851352 -21.4865394919257
+120.837274357192 -21.4871049753336
+120.833813505573 -21.4890933207983
+120.833086958477 -21.4892236871395
+120.831698853943 -21.4888750722726
+120.830060075009 -21.4881172756853
+120.829728188065 -21.4877578002433
+120.829694481938 -21.4873761911341
+120.829891775097 -21.4870262092806
+120.831355281518 -21.485319332467
+120.83208540537 -21.4841386066024
+120.833482967265 -21.4812513035121
+120.833641316774 -21.4803566403187
+120.833520581196 -21.4797855290719
+120.832999654019 -21.4789727228528
+120.831626971425 -21.4773418207945
+120.82910203076 -21.4749792055668
+120.825514100152 -21.4732017141076
+120.824815208844 -21.4730471409465
+120.824253327736 -21.4730670087298
+120.823838540265 -21.473186407866
+120.821705503836 -21.4742923791985
+120.82010811985 -21.4754408881111
+120.819477206723 -21.4760919609365
+120.81907103604 -21.4766878088947
+120.818399950927 -21.4784153978519
+120.818215414212 -21.4792162346128
+120.818191065705 -21.4797688425387
+120.818393979448 -21.4816903423539
+120.818645494493 -21.4829017009612
+120.820140987279 -21.4872919815537
+120.823454390249 -21.4886990367261
+120.826289023989 -21.4898833432458
+120.829244198311 -21.4914072675749
+120.830731916202 -21.4919171254671
+120.832919012032 -21.4929340714187
+120.835700279458 -21.4938889774357
+120.83708379579 -21.4944996553359
+120.838464375673 -21.4952641622715
+120.840997139221 -21.4960509638704
+120.842775341334 -21.496930748776
+120.844653304287 -21.4976230683041
+120.84870871479 -21.499577984862
+120.851218971352 -21.5011508105001
+120.852659403053 -21.5017394341759
+120.854757079225 -21.5029993274739
+120.857523672374 -21.5044071226636
+120.860403996116 -21.5062303802183
+120.861808746677 -21.5072656623694
+120.86526978778 -21.5100963172402
+120.872078403233 -21.5160090249426
+120.873523578203 -21.5171170695437
+120.880517918754 -21.5217625987119
+120.88717084783 -21.5252749887754
+120.890669537142 -21.5212529743622
+120.891439312446 -21.5205171392985
+120.892233633083 -21.5199524689948
+120.89568210599 -21.5183260572466
+120.900970868909 -21.5150302060338
+120.90203393597 -21.514630783501
+120.905135243981 -21.5139806138453
+120.906210959111 -21.5136738863228
+120.907256928133 -21.5130853830477
+120.908094758642 -21.5123125668233
+120.908639248994 -21.5113747824806
+120.908755521962 -21.5107756093895
+120.908720123298 -21.5103359139514
+120.908204718023 -21.5087697681756
+120.907473244868 -21.5074739100929
+120.907273673289 -21.506928213454
+120.906215650288 -21.5044131806255
+120.906020466294 -21.5031641392487
+120.906245635697 -21.5023192543142
+120.900660257379 -21.497158630951
+120.900021470351 -21.496680644207
+120.89845865064 -21.4958671906389
+120.897594134181 -21.4952982156461
+120.89513690264 -21.493381396747
+120.894180952731 -21.4924897631464
+120.892485318046 -21.4904791103009
+120.890522994076 -21.4873467238934
+120.886598699082 -21.4819695188837
+120.885776132988 -21.4806225833512
+120.885079796564 -21.4784330616915
+120.884618084107 -21.4753711718112
+120.884211833809 -21.4737400694001
+120.883107187274 -21.4706138665321
+120.882334936323 -21.468969185306
+120.88135274463 -21.4658922974809
+120.88083094281 -21.464930247108
+120.880259879134 -21.4635061075537
+120.877419451784 -21.4584381403816
+120.875277381772 -21.455196503543
+120.872043650038 -21.4496002365395
+120.868682580303 -21.4446911503468
+120.867523111819 -21.4426433271081
+120.866800301974 -21.4410286614825
+120.865816404144 -21.4391618723691
+120.864732755925 -21.4355548829429
+120.864027346806 -21.4320465431173
+120.863630372365 -21.4307998665114
+120.86320634165 -21.4279936285628
+120.862775236023 -21.4264888733745
+120.862304945603 -21.4235691615545
+120.861921477413 -21.4223110957593
+120.861449846722 -21.4192531978264
+120.861033238653 -21.4179937142314
+120.860306573481 -21.4148812635415
+120.859712715752 -21.4136360393879
+120.858782467881 -21.41058636438
+120.858228538257 -21.4094948952759
+120.857226028864 -21.406834410335
+120.856097663257 -21.4045207095034
+120.855315420409 -21.4021474967396
+120.854689308365 -21.4008386331984
+120.853835194863 -21.3981068862561
+120.852824680861 -21.3963275707778
+120.851113648094 -21.3927940311084
+120.849840766016 -21.3893111603854
+120.849304888368 -21.388161473716
+120.848077695368 -21.3833201754798
+120.847898180908 -21.3827391052586
+120.847765155247 -21.3823086286099
+120.847063511161 -21.380010203486
+120.846430164573 -21.3781256193524
+120.840613026771 -21.3756540452596
+120.83758795667 -21.3741996378661
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs><gml:innerBoundaryIs><gml:LinearRing><gml:posList>
+120.858178155762 -21.4638982840378
+120.858967750343 -21.4642959862843
+120.859663832108 -21.4649404656349
+120.861055105282 -21.4667673528334
+120.861683698517 -21.4677935843009
+120.862683046162 -21.4704862594368
+120.863057890092 -21.4727516603113
+120.863192047664 -21.4742355534391
+120.863059967836 -21.4748371931183
+120.862244156538 -21.4760785686577
+120.861218137067 -21.4782882081511
+120.860577538051 -21.479256294794
+120.859963214459 -21.4798849877021
+120.859262634914 -21.480427595969
+120.858709245268 -21.4806891621285
+120.857739263067 -21.4808503849804
+120.857111714567 -21.4807928509379
+120.856344440078 -21.4804533966751
+120.855444142216 -21.4795395193256
+120.854896782582 -21.4786256536368
+120.854641857884 -21.4777120192328
+120.854263143223 -21.4748503674345
+120.853350583213 -21.472268577045
+120.853187998335 -21.4707892845075
+120.853297749524 -21.4700020629494
+120.853586460504 -21.4692740311622
+120.856460104013 -21.4650055293645
+120.857284653782 -21.4640818943127
+120.857701379023 -21.4638795330062
+120.858178155762 -21.4638982840378
+</gml:posList>
+</gml:LinearRing></gml:innerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22900">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.79664886918 -21.4737345520172
+120.792396504013 -21.4709728078283
+120.789842530306 -21.4695120151595
+120.789893307245 -21.4702705905744
+120.789950623231 -21.4708963279951
+120.790209968291 -21.4713996683781
+120.790929842872 -21.4723466991046
+120.791910121039 -21.4737345003746
+120.792997639548 -21.4753501907437
+120.793344526557 -21.4760761943121
+120.79354991047 -21.4770373718715
+120.79332357132 -21.4780553376809
+120.792807098538 -21.478927425676
+120.792088978127 -21.4793709832175
+120.790898195025 -21.4797512181491
+120.790000986842 -21.4799017164975
+120.789150094876 -21.4799175506328
+120.784510915422 -21.4792805205558
+120.78377338232 -21.4790993476233
+120.7821651161 -21.4784867147639
+120.780783722629 -21.4781259512663
+120.779461028402 -21.4776039561613
+120.778850075269 -21.4775063478096
+120.777593829312 -21.4775969229952
+120.774882158251 -21.4783398651295
+120.773980421176 -21.4783630724284
+120.771821424714 -21.4781943305699
+120.770528206994 -21.4779058170715
+120.769157510684 -21.4774029688049
+120.767429823417 -21.4768142507141
+120.766866612376 -21.4765793477476
+120.766382114709 -21.4764970198661
+120.765775022809 -21.4764889042538
+120.765570924125 -21.4765998640292
+120.765487684199 -21.4767503659764
+120.765403286541 -21.4769767050199
+120.765276064528 -21.4773539959561
+120.765271436682 -21.4776571639642
+120.76534609719 -21.4780750809488
+120.765580779961 -21.4786089167501
+120.765735116674 -21.4791036613826
+120.765725861974 -21.4797099974507
+120.765389107364 -21.4805347256771
+120.765299582231 -21.4807302032896
+120.76473757328 -21.481350907469
+120.764309668446 -21.4815861043776
+120.763625873805 -21.4816904609079
+120.761231699422 -21.481240124966
+120.760670426626 -21.481206145243
+120.760229150148 -21.4813060624958
+120.759655918624 -21.4817382305803
+120.759342609933 -21.4821821901481
+120.759137986147 -21.482698402285
+120.758773468374 -21.4855094400391
+120.758408844894 -21.4862666827474
+120.758101813223 -21.4866463388806
+120.757780849051 -21.4868710325567
+120.757189570451 -21.4868861213947
+120.756384243538 -21.4865333396785
+120.755562050974 -21.4859971988856
+120.753809994381 -21.4845740873827
+120.753049332727 -21.4842795933277
+120.752167062431 -21.4843525162623
+120.750522677284 -21.4850920630353
+120.749675606785 -21.4852911438541
+120.748693782382 -21.4853251419606
+120.745694774282 -21.4850380898886
+120.744535741874 -21.4850455621164
+120.743665920256 -21.4853307214412
+120.743205620926 -21.4856931069029
+120.74285575994 -21.4861574866906
+120.742550505715 -21.4871761856744
+120.742487791214 -21.4882831337708
+120.742213038797 -21.4892253987046
+120.743422960963 -21.4898802580867
+120.748036791134 -21.492913574577
+120.751066802785 -21.4953745337345
+120.753939168327 -21.4973699043761
+120.758573210212 -21.5000339946076
+120.760874277414 -21.5011015179024
+120.763131219022 -21.5025958124381
+120.765199871846 -21.5037037819036
+120.768184965934 -21.5057343033345
+120.771507299462 -21.5075561700054
+120.77301233057 -21.5082098073874
+120.77605690522 -21.5101562928514
+120.777382907486 -21.5107830367223
+120.785323108009 -21.5160299861297
+120.787924290776 -21.5109583950216
+120.78915637154 -21.507336201221
+120.79103584215 -21.4975514327451
+120.791808598486 -21.4937319555405
+120.792175964656 -21.4920929583863
+120.792950881229 -21.488809891286
+120.794585204988 -21.4825829414866
+120.79664886918 -21.4737345520172
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22928">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.794585204988 -21.4825829414866
+120.797731792792 -21.4831175877019
+120.798731430411 -21.4833808986876
+120.799468161137 -21.4837275216919
+120.800818796827 -21.4845501704471
+120.801961512568 -21.4850205134372
+120.802842528638 -21.4856224094008
+120.80339542563 -21.4861719461284
+120.804574578864 -21.4880157097364
+120.805006207968 -21.4883466514658
+120.805570748432 -21.4885842498942
+120.80657975668 -21.4887603179801
+120.807515509442 -21.4886869963268
+120.808384256412 -21.4883332134352
+120.809893052855 -21.4874462737434
+120.810359026195 -21.4873269520225
+120.810885935306 -21.4874554956922
+120.811361286284 -21.4879541451945
+120.811475491839 -21.488272423453
+120.811462293679 -21.4886452007397
+120.811262771447 -21.4891347361773
+120.810007721798 -21.4911110843824
+120.809745774174 -21.4918447897126
+120.809729146098 -21.4923367208398
+120.810081471029 -21.4928556143547
+120.811002891336 -21.4936451093988
+120.811855817087 -21.4941054523246
+120.812324141499 -21.4942496606826
+120.813279472647 -21.4943535588683
+120.814165423591 -21.4942447835707
+120.814900946176 -21.4939616472291
+120.815533653054 -21.4935334004813
+120.819002999075 -21.4902853928861
+120.819850789834 -21.4888506184249
+120.82013353986 -21.4877918926666
+120.820140987279 -21.4872919815537
+120.813770463475 -21.4832627648321
+120.812210095625 -21.4825503487789
+120.809787395516 -21.4809804808991
+120.807089548639 -21.4799414716584
+120.804804378018 -21.4786196880486
+120.803811260487 -21.4781930531308
+120.79664886918 -21.4737345520172
+120.794585204988 -21.4825829414866
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_23041">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_34040"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.738680366624 -21.4873566303838
+120.738693527749 -21.4886338231918
+120.739035081626 -21.4899506783428
+120.739273296555 -21.4904565095487
+120.739676021628 -21.4908246931321
+120.740052715925 -21.490848211764
+120.740682741097 -21.4905616367823
+120.741859460553 -21.4897172664949
+120.742213038797 -21.4892253987046
+120.74009015199 -21.4881560779041
+120.738680366624 -21.4873566303838
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22611">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_34040"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.681059483619 -21.4237746097807
+120.678584759793 -21.4230046652128
+120.677343625216 -21.4228649198491
+120.67771092114 -21.4244637597629
+120.678340172629 -21.4301333973938
+120.678817469707 -21.4323395653139
+120.679668754362 -21.4395902214972
+120.680660830107 -21.4453944607396
+120.681539137124 -21.4490341424104
+120.682207807438 -21.4561551210798
+120.682843179147 -21.4607176094556
+120.682918512209 -21.465481011436
+120.682699709494 -21.4701405555882
+120.684757541075 -21.4700126785514
+120.685721211244 -21.4701431397491
+120.686399990061 -21.4703668120097
+120.688507979566 -21.4714557065625
+120.689033125333 -21.4716102434275
+120.68956769746 -21.4716137513351
+120.690524128669 -21.4712072680336
+120.695173567871 -21.467967279425
+120.695952871962 -21.467547122592
+120.696808776534 -21.4674820744223
+120.699119567761 -21.4678907099785
+120.701708820543 -21.4679400555004
+120.702803652071 -21.4680855855475
+120.703614671512 -21.4683240092645
+120.704450243157 -21.4687379445922
+120.705262427524 -21.4693272750327
+120.70598925994 -21.4700387777686
+120.70681830145 -21.471191161117
+120.708026709908 -21.47364786373
+120.709596159669 -21.4758945991951
+120.710573076636 -21.4770395133327
+120.711527518934 -21.4779259521923
+120.713525940295 -21.479539942197
+120.715881081526 -21.4818027969441
+120.717739316222 -21.4831575661908
+120.718710846944 -21.483732943967
+120.719735245581 -21.484024146174
+120.720585548517 -21.4840028814939
+120.724366305266 -21.4831051132765
+120.725356901622 -21.4830019373679
+120.72628957005 -21.4830814544901
+120.727486330365 -21.4834634485848
+120.728857105178 -21.4834811862687
+120.729557372803 -21.4833238319545
+120.730130394143 -21.4830787810372
+120.732584059794 -21.4819056125497
+120.733830197503 -21.4813548985212
+120.734957997484 -21.4810192886236
+120.735924478737 -21.4808586521603
+120.736535920428 -21.4810476257063
+120.737344179469 -21.4817481902599
+120.738138800553 -21.4828073265412
+120.738428051892 -21.4835371597726
+120.738680366624 -21.4873566303838
+120.74009015199 -21.4881560779041
+120.742213038797 -21.4892253987046
+120.742487791214 -21.4882831337708
+120.742550505715 -21.4871761856744
+120.74285575994 -21.4861574866906
+120.743205620926 -21.4856931069029
+120.743665920256 -21.4853307214412
+120.744535741874 -21.4850455621164
+120.745694774282 -21.4850380898886
+120.748693782382 -21.4853251419606
+120.749675606785 -21.4852911438541
+120.750522677284 -21.4850920630353
+120.752167062431 -21.4843525162623
+120.753049332727 -21.4842795933277
+120.753809994381 -21.4845740873827
+120.755562050974 -21.4859971988856
+120.756384243538 -21.4865333396785
+120.757189570451 -21.4868861213947
+120.757780849051 -21.4868710325567
+120.758101813223 -21.4866463388806
+120.758408844894 -21.4862666827474
+120.758773468374 -21.4855094400391
+120.759137986147 -21.482698402285
+120.759342609933 -21.4821821901481
+120.759655918624 -21.4817382305803
+120.760229150148 -21.4813060624958
+120.760670426626 -21.481206145243
+120.761231699422 -21.481240124966
+120.763625873805 -21.4816904609079
+120.764309668446 -21.4815861043776
+120.76473757328 -21.481350907469
+120.765299582231 -21.4807302032896
+120.765389107364 -21.4805347256771
+120.765725861974 -21.4797099974507
+120.765735116674 -21.4791036613826
+120.765580779961 -21.4786089167501
+120.76534609719 -21.4780750809488
+120.765271436682 -21.4776571639642
+120.765276064528 -21.4773539959561
+120.765403286541 -21.4769767050199
+120.765487684199 -21.4767503659764
+120.765570924125 -21.4765998640292
+120.765775022809 -21.4764889042538
+120.766382114709 -21.4764970198661
+120.766866612376 -21.4765793477476
+120.767429823417 -21.4768142507141
+120.769157510684 -21.4774029688049
+120.770528206994 -21.4779058170715
+120.771821424714 -21.4781943305699
+120.773980421176 -21.4783630724284
+120.774882158251 -21.4783398651295
+120.777593829312 -21.4775969229952
+120.778850075269 -21.4775063478096
+120.779461028402 -21.4776039561613
+120.780783722629 -21.4781259512663
+120.7821651161 -21.4784867147639
+120.78377338232 -21.4790993476233
+120.784510915422 -21.4792805205558
+120.789150094876 -21.4799175506328
+120.790000986842 -21.4799017164975
+120.790898195025 -21.4797512181491
+120.792088978127 -21.4793709832175
+120.792807098538 -21.478927425676
+120.79332357132 -21.4780553376809
+120.79354991047 -21.4770373718715
+120.793344526557 -21.4760761943121
+120.792997639548 -21.4753501907437
+120.791910121039 -21.4737345003746
+120.790929842872 -21.4723466991046
+120.790209968291 -21.4713996683781
+120.789950623231 -21.4708963279951
+120.789893307245 -21.4702705905744
+120.789842530306 -21.4695120151595
+120.788514681075 -21.4687524423362
+120.786027170355 -21.4678780827624
+120.784178824317 -21.4670789847083
+120.782027062565 -21.4663654215058
+120.779721681192 -21.4653951416432
+120.776879578657 -21.4644570673814
+120.7753969865 -21.4638393709384
+120.773462555444 -21.463361391804
+120.770093042716 -21.4622028018372
+120.768612744575 -21.4619385175953
+120.76616192722 -21.4610975084774
+120.7624815278 -21.460280471075
+120.759999314977 -21.4599959303339
+120.759034711054 -21.4597475015476
+120.756711860312 -21.4589031988304
+120.753994690419 -21.4576755724764
+120.746901366324 -21.4553464888114
+120.743390504619 -21.4536357373441
+120.741213229485 -21.4529284654574
+120.738303237727 -21.451786490408
+120.736986728742 -21.4511215056597
+120.731509513459 -21.4478737379813
+120.72767314977 -21.4462789071924
+120.721775892869 -21.4430258647834
+120.714738420851 -21.4394002944283
+120.713304561585 -21.4386987708154
+120.71085887334 -21.4377448291446
+120.707871114878 -21.4363883746223
+120.704624574345 -21.43444517496
+120.703399436113 -21.4339339851215
+120.700587167197 -21.4323435985887
+120.698382324814 -21.4313882812938
+120.696371727992 -21.43032969071
+120.692232514878 -21.4285848298903
+120.690328477182 -21.4280040523268
+120.688452811082 -21.4271843571278
+120.68689405607 -21.4263957493527
+120.685426679052 -21.4257945850585
+120.681059483619 -21.4237746097807
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22594">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.809639126972 -21.4219466707367
+120.809084101865 -21.4243251304105
+120.806674913381 -21.4296075636356
+120.805677579575 -21.4326378849845
+120.804343761122 -21.4391622962335
+120.802536544009 -21.4462876621482
+120.801497804373 -21.449683752833
+120.801435070678 -21.4511268671971
+120.801135393061 -21.4536331593468
+120.800470185943 -21.4578243831942
+120.800394359756 -21.4591743112079
+120.800229409378 -21.4600285700992
+120.799119551832 -21.4644991960611
+120.79664886918 -21.4737345520172
+120.803811260487 -21.4781930531308
+120.804804378018 -21.4786196880486
+120.807089548639 -21.4799414716584
+120.809787395516 -21.4809804808991
+120.812210095625 -21.4825503487789
+120.813770463475 -21.4832627648321
+120.820140987279 -21.4872919815537
+120.818645494493 -21.4829017009612
+120.818393979448 -21.4816903423539
+120.818191065705 -21.4797688425387
+120.818215414212 -21.4792162346128
+120.818399950927 -21.4784153978519
+120.81907103604 -21.4766878088947
+120.819477206723 -21.4760919609365
+120.82010811985 -21.4754408881111
+120.821705503836 -21.4742923791985
+120.823838540265 -21.473186407866
+120.824253327736 -21.4730670087298
+120.824815208844 -21.4730471409465
+120.825514100152 -21.4732017141076
+120.82910203076 -21.4749792055668
+120.831626971425 -21.4773418207945
+120.832999654019 -21.4789727228528
+120.833520581196 -21.4797855290719
+120.833641316774 -21.4803566403187
+120.833482967265 -21.4812513035121
+120.83208540537 -21.4841386066024
+120.831355281518 -21.485319332467
+120.829891775097 -21.4870262092806
+120.829694481938 -21.4873761911341
+120.829728188065 -21.4877578002433
+120.830060075009 -21.4881172756853
+120.831698853943 -21.4888750722726
+120.833086958477 -21.4892236871395
+120.833813505573 -21.4890933207983
+120.837274357192 -21.4871049753336
+120.839381851352 -21.4865394919257
+120.841460166535 -21.4857795402447
+120.842553311876 -21.4853169457689
+120.843541790186 -21.484760972661
+120.844650272019 -21.4843305290338
+120.84574227976 -21.4835702545631
+120.846260785141 -21.482953839873
+120.846496526902 -21.4820073287919
+120.846489243953 -21.4807054981408
+120.846317924831 -21.479929472284
+120.84583745618 -21.4790699933939
+120.845028073509 -21.4782379689167
+120.843463551154 -21.4769869390264
+120.842719201954 -21.47665377181
+120.842165126499 -21.4765553208005
+120.840205037718 -21.4765830085764
+120.839612062156 -21.4764860331636
+120.838454995765 -21.4759172365923
+120.837589936394 -21.4751748541335
+120.83702857704 -21.4742705101295
+120.836750522433 -21.4733567376736
+120.836054758061 -21.4704496964171
+120.835576727948 -21.4671919325374
+120.835310620972 -21.4667439205651
+120.834822690436 -21.4663701550815
+120.833102787885 -21.4656528925786
+120.831195979487 -21.4651938057618
+120.829839168782 -21.4651185852807
+120.826230793332 -21.4651174012254
+120.823667374121 -21.4652214031569
+120.822075369673 -21.4649649796907
+120.820306193373 -21.4645180395243
+120.818710552859 -21.4638395503657
+120.817516695212 -21.4630851094786
+120.816964425722 -21.4625661514038
+120.816609430271 -21.4620671061399
+120.816351286835 -21.4613870933281
+120.81636432016 -21.4609721398065
+120.816705021771 -21.4603779688255
+120.817924556995 -21.4592120888828
+120.818429088803 -21.4585438352373
+120.818658296453 -21.4579797204532
+120.818814963988 -21.4571496188203
+120.818808605697 -21.4567083138214
+120.818668703201 -21.4562695112827
+120.817845429669 -21.4550156559889
+120.81648540962 -21.4535249693564
+120.81434933978 -21.4516749322545
+120.812220079937 -21.450354678405
+120.81094138237 -21.4492255064362
+120.810042390939 -21.4478880012868
+120.808374040616 -21.4458360523656
+120.808000635127 -21.4449340006082
+120.80791671063 -21.443656829889
+120.808074361926 -21.4426923824496
+120.809164424052 -21.4400626756961
+120.80941258112 -21.439024007537
+120.809436432662 -21.4377820202161
+120.809190766841 -21.4365227788282
+120.809604989954 -21.4342768534765
+120.809882938661 -21.4335350381705
+120.810842637954 -21.4326731867987
+120.811950579877 -21.4320497710453
+120.812596765384 -21.431895670467
+120.813125945178 -21.4319301272013
+120.81575591755 -21.4329978074857
+120.820078793122 -21.4362159612033
+120.820600381102 -21.4363731998074
+120.821068824047 -21.4362837579095
+120.821525210336 -21.4359669537605
+120.821993218219 -21.4354584041526
+120.82274610525 -21.4342500931132
+120.823655428566 -21.4314739709234
+120.824706537201 -21.4293778647759
+120.824862448889 -21.4285803402654
+120.824832042431 -21.4277230518642
+120.824446158616 -21.4259924215068
+120.824175639729 -21.4251980250566
+120.822805933382 -21.4229548633402
+120.8219267037 -21.4217691187659
+120.820972530386 -21.4207018671763
+120.820246373764 -21.4200491834148
+120.819135734866 -21.4193043474591
+120.818169105533 -21.4189285557021
+120.817442990809 -21.4188844178301
+120.81515878558 -21.4196577032851
+120.812639083729 -21.420422281109
+120.810671589432 -21.4212896705232
+120.809639126972 -21.4219466707367
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22987">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.738680366624 -21.4873566303838
+120.738428051892 -21.4835371597726
+120.738138800553 -21.4828073265412
+120.737344179469 -21.4817481902599
+120.736535920428 -21.4810476257063
+120.735924478737 -21.4808586521603
+120.734957997484 -21.4810192886236
+120.733830197503 -21.4813548985212
+120.732584059794 -21.4819056125497
+120.73532195077 -21.4845205220007
+120.737490117058 -21.4864181949864
+120.738680366624 -21.4873566303838
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22855">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.858178155762 -21.4638982840378
+120.857701379023 -21.4638795330062
+120.857284653782 -21.4640818943127
+120.856460104013 -21.4650055293645
+120.853586460504 -21.4692740311622
+120.853297749524 -21.4700020629494
+120.853187998335 -21.4707892845075
+120.853350583213 -21.472268577045
+120.854263143223 -21.4748503674345
+120.854641857884 -21.4777120192328
+120.854896782582 -21.4786256536368
+120.855444142216 -21.4795395193256
+120.856344440078 -21.4804533966751
+120.857111714567 -21.4807928509379
+120.857739263067 -21.4808503849804
+120.858709245268 -21.4806891621285
+120.859262634914 -21.480427595969
+120.859963214459 -21.4798849877021
+120.860577538051 -21.479256294794
+120.861218137067 -21.4782882081511
+120.862244156538 -21.4760785686577
+120.863059967836 -21.4748371931183
+120.863192047664 -21.4742355534391
+120.863057890092 -21.4727516603113
+120.862683046162 -21.4704862594368
+120.861683698517 -21.4677935843009
+120.861055105282 -21.4667673528334
+120.859663832108 -21.4649404656349
+120.858967750343 -21.4642959862843
+120.858178155762 -21.4638982840378
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22604">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_73382"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.809639126972 -21.4219466707367
+120.80922765716 -21.4222085856271
+120.808118095771 -21.4230871640365
+120.80676282373 -21.4244537646235
+120.805134201443 -21.426033405953
+120.804079931745 -21.4269193606035
+120.803402685469 -21.4276226955974
+120.802187999335 -21.4291788364266
+120.801270734791 -21.4301873939446
+120.800576188512 -21.4312193705875
+120.799966908589 -21.4324882446181
+120.799759223251 -21.433603191365
+120.799347292098 -21.4349085192765
+120.798618888426 -21.4362531186932
+120.797255144452 -21.4378355173427
+120.795986704904 -21.4389017245049
+120.795027963656 -21.4395503795789
+120.79415397952 -21.4399756540357
+120.792901455708 -21.4404301557959
+120.790621718544 -21.4411267336428
+120.789549986081 -21.441340682884
+120.788717539471 -21.4413955144411
+120.787474208119 -21.441334831162
+120.784226206725 -21.4405904780708
+120.78311431936 -21.4406978394898
+120.781805920569 -21.4411265011778
+120.781094045032 -21.4414871196137
+120.78052378508 -21.4420053837643
+120.779412699385 -21.4433649438572
+120.778733378586 -21.4440523331775
+120.777910102599 -21.444691302033
+120.777295212033 -21.445021584696
+120.776266193379 -21.4452338453076
+120.775205294148 -21.445233105712
+120.77417536269 -21.4450985834279
+120.773118920401 -21.444956929462
+120.772168964553 -21.4446312982531
+120.771556841649 -21.4457054077012
+120.769609736928 -21.4500590700187
+120.76616192722 -21.4610975084774
+120.768612744575 -21.4619385175953
+120.770093042716 -21.4622028018372
+120.773462555444 -21.463361391804
+120.7753969865 -21.4638393709384
+120.776879578657 -21.4644570673814
+120.779721681192 -21.4653951416432
+120.782027062565 -21.4663654215058
+120.784178824317 -21.4670789847083
+120.786027170355 -21.4678780827624
+120.788514681075 -21.4687524423362
+120.789842530306 -21.4695120151595
+120.792396504013 -21.4709728078283
+120.79664886918 -21.4737345520172
+120.799119551832 -21.4644991960611
+120.800229409378 -21.4600285700992
+120.800394359756 -21.4591743112079
+120.800470185943 -21.4578243831942
+120.801135393061 -21.4536331593468
+120.801435070678 -21.4511268671971
+120.801497804373 -21.449683752833
+120.802536544009 -21.4462876621482
+120.804343761122 -21.4391622962335
+120.805677579575 -21.4326378849845
+120.806674913381 -21.4296075636356
+120.809084101865 -21.4243251304105
+120.809639126972 -21.4219466707367
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="MappedFeature_22160">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification xlink:href="#GA_GeologicUnit_Stratno_34040"/>
+<gsml:shape>
+<gml:Polygon srsName="urn:ogc:def:crs:EPSG:4326"><gml:outerBoundaryIs><gml:LinearRing><gml:posList>
+120.712240955067 -21.3470250694003
+120.711508795707 -21.348204426924
+120.71127409871 -21.3485824722842
+120.709183962948 -21.3520762750255
+120.706516048441 -21.3574701708065
+120.7059709129 -21.3583879260224
+120.703830980624 -21.3619907612405
+120.703778242038 -21.3621150134314
+120.702278255058 -21.3646758575527
+120.700730137926 -21.3679323178974
+120.699507205601 -21.3712074842409
+120.698091490249 -21.3744955224051
+120.695728988825 -21.3836374068424
+120.694232968567 -21.3879741872375
+120.692351269292 -21.3948608936556
+120.691878445887 -21.3974762790053
+120.689972201588 -21.4044653553466
+120.689329665474 -21.4078967549632
+120.689324864096 -21.4090971085922
+120.68971514181 -21.4111548715147
+120.691312979684 -21.4166748696607
+120.692356171094 -21.4192221938327
+120.694174674217 -21.4247758266918
+120.695360302196 -21.427231190078
+120.696371727992 -21.43032969071
+120.698382324814 -21.4313882812938
+120.700587167197 -21.4323435985887
+120.703399436113 -21.4339339851215
+120.704624574345 -21.43444517496
+120.707871114878 -21.4363883746223
+120.71085887334 -21.4377448291446
+120.713304561585 -21.4386987708154
+120.714738420851 -21.4394002944283
+120.721775892869 -21.4430258647834
+120.72767314977 -21.4462789071924
+120.731509513459 -21.4478737379813
+120.736986728742 -21.4511215056597
+120.738303237727 -21.451786490408
+120.741213229485 -21.4529284654574
+120.743390504619 -21.4536357373441
+120.746901366324 -21.4553464888114
+120.753994690419 -21.4576755724764
+120.756711860312 -21.4589031988304
+120.759034711054 -21.4597475015476
+120.759999314977 -21.4599959303339
+120.7624815278 -21.460280471075
+120.76616192722 -21.4610975084774
+120.769609736928 -21.4500590700187
+120.771556841649 -21.4457054077012
+120.772168964553 -21.4446312982531
+120.773118920401 -21.444956929462
+120.77417536269 -21.4450985834279
+120.775205294148 -21.445233105712
+120.776266193379 -21.4452338453076
+120.777295212033 -21.445021584696
+120.777910102599 -21.444691302033
+120.778733378586 -21.4440523331775
+120.779412699385 -21.4433649438572
+120.78052378508 -21.4420053837643
+120.781094045032 -21.4414871196137
+120.781805920569 -21.4411265011778
+120.78311431936 -21.4406978394898
+120.784226206725 -21.4405904780708
+120.787474208119 -21.441334831162
+120.788717539471 -21.4413955144411
+120.789549986081 -21.441340682884
+120.790621718544 -21.4411267336428
+120.792901455708 -21.4404301557959
+120.79415397952 -21.4399756540357
+120.795027963656 -21.4395503795789
+120.795986704904 -21.4389017245049
+120.797255144452 -21.4378355173427
+120.798618888426 -21.4362531186932
+120.799347292098 -21.4349085192765
+120.799759223251 -21.433603191365
+120.799966908589 -21.4324882446181
+120.800576188512 -21.4312193705875
+120.801270734791 -21.4301873939446
+120.802187999335 -21.4291788364266
+120.803402685469 -21.4276226955974
+120.804079931745 -21.4269193606035
+120.805134201443 -21.426033405953
+120.80676282373 -21.4244537646235
+120.808118095771 -21.4230871640365
+120.80922765716 -21.4222085856271
+120.809639126972 -21.4219466707367
+120.809763993005 -21.4214118123494
+120.810331280639 -21.4199165844061
+120.811264421138 -21.4160224402961
+120.811462854396 -21.4142127345274
+120.812204880809 -21.410564506181
+120.814364179473 -21.4034112981785
+120.814714438936 -21.4013861110865
+120.816044321684 -21.3967624672237
+120.816784926821 -21.3948689627894
+120.818996157369 -21.3903486875066
+120.819556404445 -21.3888957593733
+120.821080199243 -21.3861317656242
+120.821960928243 -21.3837195352485
+120.823042417873 -21.3815902078967
+120.823315995967 -21.3802054216204
+120.823606534751 -21.3795768816575
+120.823799668003 -21.3786892585045
+120.8249764154 -21.3758831437484
+120.825307424687 -21.3749939639183
+120.8240493861 -21.3749663294946
+120.822418168406 -21.3748954086593
+120.819794039776 -21.3750372530786
+120.818492061271 -21.3752775257154
+120.81724083473 -21.3756046335048
+120.816204625508 -21.3758287787799
+120.815500267324 -21.3758986235829
+120.814724148164 -21.3756523699382
+120.81428765496 -21.3752785141692
+120.813808027458 -21.3748944327614
+120.81290497241 -21.3745814078898
+120.811832743337 -21.3746495113746
+120.81081913242 -21.3746268049152
+120.809295603707 -21.3744878054098
+120.808226681112 -21.3736994893603
+120.80756327795 -21.3730916562992
+120.806878733724 -21.3726089762727
+120.805706765665 -21.3722741577327
+120.80381780007 -21.3721858670369
+120.800893390273 -21.3709827368517
+120.799569379137 -21.3702506268866
+120.799183616163 -21.3705433872986
+120.796903605244 -21.3714633627354
+120.795476468719 -21.3723462021325
+120.793210718917 -21.3740993555274
+120.792365043418 -21.3749074566789
+120.791588112671 -21.3758495642898
+120.790438118887 -21.3775776255461
+120.78926988433 -21.3788045269616
+120.788048926195 -21.3797918727549
+120.785527323837 -21.3815231095206
+120.784210152152 -21.3820971028572
+120.778058653458 -21.383303783802
+120.775711936512 -21.3839789263316
+120.773762495624 -21.3843503860139
+120.770325511286 -21.3855769837539
+120.768177257577 -21.3861436732994
+120.76718785896 -21.3865169923797
+120.764664127771 -21.3879026358925
+120.763424886165 -21.3884856211367
+120.759280242622 -21.3923998346813
+120.758873441107 -21.3926976282053
+120.758421911006 -21.3928302034114
+120.757749332848 -21.3925426293307
+120.757466359763 -21.3922253184787
+120.757387924287 -21.3919375630108
+120.757577646347 -21.391016500458
+120.758506409125 -21.3891086652265
+120.758696611272 -21.388452640965
+120.758679901272 -21.3878156130985
+120.758583689 -21.3875048645093
+120.758201057942 -21.3869009614216
+120.757650156244 -21.3863621721485
+120.7569183477 -21.3858510316875
+120.754899445281 -21.3849457434558
+120.752565366992 -21.3842882389615
+120.750752285323 -21.3835390837233
+120.749899889944 -21.3829406022531
+120.749858160526 -21.3828953433861
+120.748874429888 -21.3831997289702
+120.747361678113 -21.3837432531055
+120.745098195343 -21.3841827565497
+120.743183510918 -21.3847677919793
+120.741523139996 -21.3851213582507
+120.740218785321 -21.3851508315688
+120.739370752153 -21.3849799302739
+120.739582000503 -21.3830596499896
+120.739606117227 -21.3824313034294
+120.739360289587 -21.3822729439234
+120.738418480214 -21.3815554508657
+120.737923552576 -21.3811258991186
+120.73703693968 -21.3800801796133
+120.736252125345 -21.3789419179445
+120.735463612388 -21.3780384744925
+120.734817616074 -21.3776538314039
+120.734016917009 -21.3775490134614
+120.7332139507 -21.3775852100279
+120.732157480142 -21.3778057995799
+120.731020191651 -21.3780029848198
+120.730893461368 -21.3780249289962
+120.730867030736 -21.378932358051
+120.730165709347 -21.3828030599917
+120.729899101514 -21.3848353544558
+120.729499188285 -21.3870957460508
+120.728899471019 -21.3924034874379
+120.728286253795 -21.3901067097195
+120.726267249743 -21.3825442733479
+120.725188469435 -21.3785681912834
+120.723411753607 -21.3738506645362
+120.722931832819 -21.372169090291
+120.721742529239 -21.3703790054999
+120.719828270724 -21.3675644567023
+120.716559435615 -21.3612091493837
+120.715366007164 -21.3573770303641
+120.714392595148 -21.3545019161978
+120.713429559385 -21.3509664891315
+120.712627435319 -21.3483065373025
+120.712240955067 -21.3470250694003
+</gml:posList>
+</gml:LinearRing></gml:outerBoundaryIs></gml:Polygon>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+</wfs:FeatureCollection>

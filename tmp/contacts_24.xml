@@ -1,0 +1,3666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd urn:cgi:xmlns:CGI:GeoSciML:2.0 http://www.geosciml.org/geosciml/2.0/xsd/geosciml.xsd"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:wfs="http://www.opengis.net/wfs"
+    xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0"
+    xmlns:sa="http://www.opengis.net/sampling/1.0"
+    xmlns:om="http://www.opengis.net/om/1.0"
+    xmlns:cgu="urn:cgi:xmlns:CGI:DbUtils:1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"    
+    gml:id="GA_1M_Contacts_Collection_000001">
+<gml:boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG:4326">
+<gml:lowerCorner>120.070138712062 -21.2109476275615</gml:lowerCorner>
+<gml:upperCorner>120.34456882873 -20.9588607580447</gml:upperCorner>
+</gml:Envelope>
+</gml:boundedBy>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49397">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49397">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType>
+<gsml:ControlledConcept gml:id="GA_ContactType_1000100">
+<gml:description>Geological boundary</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:FeatureCode">1000100</gml:name>
+<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GA:ContactType">Geological boundary</gsml:name>
+<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:GA:ContactType"/>
+</gsml:ControlledConcept>
+</gsml:contactType>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.251519608298 -21.0594156606191
+120.251139576265 -21.0585598979412
+120.250776195499 -21.05553212984
+120.250636056503 -21.0549312253074
+120.250477826036 -21.0546501543027
+120.249988851662 -21.0541708013089
+120.249442440465 -21.0538445311669
+120.246773906649 -21.053189731697
+120.246363443642 -21.0528190737394
+120.246248328993 -21.0525577476437
+120.246182484845 -21.0518558515375
+120.246294893627 -21.0509996725259
+120.246519399959 -21.0501923460072
+120.247746627651 -21.0477706716954
+120.248348630204 -21.0470178482931
+120.251107111714 -21.0440791866671
+120.252830531348 -21.0416614298332
+120.253156662785 -21.0408888650474
+120.253262945615 -21.0403635379565
+120.253272750486 -21.03985010213
+120.25312405059 -21.0391600462109
+120.25294399296 -21.0388007149329
+120.252604233817 -21.0384244463847
+120.252225307169 -21.0381808850289
+120.251865276832 -21.0380971506309
+120.250566890282 -21.0381922387013
+120.248135507802 -21.0387907742223
+120.247337456983 -21.0389061290895
+120.245973164102 -21.0389400780413
+120.244594126189 -21.0387877137655
+120.243567610858 -21.0385261354186
+120.243175775009 -21.0383108735219
+120.24284932039 -21.0378611369172
+120.242679237615 -21.0371496043068
+120.242638982087 -21.0360563171655
+120.242728924272 -21.0352085324082
+120.242969365332 -21.0344123009922
+120.243354915447 -21.0337356945174
+120.244315451702 -21.0327734751296
+120.246600448727 -21.0312617073373
+120.248094978486 -21.0297353893244
+120.248862764796 -21.0286264744351
+120.249486987475 -21.02723961143
+120.250164412064 -21.0239382581473
+120.250394849021 -21.0220226658094
+120.250408566738 -21.021107373561
+120.250240564223 -21.0201604332296
+120.249931327597 -21.0193807511033
+120.249419659628 -21.0187657113776
+120.248069641357 -21.0177703908321
+120.246913138461 -21.0171231484365
+120.245751387127 -21.0167882670982
+120.243508758188 -21.0168872476645
+120.242560416835 -21.0170828487625
+120.241591951313 -21.017567278305
+120.241324834616 -21.0178451530563
+120.241141886291 -21.0182253240218
+120.240950930792 -21.0190665046298
+120.240982596773 -21.0200256803431
+120.242027161775 -21.0228415203014
+120.24223639295 -21.0240792864262
+120.242021258524 -21.0275550186035
+120.241783834596 -21.0284856322795
+120.241474291411 -21.0291133657231
+120.241010799452 -21.0297515988201
+120.240221662291 -21.0305599514127
+120.237737910514 -21.0325020008108
+120.235684889122 -21.0333445745692
+120.234496573645 -21.0340216368913
+120.23373302125 -21.0348004881418
+120.233424512868 -21.035510100568
+120.233288284275 -21.0366378842616
+120.233376590967 -21.0368963421857
+120.233626395845 -21.0371887563694
+120.234274340352 -21.0375468748739
+120.235917996769 -21.0380004596391
+120.236669174392 -21.0383145691182
+120.237645011734 -21.0390130298387
+120.238118042361 -21.0396430054948
+120.238600025664 -21.0408252639121
+120.239145564142 -21.043202296408
+120.239801005942 -21.0452627051969
+120.240199016185 -21.0460720134381
+120.241416108663 -21.0480639968576
+120.241748592197 -21.0488656479282
+120.241803639263 -21.0494269865459
+120.241730004607 -21.0499939986668
+120.241229250505 -21.0515433346182
+120.241108833994 -21.0524253773182
+120.240851977589 -21.0533841050362
+120.239899003137 -21.0554961871881
+120.239116845719 -21.0573558248369
+120.238008507955 -21.0591963367648
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49230">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49230">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.155995589878 -21.0187332894716
+120.151155933644 -21.0191486608036
+120.149740836383 -21.0194654475488
+120.149144297058 -21.0197621000976
+120.148345578986 -21.0203510916951
+120.145944698978 -21.0227730679412
+120.145169497901 -21.0238318530494
+120.143879074455 -21.0263259714165
+120.143569724175 -21.0273670277534
+120.143166725625 -21.0295722843851
+120.142744978757 -21.0306124409235
+120.142270230851 -21.0312855603471
+120.140859673183 -21.0326823511425
+120.140356163693 -21.0333200442913
+120.139862361423 -21.0342798991814
+120.1386233814 -21.0372566954505
+120.137585299185 -21.039107652537
+120.13592054378 -21.0412247166915
+120.135088607215 -21.0426410399417
+120.133963056118 -21.0439181685126
+120.133161124894 -21.0446748293904
+120.131729776931 -21.0458053214557
+120.12990410067 -21.0469184824398
+120.127439304175 -21.0487436108287
+120.126272080784 -21.0493958373205
+120.124413037739 -21.0501844734119
+120.123634133192 -21.0503343987611
+120.120664822595 -21.05045142915
+120.118506916591 -21.0509082377571
+120.116648229525 -21.0516258359872
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49012">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49012">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.194285882984 -21.0233670735112
+120.195264500518 -21.0238745941353
+120.196968364458 -21.0255905828039
+120.19818483511 -21.0278279882364
+120.198801589679 -21.0298311678488
+120.199006668679 -21.0316726475823
+120.199147678349 -21.0322202360048
+120.199548393532 -21.0331694077055
+120.199905188149 -21.0337267814934
+120.202026885327 -21.0361492559422
+120.204194455588 -21.0381476273353
+120.205251072502 -21.0389086163079
+120.207740909262 -21.0403426111479
+120.208673989042 -21.0407016283484
+120.209345329706 -21.0407869570054
+120.212557884595 -21.0406155535953
+120.214407597305 -21.040302217494
+120.216257546663 -21.0404360935729
+120.218044445407 -21.0407238315342
+120.219223212609 -21.0406500591018
+120.220612924364 -21.0403501567874
+120.221412516848 -21.0400696591783
+120.223936046423 -21.038758845434
+120.225045266688 -21.0385039722245
+120.226381968795 -21.0385258034872
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48959">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48959">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.194285882984 -21.0233670735112
+120.195226781468 -21.0227820916496
+120.196279387164 -21.021627232439
+120.196663375969 -21.0206725840167
+120.197060853789 -21.020014260094
+120.197713668467 -21.0193828937334
+120.198280669439 -21.0190985735525
+120.198935310081 -21.0190223361539
+120.200872632898 -21.0192910408024
+120.202163382254 -21.0191682098313
+120.203022615 -21.0188553705833
+120.205185878927 -21.0175986500126
+120.206094376799 -21.0173293944025
+120.207929458825 -21.0169601615208
+120.20849719739 -21.0170168797259
+120.209944171892 -21.0177715995094
+120.211111321029 -21.0180952526643
+120.212264220699 -21.0181204818152
+120.2135080392 -21.0179201482687
+120.215037607324 -21.0175435725342
+120.215895165924 -21.0172157414514
+120.21668482943 -21.0166970326838
+120.218625938351 -21.0150842295747
+120.219771277916 -21.0142824366638
+120.220779732427 -21.0137743249702
+120.221112142427 -21.0137306474767
+120.221421233087 -21.0138194758364
+120.222092884739 -21.0142869810586
+120.222297249295 -21.0145744214495
+120.222338002341 -21.0148708345191
+120.222105781878 -21.0153861328956
+120.220769722702 -21.0169847673729
+120.220401818977 -21.0176406622027
+120.220317809112 -21.0180904920779
+120.220400490512 -21.0185314017708
+120.220860891243 -21.0191353881295
+120.221354197741 -21.0194531018771
+120.222259520055 -21.0197541657956
+120.225057961452 -21.0202911590434
+120.228453272474 -21.0207319456742
+120.232412715556 -21.0217039267437
+120.233259377059 -21.0220702437606
+120.234129928693 -21.0226687784445
+120.23485735419 -21.0234217027647
+120.235050905854 -21.0238854478231
+120.234993965524 -21.024532534073
+120.234471168585 -21.026273426483
+120.234159660123 -21.0270479937755
+120.23375148785 -21.0277562577019
+120.232592007372 -21.0293729357252
+120.230711553097 -21.0315133792273
+120.228530403283 -21.0343788725231
+120.226749844003 -21.037494526987
+120.226381968795 -21.0385258034872
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48649">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48649">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.187726722125 -21.0228765357745
+120.188413815607 -21.0234338859388
+120.189262986546 -21.0237777959802
+120.19113878654 -21.023806459902
+120.194285882984 -21.0233670735112
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48623">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48623">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.24858622732 -21.0035519480462
+120.246505846775 -21.0042081918411
+120.244820178095 -21.0045829952874
+120.242707473581 -21.0053801318197
+120.241233835889 -21.0057202372689
+120.239351061944 -21.0060163138154
+120.237967717021 -21.0063601120636
+120.2352710519 -21.0066590821603
+120.234120740128 -21.0066379415194
+120.231676176718 -21.006383308495
+120.228528933978 -21.0064204338516
+120.226838698049 -21.0065559231916
+120.224321669843 -21.0069038675388
+120.222771446644 -21.0073228134244
+120.22093207474 -21.0073604745195
+120.219561983626 -21.0075836337819
+120.218704044378 -21.0078317690667
+120.216509754576 -21.0087170523498
+120.214567479677 -21.0096977926449
+120.213700542613 -21.009999738579
+120.212608728997 -21.0100585807163
+120.210036436107 -21.009874844497
+120.208117030468 -21.0101823300339
+120.207157028753 -21.0101842601698
+120.20657883429 -21.0102928442561
+120.205305179121 -21.0108128508623
+120.204716240754 -21.0112190720705
+120.20423086469 -21.0120159926912
+120.203215270792 -21.0144407117179
+120.20287711813 -21.0148125921847
+120.202192696117 -21.015074054019
+120.201306664037 -21.0150159582867
+120.200412522675 -21.0147537916731
+120.199165184885 -21.0141915943914
+120.197469791658 -21.013595643691
+120.194314327538 -21.0120276996079
+120.193208275673 -21.0119170940385
+120.192229005906 -21.0121007056331
+120.191448992576 -21.0124764583706
+120.190701846858 -21.0130476542179
+120.190024123661 -21.0137360873153
+120.189475637671 -21.0145973636053
+120.188461783941 -21.0183662825713
+120.187637149637 -21.0214555712408
+120.187562705265 -21.0223278393332
+120.187726722125 -21.0228765357745
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48624">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48624">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.187726722125 -21.0228765357745
+120.18633624808 -21.022635148278
+120.183253286783 -21.0221387595089
+120.182212772495 -21.0218172875087
+120.181372310901 -21.0212931205842
+120.178968401113 -21.0192483361762
+120.178164470357 -21.0186951519313
+120.176492935172 -21.0180300600723
+120.174394963765 -21.017628056334
+120.173000747297 -21.0175740933575
+120.172143821323 -21.0176908803279
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48589">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48589">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.172143821323 -21.0176908803279
+120.171001302204 -21.0178465896313
+120.170350129626 -21.0180957407892
+120.168472383252 -21.0192491375755
+120.167387768903 -21.0197329893435
+120.163758054597 -21.0208544161875
+120.16159648377 -21.0212372929915
+120.159767566452 -21.0211890482862
+120.158643454186 -21.0208536726334
+120.157892624829 -21.0203587903241
+120.155995589878 -21.0187332894716
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48528">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48528">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.155995589878 -21.0187332894716
+120.15565565781 -21.0164317771766
+120.155620436406 -21.0155925509641
+120.156254386004 -21.0123037634143
+120.156449376813 -21.0106502410868
+120.156372961604 -21.0087557920093
+120.156278354833 -21.0080241329512
+120.156180906065 -21.0076034628491
+120.155934180136 -21.0071780244394
+120.155316659864 -21.0063230971413
+120.15464820046 -21.0052309883642
+120.154036295397 -21.0042104936615
+120.15363863282 -21.0032485802893
+120.153120051803 -21.0018983537012
+120.152723921259 -21.0007855157345
+120.152435836711 -21.0001133232107
+120.152083737785 -20.9996011771757
+120.151635607368 -20.9990250130414
+120.151219491584 -20.9986409038253
+120.150835380507 -20.998192774649
+120.150419262241 -20.9974565646462
+120.150099170504 -20.9969444186112
+120.149811088437 -20.9966883449735
+120.1494909967 -20.9966563365441
+120.148882822896 -20.9966563365441
+120.148562729918 -20.9966563365441
+120.147794511486 -20.9966563365441
+120.147026293054 -20.9966563365441
+120.146098027512 -20.9965282991049
+120.144977707673 -20.9961441892685
+120.144689624365 -20.995824098772
+120.144529579737 -20.995504007035
+120.144689624365 -20.9950558790993
+120.14529779941 -20.994479714965
+120.145713917676 -20.9942876606671
+120.145841953875 -20.9939995773594
+120.145809944205 -20.9935514506643
+120.145617889907 -20.9932313576866
+120.144721634035 -20.9930072937188
+120.143953414363 -20.9928792575202
+120.143441268328 -20.992591175453
+120.142737067995 -20.9920150113188
+120.14212889295 -20.9915668833831
+120.141232638319 -20.9911187542068
+120.140464418646 -20.9908946914796
+120.139824236413 -20.9908946914796
+120.139216061368 -20.9909587095789
+120.138767933432 -20.9909587095789
+120.138103958851 -20.991092428639
+120.137423549625 -20.9912788013159
+120.136687339622 -20.9915668833831
+120.135759074701 -20.9917909461103
+120.134797621027 -20.9917428489362
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48508">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48508">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.172143821323 -21.0176908803279
+120.17183231918 -21.0166200912881
+120.171311092414 -21.0143118005
+120.171087710133 -21.0122641245379
+120.170938787169 -21.0093973773251
+120.171199401995 -21.0066795516332
+120.171720627318 -21.0037011140012
+120.172614160772 -21.0009832897523
+120.173397938309 -21.0000390898219
+120.174425723478 -20.9991981736957
+120.175173199651 -20.9988244356094
+120.176294417531 -20.9981703921476
+120.17732219908 -20.9973294796426
+120.178256551538 -20.9961148254301
+120.17900402409 -20.9947133021743
+120.179377765797 -20.9931249134966
+120.180031809259 -20.9915365211977
+120.180779285432 -20.9903218706064
+120.182087375976 -20.9896678271446
+120.183395459279 -20.989200652726
+120.184796982534 -20.9885466092643
+120.185918204036 -20.9881728711779
+120.187600021803 -20.9877056967593
+120.189001552302 -20.9873319550517
+120.19115055173 -20.9869582169653
+120.193299551159 -20.9866779115899
+120.194887939836 -20.9866779115899
+120.196451186414 -20.9863936844388
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48235">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48235">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.24858622732 -21.0035519480462
+120.248232114554 -21.0029255584578
+120.247201734469 -21.0014418120951
+120.246501077929 -21.0004114336083
+120.246089644287 -20.9999999999665
+120.245197205832 -20.9993509442644
+120.243147200555 -20.9982755321298
+120.241735720337 -20.9976706129668
+120.240357848621 -20.9970656925014
+120.238576695727 -20.9963599543463
+120.237098003716 -20.9957550338809
+120.235820950992 -20.9952173278136
+120.234913572247 -20.994814046635
+120.233938979105 -20.9943771621648
+120.233098813456 -20.9939066678906
+120.232090614417 -20.9933353559267
+120.231250447466 -20.992864862955
+120.230544708008 -20.9924951889754
+120.230071590121 -20.9921941136535
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48021">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48021">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.218389768239 -20.9588607580447
+120.221184034302 -20.9622244041117
+120.223951314244 -20.9662334201021
+120.224740491116 -20.9676392608496
+120.225438462517 -20.9695138689112
+120.225645000957 -20.970378751537
+120.225686437673 -20.9714192427048
+120.225919080071 -20.9724842443017
+120.226011698302 -20.9734493749637
+120.227149713804 -20.977298745955
+120.227710367719 -20.9798201189637
+120.228022738758 -20.9818003876152
+120.228094007197 -20.9828812674256
+120.227960017521 -20.9857704036086
+120.228180645033 -20.98831007225
+120.228186646964 -20.9930550639256
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48022">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48022">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.228186646964 -20.9930550639256
+120.226853794447 -20.9929352164126
+120.223647247778 -20.9921250528657
+120.219960063419 -20.990823547418
+120.217212587102 -20.9906168664409
+120.216062384848 -20.9904107301079
+120.213745042578 -20.9896013917159
+120.21090563404 -20.9882502961424
+120.208170872222 -20.9877671662255
+120.206667387088 -20.9874402523461
+120.205403098918 -20.987008560823
+120.203776087733 -20.9868324318332
+120.202103827213 -20.9869543573834
+120.201929263359 -20.9869646680046
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48020">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48020">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.228186646964 -20.9930550639256
+120.229185435802 -20.9929203862187
+120.229669592309 -20.9925588533331
+120.230071590121 -20.9921941136535
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48002">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48002">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.087449905748 -20.9898508482975
+120.087810948235 -20.9899081054441
+120.088738653616 -20.9898808302047
+120.093544113967 -20.9894532204178
+120.095267090159 -20.9895367102646
+120.096452407906 -20.9897524627916
+120.097287101555 -20.9900118753773
+120.099009933946 -20.9909985665604
+120.099678605983 -20.9912795109138
+120.100615530849 -20.9914872110651
+120.102837495554 -20.9917707717303
+120.10413932276 -20.9917387695126
+120.107165889134 -20.9912324687456
+120.109736455405 -20.9911544646363
+120.111191688368 -20.9908330778039
+120.111991650594 -20.9903968372956
+120.114464453284 -20.9887088349165
+120.116495003541 -20.9862775897431
+120.117020191402 -20.9859227846252
+120.117494427144 -20.9858186099407
+120.118901975801 -20.9858500248694
+120.120652845468 -20.9861681607316
+120.124265926576 -20.9879079346648
+120.126221857714 -20.9885176282231
+120.127582878704 -20.9887972475608
+120.128429660415 -20.9889425846991
+120.12937157969 -20.9890051736148
+120.129850744086 -20.9889608040147
+120.130725256762 -20.9887603943671
+120.131298741725 -20.9886747629692
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48001">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48001">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.131298741725 -20.9886747629692
+120.13172592266 -20.989358252134
+120.132142041546 -20.9899984343676
+120.1327822244 -20.9906706262711
+120.133486425973 -20.9911827735467
+120.134158617257 -20.9915028640432
+120.134797621027 -20.9917428489362
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47964">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47964">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.13758677722 -20.9778789226749
+120.136451214063 -20.9749224579701
+120.13595690226 -20.9741814044451
+120.135199862307 -20.9737053926708
+120.133238337476 -20.9729780082294
+120.132629779507 -20.9726594830801
+120.131972879373 -20.9721547230636
+120.13066059244 -20.9708452483746
+120.129764003492 -20.9700841326349
+120.128922400678 -20.9696146154083
+120.126866314224 -20.9687908761155
+120.125637147765 -20.968475760251
+120.124690672976 -20.9684051700641
+120.123602142712 -20.9684454664792
+120.122275414444 -20.9687237492276
+120.118673203337 -20.9692378745214
+120.116808922765 -20.969831813313
+120.11577965801 -20.9698735129899
+120.114763283862 -20.9695542503267
+120.111592447565 -20.9679251862952
+120.110382268609 -20.9674050099914
+120.109156431221 -20.967144720338
+120.107320811962 -20.9671784598049
+120.106819295531 -20.9670951975618
+120.106273954081 -20.9667175392142
+120.104890111265 -20.9652013104512
+120.10423730951 -20.9647352508525
+120.103500790861 -20.9644843243427
+120.10220190917 -20.96421642696
+120.100914530625 -20.9641047931404
+120.100313671438 -20.9642101119071
+120.099555778885 -20.9644846291106
+120.099118931341 -20.9647711098144
+120.098905496865 -20.9651337910727
+120.09885206801 -20.9656412824312
+120.098949717917 -20.966054126025
+120.099884653395 -20.9679553397671
+120.100009440598 -20.9683416544084
+120.099985490812 -20.9686663094846
+120.099494627988 -20.9690966634541
+120.097979414751 -20.9698320988187
+120.097549437827 -20.9701748385264
+120.097243653361 -20.9705761125732
+120.096963950142 -20.971353443828
+120.096805197223 -20.9742020039443
+120.096547136698 -20.9749629121809
+120.096372139621 -20.9751059847544
+120.09583697159 -20.9752710785143
+120.09356503693 -20.9753981380534
+120.092294874425 -20.9756242421563
+120.090603669502 -20.9762410505007
+120.089693330088 -20.9767255854037
+120.089111801867 -20.9772885843141
+120.087872835039 -20.9792654190954
+120.086294032943 -20.9806496746855
+120.085372428583 -20.9817619921106
+120.084881842903 -20.982540016403
+120.08405804813 -20.9844052187759
+120.083985120162 -20.9849730256812
+120.084029788353 -20.9855830169786
+120.084495349236 -20.98677730915
+120.085033570535 -20.9875613985662
+120.086395254481 -20.9891275972055
+120.086970575456 -20.9896453009852
+120.087362389872 -20.9898369692956
+120.087449905748 -20.9898508482975
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47944">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47944">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.131298741725 -20.9886747629692
+120.132984414477 -20.9886146426665
+120.134150431613 -20.9885782047413
+120.135027789707 -20.9885782644778
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47943">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47943">
+<gml:description>Dyke or vein</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType>
+<gsml:ControlledConcept gml:id="GA_ContactType_1200100">
+<gml:description>Dyke or vein</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:FeatureCode">1200100</gml:name>
+<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GA:ContactType">Dyke or vein</gsml:name>
+<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:GA:ContactType"/>
+</gsml:ControlledConcept>
+</gsml:contactType>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.13758677722 -20.9778789226749
+120.136752867911 -20.9806301022348
+120.135975674676 -20.9832531350513
+120.135295628713 -20.9863619230527
+120.135027789707 -20.9885782644778
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47911">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47911">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.196451186414 -20.9863936844388
+120.198210726755 -20.9870121880547
+120.200195564217 -20.9870666967492
+120.201929263359 -20.9869646680046
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47908">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47908">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.196874989842 -20.9630605156194
+120.197088277891 -20.9629975818808
+120.197538990892 -20.9630049967906
+120.19843009883 -20.9636559185345
+120.19865982181 -20.9638817752183
+120.199341017316 -20.96480693012
+120.199942062905 -20.965840450959
+120.201159956262 -20.9689025004357
+120.201928434597 -20.9720378686211
+120.202210297401 -20.9740376019129
+120.20179226402 -20.9812408120388
+120.201929263359 -20.9869646680046
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47891">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47891">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.193650838854 -20.9841941322923
+120.193765552647 -20.9842023427809
+120.194239674206 -20.9843595645326
+120.194711102217 -20.9846661467872
+120.195263942221 -20.9852560904769
+120.196324635124 -20.986349199849
+120.196451186414 -20.9863936844388
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47858">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47858">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.171016100081 -20.9610372871346
+120.178666457582 -20.9671179547401
+120.17987583492 -20.9684490444082
+120.180581501357 -20.9695651503104
+120.181261151775 -20.971197557328
+120.181896297022 -20.973461060736
+120.18255976958 -20.9785296041005
+120.182977525508 -20.980434547876
+120.183076658155 -20.9836863572786
+120.183240115645 -20.9842216843544
+120.183633061628 -20.9848213831063
+120.184000275032 -20.9850814923982
+120.184220166488 -20.9850476660046
+120.184605900863 -20.9846995366315
+120.184997309745 -20.9840332805039
+120.185304007581 -20.9828452768909
+120.185349736327 -20.9815903066084
+120.185484841062 -20.9808130148715
+120.186800283165 -20.9774965612924
+120.187788308443 -20.9761452128878
+120.1884379765 -20.9754155936804
+120.188986622262 -20.9750145309276
+120.189717599514 -20.9747983802503
+120.190368697494 -20.9748650953117
+120.190825536901 -20.9751223344327
+120.191436597175 -20.9757420446255
+120.192131505957 -20.9766738641369
+120.192268983652 -20.9771402376634
+120.192249306606 -20.9792416174242
+120.192162115287 -20.9803166244878
+120.192010465275 -20.9811786915451
+120.191728614869 -20.9825624788711
+120.191518719301 -20.9831567297754
+120.191706961909 -20.9837201750443
+120.19198105846 -20.983948760466
+120.192216672819 -20.9841020529517
+120.192534043486 -20.9841446617233
+120.19309052101 -20.9841538388663
+120.193650838854 -20.9841941322923
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47840">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47840">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.196874989842 -20.9630605156194
+120.196748291262 -20.9630979716999
+120.196293628932 -20.9633022768586
+120.196175002177 -20.9636180052426
+120.195785210569 -20.9649298873218
+120.195668913974 -20.9660940655227
+120.19577683506 -20.9695506068455
+120.196132741226 -20.972383452937
+120.196022670396 -20.9746347433056
+120.196066141857 -20.9759514991212
+120.195573054319 -20.9784328217715
+120.195136749568 -20.9813517397768
+120.194632728653 -20.9826358205616
+120.193650838854 -20.9841941322923
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51067">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_51067">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.146685499474 -21.0557469280092
+120.145790430394 -21.0561576940166
+120.144925687374 -21.056757904458
+120.142644833281 -21.0591874700815
+120.137581693006 -21.0633562967656
+120.136180847319 -21.0647583201916
+120.135733480532 -21.0654247364903
+120.135365931892 -21.0661965817879
+120.135079242115 -21.067365812126
+120.135126652134 -21.0680133174416
+120.1354019615 -21.0687177504574
+120.135715863319 -21.0691197934074
+120.136162233596 -21.0693594168582
+120.136882798231 -21.0694735855369
+120.137937160715 -21.0693078536142
+120.139069488737 -21.068877398973
+120.139678250228 -21.0684966062038
+120.140196509369 -21.0680152573517
+120.140947279659 -21.0670428643974
+120.142217090121 -21.0648224443638
+120.143091572527 -21.0640176809495
+120.14389982388 -21.0636941207216
+120.145788865788 -21.0633442340277
+120.146438084901 -21.063350999853
+120.148446746846 -21.0637428752478
+120.149222506937 -21.0636096682883
+120.150343778649 -21.0628524295823
+120.153966319662 -21.0597419447511
+120.15498895674 -21.0592126696139
+120.15604415986 -21.0590388857525
+120.156846428439 -21.0591741048926
+120.157333309711 -21.059468786216
+120.15760383211 -21.0597623706194
+120.15781028837 -21.0604060432209
+120.15770646569 -21.0620735396039
+120.157788109962 -21.0626455215971
+120.158177625292 -21.0632516371681
+120.158756862757 -21.0635606811986
+120.15939805487 -21.063625850143
+120.160050957419 -21.0634897234468
+120.162301299794 -21.0622528935187
+120.16316323913 -21.0620728557927
+120.163669823446 -21.0621767419523
+120.16416547476 -21.0624058334538
+120.166240919362 -21.0637475699231
+120.167247128053 -21.0641815229938
+120.168299553918 -21.0641915053778
+120.170540402877 -21.0638351108764
+120.171632827354 -21.0638557595998
+120.172257696628 -21.0640574632638
+120.172813594175 -21.0643821420101
+120.175587978308 -21.0664100340781
+120.176835902965 -21.0669368775374
+120.177492790636 -21.067048461415
+120.179706595926 -21.067163901915
+120.186308978749 -21.0680582728405
+120.18824218759 -21.0681116258131
+120.191606123349 -21.06848790535
+120.193294440081 -21.0691733143507
+120.195470644181 -21.0698200112091
+120.196451801493 -21.0702434579362
+120.197992736376 -21.0712512883945
+120.198925196629 -21.0721186133242
+120.199162228281 -21.0725884369766
+120.199422058962 -21.0735508169907
+120.199524493985 -21.0744232120395
+120.199465840877 -21.0748071769512
+120.199283350594 -21.0751065856514
+120.198964661532 -21.0753805443264
+120.19852182619 -21.0755966619053
+120.1979750754 -21.0757019190571
+120.195298943279 -21.0754842717677
+120.193688951024 -21.0751462849715
+120.192694321347 -21.0747118544099
+120.190355983229 -21.0733549487254
+120.188233454704 -21.0726198818915
+120.187083237996 -21.0723696203181
+120.185237640881 -21.0722117205138
+120.184324280452 -21.0723057951299
+120.183361518786 -21.0726174178599
+120.182206256915 -21.0732678860812
+120.181669767396 -21.073767578106
+120.181533428891 -21.0740915635467
+120.181572098372 -21.0747695327924
+120.181868451265 -21.0757323554557
+120.182252846148 -21.0764078535477
+120.182743696569 -21.0770130805547
+120.183216641909 -21.0774662582044
+120.184198125692 -21.078148237825
+120.185643977192 -21.0797245933727
+120.186010898527 -21.0805018955826
+120.186107236798 -21.081663067886
+120.185877057083 -21.0825926846486
+120.18528912822 -21.0835543682041
+120.184434278095 -21.0844646743071
+120.182198737303 -21.0863385503137
+120.181676041056 -21.0870321945825
+120.181355259813 -21.0876381975353
+120.181280371983 -21.0879620291615
+120.181343754849 -21.0882935760511
+120.182711407658 -21.090336371487
+120.182878244906 -21.0907368915974
+120.182915916218 -21.0911262377535
+120.182761987998 -21.0918206856461
+120.182418075964 -21.0926681494759
+120.18118021833 -21.0945864729474
+120.180601129693 -21.0951774336056
+120.179499282096 -21.0958007678028
+120.177991536148 -21.0962992578567
+120.176410927961 -21.0966063130095
+120.174664253906 -21.0967471892848
+120.172408555519 -21.0962411418257
+120.170111390984 -21.096091584728
+120.169565422473 -21.096150985197
+120.167965564983 -21.0966356569966
+120.16533670909 -21.0968265083579
+120.164416838127 -21.0969716256602
+120.163546465983 -21.0973213121416
+120.162747463709 -21.0979140295362
+120.162100321366 -21.098659860639
+120.161843980312 -21.0993215100487
+120.16192715036 -21.0997282277412
+120.162380228437 -21.1004366932036
+120.163098075803 -21.101113120496
+120.163627129324 -21.10139803135
+120.165496526259 -21.1019145296441
+120.16825664255 -21.1023849622044
+120.169860450686 -21.1028263823848
+120.170912182037 -21.10325279367
+120.173996675834 -21.1047521628286
+120.176449217367 -21.1056048828083
+120.17720676757 -21.105957205809
+120.178095632623 -21.1065843394855
+120.18064944473 -21.1086990027748
+120.183217991911 -21.1105772710222
+120.185795820894 -21.1127625017867
+120.187017355786 -21.113521867402
+120.187956623253 -21.1138991027069
+120.188664465863 -21.1140137660796
+120.189021933719 -21.1139544309687
+120.190059305563 -21.1134655669866
+120.190830434033 -21.1134535329638
+120.191359883926 -21.1136922422225
+120.192749407003 -21.1146218144984
+120.194373224422 -21.115453699546
+120.194817388887 -21.1157875800334
+120.195235429992 -21.1162879445827
+120.195458681008 -21.1167867075972
+120.195513785487 -21.1175347325766
+120.195367373988 -21.1185668543872
+120.195115506728 -21.1192208744664
+120.194023264857 -21.1211052233116
+120.19367618992 -21.122032367429
+120.193422033891 -21.1231188503027
+120.191607774009 -21.1267071408538
+120.191909661719 -21.1287105506757
+120.192186249969 -21.1296467694639
+120.192479348952 -21.130283912333
+120.192937057773 -21.1308404617115
+120.193710720074 -21.1314956829169
+120.19424474849 -21.1318626548128
+120.19484427778 -21.1321237356789
+120.195315319329 -21.1321568187994
+120.195785067152 -21.1320643976676
+120.197421278007 -21.1312147520946
+120.198914585451 -21.1307132605707
+120.201090287102 -21.1302462406432
+120.202876115692 -21.1300912390919
+120.203518608445 -21.1299298812733
+120.204192246506 -21.1296366921841
+120.205174864851 -21.1290444653568
+120.209283637761 -21.1258693852411
+120.213733492609 -21.1230245220882
+120.215276700647 -21.1219413252169
+120.21645881407 -21.1209449799289
+120.218047685778 -21.1191449014842
+120.218689354794 -21.118591307714
+120.220884130177 -21.1173164425687
+120.222340024241 -21.1162042933379
+120.223029608953 -21.1158143242796
+120.223845644524 -21.115541346458
+120.224763445162 -21.1154711674958
+120.225728223412 -21.1156167009095
+120.227077980994 -21.1161067079669
+120.228138747755 -21.1167407509725
+120.229013771568 -21.1175542881138
+120.229261323492 -21.1180254291169
+120.229477078822 -21.1189340713122
+120.229507878143 -21.1209370885643
+120.229629725643 -21.1218046531946
+120.229949596357 -21.122573174315
+120.230526332967 -21.1231103653866
+120.231099073665 -21.1233501185035
+120.232230453929 -21.1235426703295
+120.235563483395 -21.1234841867322
+120.237595898276 -21.1237462105782
+120.238683869852 -21.1242053221131
+120.239500069161 -21.1242938326187
+120.240118398919 -21.1245097448252
+120.241187806333 -21.1252656408155
+120.241873232106 -21.1260364908639
+120.242033078779 -21.126492466852
+120.241894409203 -21.1270602176408
+120.241494390022 -21.1275198007632
+120.240629584099 -21.1279715363669
+120.239041320381 -21.1284534478474
+120.237811023612 -21.1287203676052
+120.234112129387 -21.1293239560306
+120.23309113449 -21.1295318785217
+120.233085922684 -21.1298125536354
+120.233138456583 -21.1302064767748
+120.234025206491 -21.130782490117
+120.235220585182 -21.1312006817148
+120.236661130444 -21.1316765829212
+120.237634970626 -21.1321287871436
+120.240540307308 -21.1330676644869
+120.242750665718 -21.133434733882
+120.244627260566 -21.133852765186
+120.245350951866 -21.1338268096025
+120.246055870267 -21.1336504142308
+120.246704997968 -21.1333479837493
+120.247913150847 -21.1326041569396
+120.249758693323 -21.1319370322176
+120.250613228699 -21.1318386098018
+120.254040730852 -21.1322314374959
+120.257257458376 -21.132926101881
+120.25939279879 -21.1331638171255
+120.260441904744 -21.1332066210025
+120.263152814206 -21.1333949240288
+120.264333287518 -21.1332481672115
+120.265791285451 -21.132822591675
+120.267645945303 -21.1322585997841
+120.269404465215 -21.1315949023508
+120.271187362792 -21.1306606515378
+120.272113656407 -21.1303106748956
+120.273527451516 -21.1292851342661
+120.274156739275 -21.1286750523196
+120.27429971721 -21.1281967093749
+120.274172835224 -21.1278371617319
+120.272123850279 -21.1253277181112
+120.271641978171 -21.1244713323205
+120.270852684694 -21.122443588452
+120.270622956546 -21.1214167558615
+120.269997583108 -21.1199227622031
+120.269770384081 -21.1189316300095
+120.269742031257 -21.1180735244662
+120.269620617168 -21.1176579999076
+120.268895515162 -21.1165777687873
+120.268393443922 -21.1156183144521
+120.267695026035 -21.1147997766195
+120.267140116726 -21.1143775282015
+120.266532845358 -21.1141299348825
+120.263596178136 -21.1137161662694
+120.262275537017 -21.113294350492
+120.261544921805 -21.1127804116633
+120.259500969874 -21.1108359832682
+120.258962296601 -21.1105166203617
+120.257997392248 -21.1101465723988
+120.256859215957 -21.1098867418884
+120.255565432799 -21.1097756892652
+120.254927776087 -21.1098745038091
+120.253872960852 -21.1102450614676
+120.253073607575 -21.110300351496
+120.252095802597 -21.1101616248127
+120.251395851002 -21.1099131094087
+120.250372952477 -21.1092303498616
+120.249776408866 -21.108586465254
+120.249304002835 -21.1078368029781
+120.248165577731 -21.1054488876411
+120.247511316517 -21.1046860668147
+120.246831616602 -21.1042855661311
+120.246218106494 -21.1044324986722
+120.245214697334 -21.1049693181631
+120.241712980322 -21.1076118204627
+120.240827150308 -21.1081614480763
+120.239991114783 -21.1084477306077
+120.238604421643 -21.1086908187532
+120.237881604695 -21.1086607089474
+120.2374943493 -21.1084594863935
+120.237225523192 -21.1081492439584
+120.237048856005 -21.1076212213147
+120.237074102943 -21.1072449972754
+120.237302600442 -21.106600263473
+120.238175581862 -21.1053415893101
+120.241056204845 -21.102163545085
+120.241422853029 -21.1014858441129
+120.241463554217 -21.1008348848941
+120.24136152556 -21.1006245028196
+120.241074451116 -21.100390886076
+120.24042682742 -21.1002087241877
+120.239694430785 -21.1002357959806
+120.236999459026 -21.100656895025
+120.236048320407 -21.1005893848522
+120.235267248906 -21.1002372021623
+120.235089246615 -21.0999792655682
+120.235081301807 -21.0996499860679
+120.235405821602 -21.0990507855761
+120.23637984427 -21.0982507479059
+120.236904743895 -21.0979733989287
+120.237933467726 -21.0976215659389
+120.239302437039 -21.0968539448783
+120.240367477675 -21.0964467153852
+120.24092125334 -21.096053274698
+120.241459012374 -21.0954592457344
+120.241856404164 -21.0947981114128
+120.242026258622 -21.0941957456993
+120.242042733807 -21.09372052257
+120.241898737429 -21.0923921848256
+120.241643112776 -21.0915660496087
+120.239710801105 -21.0883522310633
+120.239129215284 -21.0876603551699
+120.238418295479 -21.0870599887755
+120.237311229458 -21.0864094714322
+120.236522354195 -21.086092742827
+120.235980449558 -21.0859815355574
+120.235104289472 -21.0859686047927
+120.23348187282 -21.0862831171855
+120.232563681527 -21.0863114660837
+120.231002172802 -21.0860798701631
+120.229340632188 -21.085454192591
+120.228942828425 -21.0854675527707
+120.228547781826 -21.0856329830817
+120.228086979005 -21.0861694579656
+120.227972654083 -21.0866644718116
+120.228560796277 -21.089948964189
+120.228443423117 -21.0905458506005
+120.228073199386 -21.0912750105684
+120.227323881122 -21.0922520978013
+120.226011856784 -21.0931437796441
+120.224866917375 -21.0936469272362
+120.224461618472 -21.0937414911159
+120.223672188197 -21.0937596179446
+120.222984578833 -21.093604634237
+120.222311761187 -21.0932079497458
+120.221929321893 -21.0924824511783
+120.221832922014 -21.0917542374294
+120.221960547836 -21.0907887475507
+120.222201296042 -21.0900403296825
+120.223475502132 -21.0877106763193
+120.223783603721 -21.0869656146765
+120.223998036129 -21.085825954847
+120.223785666288 -21.08525572218
+120.223132983347 -21.0846056066326
+120.221325213099 -21.0831672300176
+120.220769985755 -21.0829049962724
+120.219987252263 -21.0827680361249
+120.219041340712 -21.0828298027682
+120.218094291961 -21.0831127219602
+120.217284133655 -21.0836115654919
+120.216375676062 -21.0845227066077
+120.215821275283 -21.0852845615851
+120.215083321887 -21.086573409544
+120.214397874507 -21.0888162485422
+120.212749637455 -21.0918198975703
+120.212187861003 -21.0932522729679
+120.211561138414 -21.095271813207
+120.211320264869 -21.0966208116098
+120.211318059321 -21.0979642575279
+120.211589569058 -21.0989919091901
+120.211838637435 -21.0993672206393
+120.212391621819 -21.0998288697532
+120.212896113013 -21.1001057379001
+120.213479942604 -21.1002965224007
+120.214105454839 -21.1003209800819
+120.216561768189 -21.0999003041894
+120.218073936504 -21.0998790036417
+120.219361717484 -21.1000618233911
+120.221714048984 -21.1008388646844
+120.222790812961 -21.1011750998412
+120.223501034573 -21.1015798011664
+120.223549364309 -21.102198263552
+120.223470744176 -21.103207708778
+120.223339637622 -21.104737007223
+120.223318082 -21.1048045417277
+120.223060576275 -21.1051389477491
+120.222693660989 -21.1053920264721
+120.22188226817 -21.1056460318546
+120.220732546385 -21.1056407172798
+120.217672850654 -21.1051122167977
+120.215039429713 -21.1039459202578
+120.214305196346 -21.1038337346378
+120.213542269996 -21.1040629482312
+120.210561735901 -21.1054685158236
+120.20935053147 -21.1057419656185
+120.208462881592 -21.1058082293772
+120.207609655228 -21.1057674475151
+120.206502522648 -21.1055278415959
+120.204836226047 -21.1047410547837
+120.203820020361 -21.1043883732257
+120.203121293473 -21.1042763644335
+120.202503516158 -21.1043108517439
+120.201999978075 -21.1044453523175
+120.201089772871 -21.1048785342551
+120.200262145355 -21.1049814051868
+120.197646681237 -21.1055672006245
+120.196763447079 -21.1059924981862
+120.194362917353 -21.1075887187708
+120.193579756283 -21.1078532509759
+120.192876449522 -21.1079588652498
+120.191194744539 -21.1079834404191
+120.190163725792 -21.1077900371918
+120.189243709245 -21.1073168138123
+120.188943831883 -21.1070061695233
+120.188633283338 -21.1064399618186
+120.18849853734 -21.1057797166368
+120.188533946128 -21.1053097044375
+120.188845858664 -21.104578061228
+120.18924772117 -21.1040911986079
+120.190113676308 -21.1033934774477
+120.194281369541 -21.1011053801063
+120.194975602659 -21.1004571459776
+120.195289580672 -21.0999664639616
+120.195724757589 -21.098508597148
+120.195895350887 -21.0972829609776
+120.195767849532 -21.0950526895954
+120.195816579709 -21.0932625343574
+120.19562656321 -21.0920865407283
+120.19582044237 -21.0913514807392
+120.19616216801 -21.0908314629128
+120.19662940666 -21.0904300646011
+120.196887897531 -21.0903212245711
+120.197408753188 -21.0903275793051
+120.199767643983 -21.0914931023723
+120.200290236287 -21.0916379592565
+120.200665900482 -21.0915747417124
+120.201969956116 -21.0910733975968
+120.202456686276 -21.0910223004027
+120.202877440415 -21.0911297197558
+120.203238051966 -21.091392412316
+120.203538765002 -21.0917973829249
+120.204207560614 -21.093792304071
+120.204446199792 -21.0942042843078
+120.204991196209 -21.0946176151251
+120.205238508984 -21.09465897683
+120.20556659603 -21.0945631875256
+120.205843674384 -21.0942580206019
+120.205997990809 -21.0938817689363
+120.206669346546 -21.0912539028206
+120.207230342133 -21.0903129063554
+120.208134457256 -21.0893970576548
+120.209526320515 -21.0887091430776
+120.210438581217 -21.0880871707731
+120.210941179947 -21.0876133673462
+120.21132759598 -21.0870509864913
+120.211600591733 -21.0863396800018
+120.211794447635 -21.0851219784676
+120.211775284495 -21.0844223871867
+120.211499779728 -21.0829344452729
+120.211483603777 -21.0818635988076
+120.211620687155 -21.0812082840027
+120.212032842181 -21.080399418214
+120.212562764309 -21.0797121020852
+120.213203460012 -21.0791603026259
+120.213962846516 -21.0788095084893
+120.215940742578 -21.0781676255538
+120.216314564119 -21.0779534877117
+120.216549891987 -21.0776818271972
+120.216766813629 -21.077055711
+120.216860099661 -21.0762146945787
+120.21677782522 -21.0757003053122
+120.216561017717 -21.0752774151133
+120.216239168072 -21.0749119317745
+120.215602965173 -21.0744138184536
+120.213239997592 -21.0732095525808
+120.21259060187 -21.0725224458042
+120.21202895039 -21.0715506044711
+120.211645493691 -21.0704671305839
+120.211584969115 -21.0698396211932
+120.211923923127 -21.0670592768608
+120.21134291167 -21.0659250717776
+120.210836413202 -21.0652668510395
+120.210535567901 -21.0650145499555
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49472">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49472">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.24681943915 -21.0637200428059
+120.248184167823 -21.0624414522215
+120.251519608298 -21.0594156606191
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49473">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49473">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.24681943915 -21.0637200428059
+120.244748339563 -21.0616954423777
+120.243408142209 -21.0607709923089
+120.242904227172 -21.0604973002347
+120.240801733975 -21.0601691891282
+120.238008507955 -21.0591963367648
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49453">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49453">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.238008507955 -21.0591963367648
+120.237145796156 -21.0599788136976
+120.233576483357 -21.0620316261144
+120.232587881019 -21.0625519352349
+120.232034456056 -21.0626781448821
+120.231529276031 -21.062603641215
+120.231045425744 -21.0623121872225
+120.230611514447 -21.0618222152347
+120.230237175978 -21.0608317257513
+120.230241670781 -21.0600697707128
+120.230431578603 -21.0592667859856
+120.230994103482 -21.0580562303083
+120.232564930512 -21.0557206485943
+120.232732261702 -21.055273976495
+120.232710963376 -21.0548812845396
+120.232188077794 -21.0540290294749
+120.229979445401 -21.0520127784955
+120.229442738172 -21.0511967635699
+120.228927151022 -21.0495781681531
+120.228683454346 -21.0484933941743
+120.228345391905 -21.0436818880146
+120.228155787847 -21.0425949273264
+120.227740016695 -21.041616760395
+120.226983834102 -21.0405557585291
+120.226477967665 -21.0396193613905
+120.226381968795 -21.0385258034872
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49502">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49502">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.210535567901 -21.0650145499555
+120.2077448325 -21.0642518624824
+120.20549845739 -21.0638866427204
+120.204263180717 -21.0638044576048
+120.2020163455 -21.0640405098002
+120.200884126141 -21.064315232631
+120.199850490823 -21.064301971244
+120.198551807419 -21.0644267823949
+120.197637028494 -21.0645888880845
+120.195755771643 -21.0651259106588
+120.194558081856 -21.065090947493
+120.192518438309 -21.064658470247
+120.191292530135 -21.064513333682
+120.188098939988 -21.0635372963123
+120.184522035282 -21.0626285075153
+120.182224006668 -21.0623361542408
+120.178742406498 -21.0611664951911
+120.173657708398 -21.0600625212591
+120.170408153672 -21.0591904966737
+120.167470047191 -21.0588613699151
+120.165930483584 -21.0581754103763
+120.164457391017 -21.0571189838329
+120.163372233167 -21.0558611304159
+120.162804576824 -21.0547345127064
+120.162259222022 -21.0539129385379
+120.162012419647 -21.0532459369756
+120.161586041925 -21.0526619632309
+120.159258398031 -21.0506140045661
+120.158892291909 -21.050411986136
+120.158369320659 -21.0502820876694
+120.157137088225 -21.0502564041843
+120.156206290363 -21.0504604500466
+120.155352194881 -21.0508989503081
+120.153333000211 -21.0523164201254
+120.151227521059 -21.0534504026531
+120.150546178755 -21.0536378379163
+120.148667128456 -21.0537378141115
+120.148206017507 -21.0538689073652
+120.14793641615 -21.0540833787397
+120.147409055825 -21.0549955659924
+120.146685499474 -21.0557469280092
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49398">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49398">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.191451444769 -21.0504070913352
+120.192151722191 -21.0503969174796
+120.192887230472 -21.0505592067438
+120.194002939997 -21.0511544167417
+120.195051584551 -21.0521367853312
+120.195881409961 -21.0533476318027
+120.196197565305 -21.0541247962798
+120.196323533081 -21.0548079123535
+120.196375895255 -21.0574477898604
+120.19619838924 -21.0584468211891
+120.19590834028 -21.0589031547415
+120.195664208906 -21.0590749771105
+120.195107679225 -21.0590741765358
+120.193695429552 -21.0585242584095
+120.193125597968 -21.0584176099255
+120.192797650691 -21.058535682399
+120.19153734838 -21.0593489729006
+120.191120606746 -21.0594325319142
+120.190696279993 -21.0592645490706
+120.190475787602 -21.0590633781853
+120.189868788529 -21.0581249440845
+120.189609322683 -21.0573929436291
+120.189496670706 -21.0566835051416
+120.189583822418 -21.0544916331085
+120.189488014267 -21.0525529313918
+120.189535655585 -21.0519314561462
+120.189706311785 -21.0514369573767
+120.190036074441 -21.0510268806383
+120.190810386193 -21.0505668345056
+120.191451444769 -21.0504070913352
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_51993">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_51993">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.086455116921 -21.1218314273443
+120.089108625324 -21.1212367962241
+120.090868187786 -21.120932683908
+120.095048549706 -21.1206730820073
+120.100966325829 -21.1207820916685
+120.102708686362 -21.1210652104358
+120.105612652945 -21.1216453902816
+120.10880823688 -21.1223453251483
+120.110141974107 -21.1227363953126
+120.11268950216 -21.1236724464922
+120.115515768409 -21.1244501843531
+120.119687452422 -21.1264580463099
+120.123046844454 -21.1289492203373
+120.125709980449 -21.1307458000355
+120.126853036508 -21.1314123566094
+120.129067359188 -21.1323483950455
+120.131111085107 -21.1334512241405
+120.133439168356 -21.1341587678482
+120.13458683171 -21.1346542021144
+120.137375555253 -21.1361273195041
+120.139669099868 -21.137675527055
+120.142596172358 -21.1390750788373
+120.146280368056 -21.1402639346512
+120.149297977205 -21.1416100225635
+120.150639071631 -21.1426384221131
+120.15619957635 -21.1479899691677
+120.157457074611 -21.148901640949
+120.158613146985 -21.1492093048464
+120.16112093094 -21.1492348048436
+120.161892629425 -21.1495956652751
+120.162329809504 -21.1501500513325
+120.162504075898 -21.1506650903992
+120.16284215925 -21.1529703615734
+120.162889725812 -21.1551847290474
+120.163226680546 -21.1573325460905
+120.163363408196 -21.1589740060365
+120.163522544458 -21.1620849345365
+120.163511023599 -21.164909543881
+120.16387699381 -21.1668385761102
+120.163536926222 -21.1737228131184
+120.163535077666 -21.1771536697525
+120.163190149429 -21.178564701323
+120.162731019486 -21.1794688308669
+120.162068556184 -21.1800329181232
+120.161397054527 -21.180278821787
+120.16058199796 -21.1804264408789
+120.159477847144 -21.1803657221648
+120.15896535873 -21.1801274525036
+120.15858700184 -21.1798006238801
+120.158192898406 -21.1792403573075
+120.158069046502 -21.1787964831883
+120.15810099465 -21.1780316952242
+120.158577908606 -21.1752417370005
+120.158503928614 -21.1747063536497
+120.158213001116 -21.1741213734667
+120.157360352996 -21.173221735141
+120.153471584228 -21.1701339765682
+120.152183114173 -21.1689982273841
+120.150044676556 -21.1668532574697
+120.149531416867 -21.1661563723928
+120.149297014009 -21.1656124151016
+120.149164068108 -21.1650372196602
+120.149140318282 -21.1643583384222
+120.149378913457 -21.1630917000581
+120.14978663914 -21.1620182951236
+120.150566399926 -21.1606585890288
+120.152085111283 -21.1589174709889
+120.15293381587 -21.1576289621124
+120.153609223625 -21.1561828043801
+120.154034065482 -21.1546392651147
+120.154154470145 -21.1534053790048
+120.153861944621 -21.151804539399
+120.153496416383 -21.1505140895691
+120.153264983432 -21.150071563312
+120.152961384529 -21.1497495988375
+120.152085323173 -21.1493576039596
+120.151098283636 -21.1491181906996
+120.148144834689 -21.1490203936706
+120.147221012718 -21.1488972108836
+120.146349675899 -21.1485611458317
+120.143992857146 -21.1473195841976
+120.141742272414 -21.1465211243712
+120.140760540833 -21.145817117897
+120.13657365916 -21.1417481963191
+120.134065107359 -21.139626603259
+120.133076143483 -21.1390426776887
+120.130424561632 -21.1377527165298
+120.127456606756 -21.1357773402665
+120.124520984813 -21.1342994065135
+120.122079325961 -21.1335519890347
+120.121535039244 -21.1334522816986
+120.120536695974 -21.1334381870824
+120.118682475109 -21.1327599343686
+120.116910854061 -21.1324928049561
+120.113828060446 -21.1316931887411
+120.111786046424 -21.1315433505925
+120.109487535319 -21.1310711787424
+120.107105968601 -21.1307944347679
+120.105311467263 -21.1303857059225
+120.103869002462 -21.1301360793531
+120.102955880556 -21.129852804773
+120.099807384266 -21.1285862132433
+120.09683660339 -21.1277069803119
+120.096269484974 -21.1276260307687
+120.095424111409 -21.1276545850834
+120.091713981274 -21.1281821395843
+120.090520691158 -21.1281674099951
+120.089714419867 -21.1280213966217
+120.088956803255 -21.1277586870334
+120.088022982126 -21.1271686095053
+120.08514580596 -21.1247267159103
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49483">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49483">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.116648229525 -21.0516258359872
+120.115226338651 -21.0529595283219
+120.113654681338 -21.0543986228805
+120.109738256855 -21.0587967420761
+120.108746642902 -21.0597939454819
+120.107129882398 -21.0608879979408
+120.106329715355 -21.0612586348854
+120.105705601809 -21.0614368362711
+120.104386104218 -21.0616843238672
+120.101784147445 -21.0617563547529
+120.097381222154 -21.0614195931193
+120.096399457503 -21.0610678090337
+120.095431869182 -21.0604765976739
+120.09247795044 -21.0578345731946
+120.091702867632 -21.057320210701
+120.089571514674 -21.0569484183668
+120.086932271589 -21.0569256191224
+120.085603335184 -21.0571702715967
+120.084495613773 -21.057679137991
+120.077844997924 -21.0619234525145
+120.076631234186 -21.0625754054308
+120.075536670475 -21.0628899953706
+120.072865637757 -21.0632294756044
+120.071697353989 -21.0636151624211
+120.070138712062 -21.0643498455697
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48349">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48349">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.292547415477 -20.9744099714405
+120.294003578847 -20.9752681366714
+120.295347500441 -20.9762138601321
+120.296632151012 -20.976979813633
+120.297705901794 -20.9779288333142
+120.298461883915 -20.9789253496084
+120.299398341309 -20.980775178547
+120.299827242946 -20.981788653292
+120.3002535311 -20.983082797324
+120.300424540147 -20.9839787468844
+120.300496017848 -20.9849674793294
+120.300468973167 -20.9860278591306
+120.300615065272 -20.9865907343789
+120.300615334986 -20.9870194859172
+120.300771257285 -20.9879285663495
+120.300957085283 -20.988323967319
+120.301330601151 -20.9887922221738
+120.301878281848 -20.9892140340177
+120.302347450009 -20.9893509349442
+120.304691506985 -20.9891772645997
+120.305502647498 -20.9892486107677
+120.306222109125 -20.9895271435352
+120.306771283427 -20.9900542334111
+120.306968072983 -20.9908631134646
+120.306663876762 -20.9933342801698
+120.306696338512 -20.9939735381699
+120.307118281476 -20.9960093012095
+120.307741453034 -20.9982641483281
+120.308388525966 -21.0003049195495
+120.308537853159 -21.0015492916103
+120.30883649983 -21.0033411889983
+120.308985827024 -21.0053321854531
+120.308736948368 -21.0067756575452
+120.308189426899 -21.0081693548706
+120.307492578236 -21.0088662035333
+120.306447303313 -21.0090653030823
+120.305352260375 -21.009115077849
+120.304087955352 -21.0088742583725
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48447">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48447">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType>
+<gsml:ControlledConcept gml:id="GA_ContactType_1100100">
+<gml:description>Fault</gml:description>
+<gml:name codeSpace="urn:cgi:classifierScheme:GA:FeatureCode">1100100</gml:name>
+<gsml:name xml:lang="en" codeSpace="urn:cgi:classifierScheme:GA:ContactType">Fault</gsml:name>
+<gsml:vocabulary xlink:href="urn:cgi:classifierScheme:GA:ContactType"/>
+</gsml:ControlledConcept>
+</gsml:contactType>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.305927270998 -21.0139756524347
+120.304409192007 -21.0095946934894
+120.304087955352 -21.0088742583725
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48344">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48344">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1100100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.304087955352 -21.0088742583725
+120.303655142774 -21.0079035927436
+120.302464558757 -21.0044996974747
+120.301116975224 -21.0018572691108
+120.300757901036 -21.0008841156805
+120.30043231352 -20.9999999999712
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48222">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48222">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.30043231352 -20.9999999999712
+120.299727691484 -21.0006533438809
+120.299080618552 -21.0015492916103
+120.29848275934 -21.0028778686395
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48580">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48580">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.295305668946 -21.020846332743
+120.295872187506 -21.0203835369374
+120.296389374911 -21.0195530520207
+120.297094980207 -21.0178659940597
+120.29836555091 -21.0132389635495
+120.299657407792 -21.0097470888776
+120.299862496406 -21.0086840321058
+120.299809052528 -21.0061095324713
+120.299328305677 -21.0041889278778
+120.29852138871 -21.0029132789157
+120.29848275934 -21.0028778686395
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47655">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47655">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.289599700612 -20.9740270550205
+120.290316335846 -20.9742219105456
+120.291473708644 -20.9741228665322
+120.292034085124 -20.9742198927541
+120.292547415477 -20.9744099714405
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48223">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48223">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.291827952873 -20.9957480284586
+120.292432083991 -20.9967918122456
+120.292798528742 -20.9974329132643
+120.293461346163 -20.9984028886485
+120.294043331519 -20.9990980391463
+120.29490847952 -21.0000000003917
+120.297551412699 -21.002024133717
+120.29848275934 -21.0028778686395
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47651">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47651">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1100100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.28565102109 -20.9717271836233
+120.289599700612 -20.9740270550205
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48065">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48065">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.274058165905 -20.9763654279784
+120.274818118904 -20.9767678735205
+120.277327789805 -20.9782641527954
+120.27864797726 -20.9794464450756
+120.281832425091 -20.9830574386413
+120.284275792975 -20.9863956521264
+120.288220644813 -20.9904531134225
+120.29003173565 -20.9926444615552
+120.291827952873 -20.9957480284586
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47685">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47685">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.28565102109 -20.9717271836233
+120.282680632999 -20.9716617608169
+120.280518983269 -20.9712313775883
+120.279459913625 -20.971136822403
+120.275502191954 -20.9710988358097
+120.273750274008 -20.9713606011046
+120.273152773216 -20.9715682497793
+120.272678864237 -20.9718456758152
+120.272560244693 -20.9720049262635
+120.27265306743 -20.9727690091436
+120.27270773436 -20.9728763248956
+120.273429040453 -20.9736857708815
+120.273480813796 -20.973952565205
+120.273755125204 -20.9744356224242
+120.274029436601 -20.9749187696238
+120.274074455201 -20.9755578615672
+120.274059979693 -20.9763555261937
+120.274058165905 -20.9763654279784
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_47611">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_47611">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1100100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.272640174877 -20.9603922913416
+120.275395449603 -20.9634833357986
+120.277497013261 -20.9655256733336
+120.28565102109 -20.9717271836233
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48675">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48675">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.295305668946 -21.020846332743
+120.294180287415 -21.0213526845237
+120.291831054069 -21.0220614442185
+120.290794198107 -21.0224887417933
+120.290198808698 -21.0226219848845
+120.28942046582 -21.0229769266513
+120.288735762077 -21.0231624569508
+120.280940625129 -21.025125395294
+120.279704521232 -21.0255774190808
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49055">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49055">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.29744202348 -21.0353053301852
+120.296183818399 -21.0354873596241
+120.293348600025 -21.0364272675279
+120.292457968878 -21.0367979422752
+120.291884257681 -21.0371436911152
+120.290949686564 -21.037896266021
+120.290172793076 -21.0386766287925
+120.288633575304 -21.0413642741366
+120.287975224777 -21.0421286405867
+120.287289497353 -21.0425778491208
+120.28673415658 -21.0424812260078
+120.285886818728 -21.0419729516932
+120.28392379065 -21.040355980738
+120.282198260841 -21.0393361117073
+120.279462665353 -21.03699794553
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48676">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48676">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.279704521232 -21.0255774190808
+120.279188807027 -21.0211894960123
+120.279128136564 -21.0191345619942
+120.279217187503 -21.0180797096974
+120.279756414748 -21.0156310928082
+120.280110843293 -21.0129058767465
+120.281153222346 -21.0099657769441
+120.281369742794 -21.0090853940516
+120.282263301747 -21.0075315056638
+120.282925072532 -21.0061616010645
+120.283705989979 -21.0049328078622
+120.283720682456 -21.0042595499635
+120.283324117591 -21.0035949817433
+120.282906089979 -21.0033617912489
+120.282392464977 -21.003279104845
+120.281133293697 -21.0032587125233
+120.279709458818 -21.0033801261184
+120.278197283365 -21.0037762811484
+120.27768115286 -21.0040648628251
+120.277321047331 -21.0043963857694
+120.277036450414 -21.0049534627079
+120.277021357906 -21.0054405531829
+120.277594318351 -21.0078634546881
+120.277651513484 -21.0086954890983
+120.277559521132 -21.0094465012936
+120.277337772471 -21.0101211353966
+120.275791778669 -21.0126549118636
+120.274617587095 -21.0141967651371
+120.273141658213 -21.0156433985909
+120.272718730609 -21.0159007736676
+120.272015728749 -21.0160150744804
+120.271402102145 -21.0159468166143
+120.270705099459 -21.0157315970508
+120.268488588922 -21.0145817711232
+120.264419884355 -21.0133407406369
+120.263458318076 -21.0127881061361
+120.262810606688 -21.0121127741017
+120.262525407921 -21.0115352708779
+120.262398715888 -21.0109019085062
+120.26220606555 -21.0078886258254
+120.2620487415 -21.0072796873699
+120.261575042777 -21.0065376392628
+120.261168269741 -21.006200577166
+120.259839907077 -21.0055415396949
+120.257409843202 -21.0033809964561
+120.256812150924 -21.0029706100944
+120.255596776342 -21.0025178474895
+120.254271834304 -21.0023527423839
+120.253279942536 -21.0024646542074
+120.251389657879 -21.0029897863962
+120.24989378558 -21.0030239286011
+120.24858622732 -21.0035519480462
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48011">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48011">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.230071590121 -20.9921941136535
+120.230098109517 -20.9921700521398
+120.230389627779 -20.9915943120525
+120.230793297788 -20.9883836573769
+120.231000719348 -20.9839966482876
+120.231422537551 -20.9831145446454
+120.233484885777 -20.9798855221117
+120.234862934263 -20.9781662668565
+120.236113167518 -20.9769714240688
+120.239433415983 -20.9745065237372
+120.240578059996 -20.9737974326056
+120.241859229796 -20.9731643013588
+120.243158398014 -20.9727440565544
+120.249255171783 -20.9712983329887
+120.252553448711 -20.9703010859129
+120.253629146242 -20.970077931437
+120.255016465845 -20.9696121566312
+120.255985966455 -20.9694405396126
+120.257850950045 -20.969271238621
+120.259293941988 -20.969261873116
+120.260747933421 -20.9694822529925
+120.26174844149 -20.9697872354088
+120.262668818372 -20.9702226424127
+120.264935179974 -20.9715119537859
+120.267915511986 -20.9725768827602
+120.268794950327 -20.9731249042506
+120.271531929658 -20.9751127774077
+120.273106468197 -20.9758615035611
+120.274058165905 -20.9763654279784
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48927">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48927">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.279704521232 -21.0255774190808
+120.279794239829 -21.0267845458583
+120.279584190498 -21.0286667733901
+120.279561235458 -21.0298936731136
+120.279662587086 -21.0316725488816
+120.280117190073 -21.033967252458
+120.280165093603 -21.0350729569189
+120.279966693514 -21.0362916306064
+120.279462665353 -21.03699794553
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49405">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49405">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.279462665353 -21.03699794553
+120.278677367601 -21.0374866922545
+120.277241868369 -21.0379564380495
+120.276040171271 -21.0381175520039
+120.275117580565 -21.0381441939682
+120.274177354449 -21.0380355797565
+120.273412409949 -21.0371890293634
+120.272829140277 -21.03610922127
+120.272773401234 -21.0352572603961
+120.272576177316 -21.0346447068237
+120.272497355978 -21.0339672470356
+120.272637210298 -21.0328563441335
+120.273321065597 -21.0305762019029
+120.273383903344 -21.0298974942774
+120.2733120138 -21.0291137059071
+120.27312558635 -21.0283307880377
+120.272719365148 -21.0274043191201
+120.272273606946 -21.0268381531987
+120.271863438529 -21.0265513412784
+120.271183890443 -21.0264784995452
+120.270471880434 -21.0266569235298
+120.266678901117 -21.0286831308656
+120.26350932949 -21.0298081868864
+120.262322010639 -21.0305012739942
+120.260643154994 -21.032086419213
+120.259923867288 -21.0329392419799
+120.259554850666 -21.0335781526949
+120.259293417614 -21.0346645046483
+120.258912305615 -21.03722444226
+120.258871333069 -21.0380915412952
+120.258971628065 -21.038548616389
+120.259424092259 -21.0391463405159
+120.260619823187 -21.0399532212836
+120.261285113042 -21.0402247651748
+120.261892191856 -21.0403562484013
+120.262808056523 -21.0403245159803
+120.263405148875 -21.0400397367869
+120.263807931528 -21.0396318444543
+120.264357523837 -21.0386308341823
+120.264796411903 -21.0373884380005
+120.265594374103 -21.0362504046587
+120.265879822621 -21.0360690236567
+120.266217419741 -21.0360018720287
+120.266982951359 -21.0361760598821
+120.267602995262 -21.0366821185961
+120.268025791134 -21.0373159987432
+120.268574639885 -21.0397114499331
+120.268829660746 -21.0425000370284
+120.268620959841 -21.0441244173375
+120.268199674184 -21.0448136045653
+120.267908113553 -21.0450550157173
+120.267465958379 -21.045243537139
+120.262752239557 -21.0456171262323
+120.261702260906 -21.0458184033773
+120.260870480438 -21.0461564449478
+120.259637550637 -21.0470686824093
+120.258166642605 -21.0486341154444
+120.257769522173 -21.049234555912
+120.257514203918 -21.0498216673196
+120.257434387064 -21.0506661987995
+120.257606111724 -21.0511822969641
+120.25792384955 -21.0516288011885
+120.258485180718 -21.0520758079589
+120.258878224669 -21.0522021345555
+120.260386432728 -21.0521256366948
+120.262567581883 -21.0515427686445
+120.263453911126 -21.0515627441799
+120.263983570206 -21.0516969486554
+120.264591061643 -21.0520347208806
+120.265128740368 -21.0525721472555
+120.265352298931 -21.0530531440545
+120.265328940396 -21.0536523111055
+120.264846862061 -21.0543658746064
+120.263745601807 -21.0552274454642
+120.260908329553 -21.0565495037857
+120.257101702031 -21.0588608294893
+120.256086090372 -21.0593956549195
+120.25540892128 -21.0595946940786
+120.254746434855 -21.0596644183023
+120.253263394007 -21.0599218224281
+120.252360793167 -21.0598010458893
+120.251519608298 -21.0594156606191
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48756">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48756">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.313499116126 -21.0287211405319
+120.315137991943 -21.0277050958699
+120.315968103792 -21.027405922453
+120.317173667492 -21.0271198945265
+120.318740319879 -21.0264083666416
+120.319171937575 -21.0260986457328
+120.319740473698 -21.0254077440636
+120.320019794365 -21.0245968990866
+120.320001906095 -21.023790666472
+120.319773708119 -21.0230337523566
+120.319250385629 -21.0221922841368
+120.318469125742 -21.0212626029503
+120.317702770393 -21.0204945788204
+120.316993918001 -21.0199362822234
+120.31590082606 -21.0193842855357
+120.313376557891 -21.0187598355391
+120.312859107426 -21.0184517405237
+120.312571142587 -21.0178826553748
+120.312443206944 -21.0170973464383
+120.312815459727 -21.0144556198452
+120.312772907298 -21.0137076829255
+120.312615018004 -21.0132256094508
+120.312158517951 -21.0124631851001
+120.311190549858 -21.011462905803
+120.310789798862 -21.0112863873057
+120.31030119951 -21.0112368593915
+120.309476536255 -21.0113335966304
+120.308661830434 -21.0115826122356
+120.307942682282 -21.0121053360629
+120.305927270998 -21.0139756524347
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_48757">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_48757">
+<gml:description>Fault</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1100100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.313499116126 -21.0287211405319
+120.309936900026 -21.0238481662363
+120.308829676495 -21.0220540748102
+120.308207595624 -21.0206601157306
+120.307391157174 -21.0180215230096
+120.306549703083 -21.0160112536927
+120.305927270998 -21.0139756524347
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_52557">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_52557">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.308865660678 -21.2109476275615
+120.311861237074 -21.2095647889718
+120.312769521422 -21.2088780460573
+120.313375504731 -21.2082651197795
+120.315540852266 -21.2053897416028
+120.318878150836 -21.2016440399511
+120.320948643522 -21.1986251441004
+120.321809896091 -21.1966167843642
+120.323174966376 -21.195068713491
+120.323912055511 -21.1944399421248
+120.324620668611 -21.1939861321462
+120.325226766684 -21.1937347306101
+120.326851633906 -21.1933184425936
+120.327779105558 -21.19291484799
+120.328819706144 -21.1921567867091
+120.330138372645 -21.1908489661926
+120.33167402451 -21.1889499666002
+120.333622812735 -21.1861434588868
+120.336285634031 -21.1832911232749
+120.338099642036 -21.1808738857424
+120.338506378531 -21.1800867142186
+120.339399457433 -21.1777909119362
+120.339563882755 -21.1771498794476
+120.339618971571 -21.1762230976182
+120.339268376639 -21.1747135672964
+120.338901622739 -21.1724668993193
+120.338371187092 -21.1701859645503
+120.338302093186 -21.1691096161434
+120.338361737786 -21.1670246763169
+120.338012720196 -21.1637126864794
+120.336676286477 -21.1601233276578
+120.335089702281 -21.1576395876964
+120.333601743052 -21.1547086904106
+120.332406260395 -21.1530800202728
+120.327944140521 -21.1489160285123
+120.326539110684 -21.1479224877679
+120.325482691928 -21.1474043646122
+120.324974316965 -21.1468771169381
+120.324700450705 -21.1460350632368
+120.324691235348 -21.1443680482364
+120.324537958697 -21.1433222398871
+120.323673319085 -21.1397976046916
+120.323327692418 -21.1388317224355
+120.322628332442 -21.1380261812012
+120.319649874994 -21.1356057148068
+120.319311098143 -21.1351754849079
+120.318931982209 -21.1343614613131
+120.31852552985 -21.1327995646648
+120.318429713791 -21.1313759345441
+120.318702356682 -21.1287108130345
+120.319485692088 -21.1260907009988
+120.31970132162 -21.1248709811331
+120.319648379938 -21.1228868389155
+120.319306021197 -21.1218973508095
+120.318684749059 -21.1212865105069
+120.317385775682 -21.1207633405068
+120.316589579625 -21.1201264298557
+120.315995215015 -21.1193207290603
+120.31552792449 -21.1181001218819
+120.315071927801 -21.1172305261836
+120.314526364586 -21.1164995358009
+120.314086089921 -21.1161518327229
+120.312812045691 -21.1156850024873
+120.310447451536 -21.115333562762
+120.308003425001 -21.1145329447261
+120.307422209236 -21.1141591518956
+120.307145793597 -21.1135513200537
+120.30668863179 -21.1106130824431
+120.306410185394 -21.1098197808333
+120.305998067583 -21.1092576391796
+120.305024666181 -21.1084716104515
+120.304424721417 -21.1077196868641
+120.304142406592 -21.1070987576612
+120.303787803241 -21.1057878354825
+120.303103009189 -21.1044190242124
+120.30283424655 -21.1035545513882
+120.302436692038 -21.1028962155165
+120.30161063356 -21.1022808008198
+120.3010363575 -21.1019310262959
+120.300497918439 -21.1017329507184
+120.300266005409 -21.1017042484579
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_50267">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_50267">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.300266005409 -21.1017042484579
+120.299790661281 -21.1016453955481
+120.297703727871 -21.1016959095643
+120.296751904909 -21.1015401620504
+120.292766305709 -21.0999131544633
+120.290894964065 -21.098995525868
+120.289418225824 -21.0983875309768
+120.288091767243 -21.0982349538363
+120.283811286162 -21.0972758878225
+120.281250279789 -21.0969921545928
+120.280781002196 -21.0968500195004
+120.279436580228 -21.0952302267906
+120.27903609028 -21.0945446256277
+120.278856266418 -21.094013062231
+120.278762896882 -21.0928920073456
+120.279092999888 -21.0902448033947
+120.278973424627 -21.0894319934667
+120.278755545931 -21.0889460426666
+120.27825370768 -21.0883751846987
+120.277279835122 -21.087609596699
+120.276751583803 -21.0872533565983
+120.275858957159 -21.0868334824422
+120.275030576505 -21.0862036537073
+120.274609161892 -21.0857497271902
+120.274279819622 -21.0850789845362
+120.274124102747 -21.0841871399304
+120.274133009858 -21.0824181696112
+120.274549992742 -21.0781107818624
+120.274379640544 -21.0771828613713
+120.274162769866 -21.0766801313782
+120.273562796139 -21.0757182221393
+120.272954921951 -21.0749524516378
+120.272150015763 -21.0743474583944
+120.271370102591 -21.0740597440318
+120.270410452176 -21.0739494219129
+120.269024088795 -21.0741042364363
+120.268361772893 -21.0743084367811
+120.267398479917 -21.074776185768
+120.263708082081 -21.0773150113236
+120.262640256576 -21.0778742111479
+120.261819680815 -21.0781155518117
+120.260979523135 -21.0782338833677
+120.260215836904 -21.0782209169722
+120.259547679618 -21.0780603505136
+120.258917388334 -21.0777285934974
+120.258286862805 -21.0772262945523
+120.257467184906 -21.0763810370607
+120.256886198793 -21.075554261655
+120.256780726416 -21.0749178987632
+120.256630682899 -21.0745770185018
+120.256645912423 -21.0741822967599
+120.256478529317 -21.0734761404326
+120.25640552706 -21.0717784479103
+120.256238560596 -21.071049728683
+120.25625365047 -21.0706625880418
+120.256002395689 -21.0701400556484
+120.255672305166 -21.0698200964867
+120.254947404862 -21.0693526445207
+120.25272998138 -21.0684657013635
+120.249994064561 -21.0668788890985
+120.249010496544 -21.0660339225596
+120.247355539124 -21.0644459075572
+120.24681943915 -21.0637200428059
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+<gml:featureMember>
+<gsml:MappedFeature gml:id="GA_MappedFeature_49833">
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="urn:cgi:classifierScheme:GA:1MillionGeology_ObservationMethods">Published 1:250,000 and 1:100,000 scale geological maps (Geological Survey of WA, and Geoscience Australia), supplemented in parts by more recent stratigraphic classification in GSWA Record 2006/15.</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:positionalAccuracy>
+<gsml:CGI_NumericValue>
+<gsml:principalValue uom="urn:ogc:def:uom:UCUM::m">0</gsml:principalValue>
+</gsml:CGI_NumericValue>
+</gsml:positionalAccuracy>
+<gsml:samplingFrame xlink:href="urn:cgi:feature:CGI:EarthNaturalSurface"/>
+<gsml:specification>
+<gsml:Contact gml:id="GA_Contact_49833">
+<gml:description>Geological boundary</gml:description>
+<gsml:observationMethod>
+<gsml:CGI_TermValue>
+<gsml:value codeSpace="http://urn.opengis.net">urn:ogc:def:nil:OGC::missing</gsml:value>
+</gsml:CGI_TermValue>
+</gsml:observationMethod>
+<gsml:purpose>instance</gsml:purpose>
+<gsml:contactType xlink:href="#GA_ContactType_1000100"/>
+</gsml:Contact>
+</gsml:specification>
+<gsml:shape>
+<gml:LineString
+srsName="urn:ogc:def:crs:EPSG:4326"><gml:posList>
+120.34456882873 -21.0782785274206
+120.342549083446 -21.0802463056743
+120.341836839219 -21.080739646226
+120.341547293336 -21.0808262035303
+120.340898835196 -21.0807998771863
+120.33985109461 -21.0803186701019
+120.338890633751 -21.0794580131546
+120.338256056465 -21.0784855496892
+120.337969960119 -21.077439195224
+120.337708837911 -21.0757039226114
+120.337697730002 -21.0745294385938
+120.337392958913 -21.0732953634477
+120.336711337038 -21.0720714430175
+120.335707779694 -21.0710313372634
+120.334554020818 -21.0702970925681
+120.331037490042 -21.0693506330931
+120.329772586847 -21.0687774803186
+120.32902937306 -21.0682814172161
+120.327914207173 -21.0671939225821
+120.325767026397 -21.0640186334796
+120.322874973266 -21.0603728534316
+120.318637265339 -21.0568010332809
+120.31555262036 -21.0546168454015
+120.314158042932 -21.0538309140232
+120.311419482324 -21.0527803857831
+120.309818996823 -21.0524139499125
+120.307234433021 -21.0522419800273
+120.306371117936 -21.0517804901202
+120.306035279297 -21.0514066333065
+120.305887977097 -21.0511002284903
+120.305902136789 -21.0508426096235
+120.306045323306 -21.0505870379255
+120.306462892902 -21.0501870351754
+120.307574481879 -21.0495494924218
+120.30824424327 -21.0490352144147
+120.30946003001 -21.0477043218581
+120.309895210972 -21.0468746669893
+120.310052676268 -21.0461022741874
+120.310079572722 -21.0448839885152
+120.309904742629 -21.0439044624224
+120.309646710228 -21.0433272675055
+120.307570655216 -21.0401659343198
+120.306320580651 -21.0388784732128
+120.305177884248 -21.0379682787944
+120.303789452612 -21.0371516818474
+120.302914528114 -21.0367420004249
+120.300359479486 -21.0359249994332
+120.298997687199 -21.0355321185739
+120.29744202348 -21.0353053301852
+</gml:posList>
+</gml:LineString>
+</gsml:shape>
+</gsml:MappedFeature>
+</gml:featureMember>
+</wfs:FeatureCollection>
