@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+   
+   
+   
+   
+
+
+<style>
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+</style>
+</head>
+<body>
+
+        <div id="map" style="width: 960px; height: 500px"></div>
+
+<script>
+
+
+
+var map = L.map('map').setView([-22, 120], 8);
+
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/jessrobertson.i9c8em78/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+
+var marker_1 = L.marker([-30.779577, 121.510138]);
+marker_1.bindPopup("BM5346_vnir_swir");
+map.addLayer(marker_1)
+
+var marker_2 = L.marker([-14.475, 128.946]);
+marker_2.bindPopup("Turtle1");
+map.addLayer(marker_2)
+
+var marker_3 = L.marker([-33.538773, 115.831706]);
+marker_3.bindPopup("GSWADonnybrookDNB3");
+map.addLayer(marker_3)
+
+var marker_4 = L.marker([-33.537956, 115.832147]);
+marker_4.bindPopup("GSWADonnybrookDNB2");
+map.addLayer(marker_4)
+
+var marker_5 = L.marker([-22.826644, 123.462963]);
+marker_5.bindPopup("RKD005");
+map.addLayer(marker_5)
+
+var marker_6 = L.marker([-17.625, 124.504]);
+marker_6.bindPopup("Blina5_set2");
+map.addLayer(marker_6)
+
+var marker_7 = L.marker([-17.622, 124.498]);
+marker_7.bindPopup("Blina3 Section 2");
+map.addLayer(marker_7)
+
+var marker_8 = L.marker([-17.622, 124.498]);
+marker_8.bindPopup("Blina3 Section 1");
+map.addLayer(marker_8)
+
+var marker_9 = L.marker([-17.625, 124.504]);
+marker_9.bindPopup("Blina5_set1");
+map.addLayer(marker_9)
+
+var marker_10 = L.marker([-33.205838, 121.543985]);
+marker_10.bindPopup("SGD004");
+map.addLayer(marker_10)
+
+var marker_11 = L.marker([-33.191165, 121.553271]);
+marker_11.bindPopup("SGD005");
+map.addLayer(marker_11)
+
+var marker_12 = L.marker([-33.256393, 121.518329]);
+marker_12.bindPopup("SGD001");
+map.addLayer(marker_12)
+
+var marker_13 = L.marker([-33.261406, 121.51599]);
+marker_13.bindPopup("SGD002");
+map.addLayer(marker_13)
+
+var marker_14 = L.marker([-21.177643, 119.429516]);
+marker_14.bindPopup("PDP2C");
+map.addLayer(marker_14)
+
+var marker_15 = L.marker([-26.313533, 126.899317]);
+marker_15.bindPopup("RWD002");
+map.addLayer(marker_15)
+
+var marker_16 = L.marker([-26.060727, 126.463946]);
+marker_16.bindPopup("RWD001");
+map.addLayer(marker_16)
+
+var marker_17 = L.marker([-30.731272, 121.807594]);
+marker_17.bindPopup("BUR2035_TIR");
+map.addLayer(marker_17)
+
+var marker_18 = L.marker([-33.538769, 115.831264]);
+marker_18.bindPopup("GSWADonnybrookDNB4");
+map.addLayer(marker_18)
+
+var marker_19 = L.marker([-22.010099, 121.713009]);
+marker_19.bindPopup("EPT060");
+map.addLayer(marker_19)
+
+var marker_20 = L.marker([-33.538798, 115.832459]);
+marker_20.bindPopup("GSWADonnybrookDNB1");
+map.addLayer(marker_20)
+
+var marker_21 = L.marker([-19.216, 122.324]);
+marker_21.bindPopup("AdmiralBayDD87SS7");
+map.addLayer(marker_21)
+
+var marker_22 = L.marker([-19.329, 124.996]);
+marker_22.bindPopup("Acacia1");
+map.addLayer(marker_22)
+
+var marker_23 = L.marker([-19.295, 127.146]);
+marker_23.bindPopup("CRACumminsRangeDD84CDD2");
+map.addLayer(marker_23)
+
+var marker_24 = L.marker([-19.294, 127.144]);
+marker_24.bindPopup("CRACumminsRangeDD84CDD1");
+map.addLayer(marker_24)
+
+var marker_25 = L.marker([-21.698445, 120.620758]);
+marker_25.bindPopup("ABDP5B");
+map.addLayer(marker_25)
+
+var marker_26 = L.marker([-21.177643, 119.429516]);
+marker_26.bindPopup("PDP2C_vnir_swir");
+map.addLayer(marker_26)
+
+var marker_27 = L.marker([-17.62, 124.5]);
+marker_27.bindPopup("Blina4");
+map.addLayer(marker_27)
+
+var marker_28 = L.marker([-19.472, 124.87]);
+marker_28.bindPopup("Santalum1A");
+map.addLayer(marker_28)
+
+var marker_29 = L.marker([-19.637, 125.234]);
+marker_29.bindPopup("Triodia1");
+map.addLayer(marker_29)
+
+var marker_30 = L.marker([-29.45, 114.87]);
+marker_30.bindPopup("CliffHead6");
+map.addLayer(marker_30)
+
+var marker_31 = L.marker([-19.124, 123.994]);
+marker_31.bindPopup("Looma1 Trays 16-26");
+map.addLayer(marker_31)
+
+var marker_32 = L.marker([-29.318, 115.041]);
+marker_32.bindPopup("Hovea3-1-15");
+map.addLayer(marker_32)
+
+var marker_33 = L.marker([-16.827, 122.264]);
+marker_33.bindPopup("Perindi1");
+map.addLayer(marker_33)
+
+var marker_34 = L.marker([-21.30571, 120.409803]);
+marker_34.bindPopup("PDP1");
+map.addLayer(marker_34)
+
+var marker_35 = L.marker([-24.219937, 121.327614]);
+marker_35.bindPopup("09THD031");
+map.addLayer(marker_35)
+
+var marker_36 = L.marker([-19.817, 125.299]);
+marker_36.bindPopup("Ficus1");
+map.addLayer(marker_36)
+
+var marker_37 = L.marker([-24.206132, 121.306401]);
+marker_37.bindPopup("09THD033");
+map.addLayer(marker_37)
+
+var marker_38 = L.marker([-24.240062, 115.955472]);
+marker_38.bindPopup("MSD8");
+map.addLayer(marker_38)
+
+var marker_39 = L.marker([-24.239126, 115.954672]);
+marker_39.bindPopup("MSD9");
+map.addLayer(marker_39)
+
+var marker_40 = L.marker([-24.236832, 115.95209]);
+marker_40.bindPopup("MSD4");
+map.addLayer(marker_40)
+
+var marker_41 = L.marker([-24.236577, 115.951728]);
+marker_41.bindPopup("MSD5");
+map.addLayer(marker_41)
+
+var marker_42 = L.marker([-24.235557, 115.950436]);
+marker_42.bindPopup("MSD6");
+map.addLayer(marker_42)
+
+var marker_43 = L.marker([-24.238246, 115.954137]);
+marker_43.bindPopup("MSD7");
+map.addLayer(marker_43)
+
+var marker_44 = L.marker([-24.236977, 115.953488]);
+marker_44.bindPopup("MSD1");
+map.addLayer(marker_44)
+
+var marker_45 = L.marker([-24.23678, 115.953677]);
+marker_45.bindPopup("MSD2");
+map.addLayer(marker_45)
+
+var marker_46 = L.marker([-24.236619, 115.953924]);
+marker_46.bindPopup("MSD3");
+map.addLayer(marker_46)
+
+var marker_47 = L.marker([-21.177643, 119.429516]);
+marker_47.bindPopup("PDP2C_TIR");
+map.addLayer(marker_47)
+
+var marker_48 = L.marker([-32.584, 119.738]);
+marker_48.bindPopup("CBD181_swir");
+map.addLayer(marker_48)
+
+var marker_49 = L.marker([-19.124, 123.994]);
+marker_49.bindPopup("Looma1 Trays 1-14");
+map.addLayer(marker_49)
+
+var marker_50 = L.marker([-21.204419, 119.727225]);
+marker_50.bindPopup("ABDP1");
+map.addLayer(marker_50)
+
+var marker_51 = L.marker([-21.321236, 120.397891]);
+marker_51.bindPopup("ABDP10");
+map.addLayer(marker_51)
+
+var marker_52 = L.marker([-30.996033, 121.198732]);
+marker_52.bindPopup("MRDH400");
+map.addLayer(marker_52)
+
+var marker_53 = L.marker([-30.996023, 121.198742]);
+marker_53.bindPopup("MRDH401");
+map.addLayer(marker_53)
+
+var marker_54 = L.marker([-30.996017, 121.198747]);
+marker_54.bindPopup("MRDH402");
+map.addLayer(marker_54)
+
+var marker_55 = L.marker([-30.996015, 121.198749]);
+marker_55.bindPopup("MRDH403");
+map.addLayer(marker_55)
+
+var marker_56 = L.marker([-30.995923, 121.198456]);
+marker_56.bindPopup("MRDH407");
+map.addLayer(marker_56)
+
+var marker_57 = L.marker([-30.731272, 121.807594]);
+marker_57.bindPopup("BUR2037");
+map.addLayer(marker_57)
+
+var marker_58 = L.marker([-30.731272, 121.807594]);
+marker_58.bindPopup("BUR2035");
+map.addLayer(marker_58)
+
+var marker_59 = L.marker([-30.731272, 121.807594]);
+marker_59.bindPopup("BUR2034");
+map.addLayer(marker_59)
+
+var marker_60 = L.marker([-21.101423, 119.184954]);
+marker_60.bindPopup("ABDP8");
+map.addLayer(marker_60)
+
+var marker_61 = L.marker([-21.990477, 117.422229]);
+marker_61.bindPopup("ABDP9");
+map.addLayer(marker_61)
+
+var marker_62 = L.marker([-21.280625, 119.843254]);
+marker_62.bindPopup("ABDP2");
+map.addLayer(marker_62)
+
+var marker_63 = L.marker([-21.406115, 120.241284]);
+marker_63.bindPopup("ABDP3");
+map.addLayer(marker_63)
+
+var marker_64 = L.marker([-30.779577, 121.510138]);
+marker_64.bindPopup("BM5346");
+map.addLayer(marker_64)
+
+var marker_65 = L.marker([-20.890327, 117.891338]);
+marker_65.bindPopup("ABDP6");
+map.addLayer(marker_65)
+
+var marker_66 = L.marker([-21.320309, 120.401607]);
+marker_66.bindPopup("ABDP4");
+map.addLayer(marker_66)
+
+var marker_67 = L.marker([-21.698445, 120.620758]);
+marker_67.bindPopup("ABDP5");
+map.addLayer(marker_67)
+
+var marker_68 = L.marker([-21.967, 114.297]);
+marker_68.bindPopup("Cody11-7");
+map.addLayer(marker_68)
+
+var marker_69 = L.marker([-20.651861, 117.024667]);
+marker_69.bindPopup("CL01");
+map.addLayer(marker_69)
+
+var marker_70 = L.marker([-22.292406, 128.224329]);
+marker_70.bindPopup("RDH01");
+map.addLayer(marker_70)
+
+var marker_71 = L.marker([-20.659722, 117.02225]);
+marker_71.bindPopup("CL02");
+map.addLayer(marker_71)
+
+var marker_72 = L.marker([-29.318, 115.041]);
+marker_72.bindPopup("Hovea3-16-38");
+map.addLayer(marker_72)
+
+var marker_73 = L.marker([-30.731272, 121.807594]);
+marker_73.bindPopup("BUR2037_TIR");
+map.addLayer(marker_73)
+
+var marker_74 = L.marker([-19.577, 125.147]);
+marker_74.bindPopup("Boab1");
+map.addLayer(marker_74)
+
+var marker_75 = L.marker([-24.102532, 121.706897]);
+marker_75.bindPopup("09THD030");
+map.addLayer(marker_75)
+
+var marker_76 = L.marker([-24.227732, 121.324518]);
+marker_76.bindPopup("09THD032");
+map.addLayer(marker_76)
+
+var marker_77 = L.marker([-33.245584, 121.53781]);
+marker_77.bindPopup("SGD003");
+map.addLayer(marker_77)
+
+var marker_78 = L.marker([-21.177277, 119.429279]);
+marker_78.bindPopup("PDP2A");
+map.addLayer(marker_78)
+
+var marker_79 = L.marker([-20.662111, 117.001639]);
+marker_79.bindPopup("DX00");
+map.addLayer(marker_79)
+
+var marker_80 = L.marker([-30.773319, 121.501802]);
+marker_80.bindPopup("BM5969_TIR");
+map.addLayer(marker_80)
+
+var marker_81 = L.marker([-21.177572, 119.429476]);
+marker_81.bindPopup("PDP2B");
+map.addLayer(marker_81)
+
+var marker_82 = L.marker([-22.220556, 121.714425]);
+marker_82.bindPopup("EPT058");
+map.addLayer(marker_82)
+
+var marker_83 = L.marker([-21.967, 114.297]);
+marker_83.bindPopup("Cody18-14");
+map.addLayer(marker_83)
+
+var marker_84 = L.marker([-22.212248, 121.719234]);
+marker_84.bindPopup("EPT057");
+map.addLayer(marker_84)
+
+var marker_85 = L.marker([-24.11012, 121.681831]);
+marker_85.bindPopup("09THD029");
+map.addLayer(marker_85)
+
+var marker_86 = L.marker([-19.365, 124.963]);
+marker_86.bindPopup("Solanum1");
+map.addLayer(marker_86)
+
+var marker_87 = L.marker([-24.104921, 121.696926]);
+marker_87.bindPopup("09THD028");
+map.addLayer(marker_87)
+
+var marker_88 = L.marker([-16.426358, 127.979568]);
+marker_88.bindPopup("SDH0909");
+map.addLayer(marker_88)
+
+var marker_89 = L.marker([-16.389197, 127.977677]);
+marker_89.bindPopup("SDH0901");
+map.addLayer(marker_89)
+
+var marker_90 = L.marker([-30.731272, 121.807594]);
+marker_90.bindPopup("BUR2034_TIR");
+map.addLayer(marker_90)
+
+var marker_91 = L.marker([-16.285451, 127.926656]);
+marker_91.bindPopup("SDH0906");
+map.addLayer(marker_91)
+
+var marker_92 = L.marker([-32.584, 119.738]);
+marker_92.bindPopup("CBD181");
+map.addLayer(marker_92)
+
+var marker_93 = L.marker([-32.216706, 117.593962]);
+marker_93.bindPopup("JDH01");
+map.addLayer(marker_93)
+
+var marker_94 = L.marker([-30.773319, 121.501802]);
+marker_94.bindPopup("BM5969");
+map.addLayer(marker_94)
+
+var marker_95 = L.marker([-19.534, 124.991]);
+marker_95.bindPopup("Kunzea1");
+map.addLayer(marker_95)
+
+var marker_96 = L.marker([-22.014234, 121.841009]);
+marker_96.bindPopup("EPT062");
+map.addLayer(marker_96)
+
+var marker_97 = L.marker([-29.318, 115.041]);
+marker_97.bindPopup("Hovea3");
+map.addLayer(marker_97)
+
+var marker_98 = L.marker([-32.135, 115.738]);
+marker_98.bindPopup("Cockburn1");
+map.addLayer(marker_98)
+
+
+
+
+
+
+</script>
+
+</body>
