@@ -2,3 +2,7 @@ graphics
 .ipynb_checkpoints
 *.pyc
 *.sublime-workspace
+./*.geotiff
+./*.gtif
+./*.html
+./*.png
