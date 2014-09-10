@@ -3,6 +3,8 @@
 
 from pysiss.vocabulary.namespaces import NamespaceRegistry, shorten_namespace
 import simplejson
+from descartes import PolygonPatch
+import matplotlib.pyplot as plt
 
 
 def load_style_file(filename):
@@ -105,3 +107,20 @@ def plot_faults(axes, faults):
     axes.set_xlim(119.52, 120.90)
     axes.set_ylim(-21.6, -20.5)
     axes.set_aspect('equal')
+
+
+def plot_feature_shape(feature):
+    """ Plot the polygon associated with a given feature
+    """
+    plt.figure(figsize=(8, 8))
+    axes = plt.gca()
+    axes.add_patch(PolygonPatch(feature.shape,
+                                facecolor='blue',
+                                edgecolor='black',
+                                linewidth=2,
+                                alpha=0.5))
+    axes.set_axis_off()
+    xlim = feature.shape.bounds[0], feature.shape.bounds[2]
+    ylim = feature.shape.bounds[1], feature.shape.bounds[3]
+    axes.set_xlim(*xlim)
+    axes.set_ylim(*ylim)
