@@ -23,8 +23,8 @@ def load_style_file(filename):
         return styles
 
 # Load lithology and age styles
-LITH_STYLES = load_style_file('lithology_styles.json')
-AGE_STYLES = load_style_file('age_styles.json')
+LITH_STYLES = load_style_file('styles/lithology_styles.json')
+AGE_STYLES = load_style_file('styles/age_styles.json')
 
 
 def style_by_lithology(feature):
