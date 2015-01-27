@@ -47,14 +47,14 @@ def website(url, name=None, width=800, height=450):
     return HTML('\n'.join(html))
 
 
-def embed_map(map, path="map.html"):
-    """ Embeds a linked iframe to the map into the IPython notebook.
+def embed_map(leafmap, path="map.html"):
+    """ Embeds a linked iframe to a Leaflet map into the IPython notebook.
 
         Note: this method will not capture the source of the map into the
         notebook. This method should work for all maps (as long as they
         use relative urls).
     """
-    map.create_map(path=path)
+    leafmap.create_map(path=path)
     return HTML(('<iframe src="files/{path}" '
                  'style="width: 100%; height: 510px; border: none">'
                  '</iframe>').format(path=path))
